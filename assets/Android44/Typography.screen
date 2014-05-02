@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" minVersion="4.2.2">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="10" y="123" measuredWidth="107" measuredHeight="36" name="Text Large">
+    <widgets xsi:type="model:Label" id="2" text="Large text" measuredWidth="107" measuredHeight="36">
+      <font size="22px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="3" x="10" y="81" measuredWidth="110" measuredHeight="31" name="Text Medium">
+    <widgets xsi:type="model:Label" id="4" text="Medium text" measuredWidth="110" measuredHeight="31">
+      <font size="18px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="5" x="10" y="44" measuredWidth="72" measuredHeight="26" name="Text Small">
+    <widgets xsi:type="model:Label" id="6" text="Small text" measuredWidth="72" measuredHeight="26">
+      <font size="14px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="10" y="10" measuredWidth="58" measuredHeight="23" name="Text Micro">
+    <widgets xsi:type="model:Label" id="8" text="Micro text" measuredWidth="58" measuredHeight="23">
+      <font size="12px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="144" y="12" measuredWidth="134" measuredHeight="90" name="Paragraph">
+    <widgets xsi:type="model:Text" id="13" text="A paragraph of *text*.&#xA;* A bullet&#xA;* List&#xA;## Is created&#xA;## Like this" measuredWidth="134" measuredHeight="90">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="320" y="9" measuredWidth="60" measuredHeight="25" name="Header">
+    <widgets xsi:type="model:Label" id="15" text="HEADER" measuredWidth="60" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="12px"/>
+</model:Screen>

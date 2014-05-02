@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="62" x="30" y="30" measuredWidth="782" measuredHeight="383" name="Modal">
+    <widgets xsi:type="model:Panel" id="61" width="782" height="383" measuredWidth="782" measuredHeight="383" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#666666" alpha="128" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="16" y="18" measuredWidth="782" measuredHeight="383" name="Reveal">
+    <widgets xsi:type="model:Panel" id="3" width="782" height="383" measuredWidth="782" measuredHeight="383" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#666666" alpha="128" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="10" x="77" y="86" measuredWidth="612" measuredHeight="193" layoutParams="anchor-center|anchor-middle" name="Modal Dialog">
+      <widgets xsi:type="model:Panel" id="4" width="612" height="193" measuredWidth="612" measuredHeight="193"/>
+      <widgets xsi:type="model:WidgetGroup" id="8" x="587" y="9" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" name="Close">
+        <widgets xsi:type="model:Icon" id="5" measuredWidth="16" measuredHeight="16" foreground="#666666" icon="delete (small)"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="6" x="26" y="29" text="This is a modal" measuredWidth="225" measuredHeight="47" layoutParams="anchor-left|anchor-top">
+        <font size="33px"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="7" x="28" y="87" width="552" height="82" text="Reveal makes these very easy to summon and dismiss. The close button is simply an anchor with a unicode character icon and a class of close-reveal-modal. Clicking anywhere outside the modal will also dismiss it." measuredWidth="552" measuredHeight="82" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.6">
+        <font size="16px"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="16" y="426" measuredWidth="612" measuredHeight="193" layoutParams="anchor-center|anchor-middle" name="Modal Dialog">
+    <widgets xsi:type="model:Panel" id="26" width="612" height="193" measuredWidth="612" measuredHeight="193"/>
+    <widgets xsi:type="model:WidgetGroup" id="27" x="587" y="9" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" name="Close">
+      <widgets xsi:type="model:Icon" id="28" measuredWidth="16" measuredHeight="16" foreground="#666666" icon="delete (small)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="29" x="26" y="29" text="This is a modal" measuredWidth="225" measuredHeight="47" layoutParams="anchor-left|anchor-top">
+      <font size="33px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="30" x="28" y="87" width="552" height="82" text="Reveal makes these very easy to summon and dismiss. The close button is simply an anchor with a unicode character icon and a class of close-reveal-modal. Clicking anywhere outside the modal will also dismiss it." measuredWidth="552" measuredHeight="82" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="840" y="30" measuredWidth="450" measuredHeight="39" name="Alert Standard">
+    <widgets xsi:type="model:Shape" id="32" width="450" height="39" text="This is a standard alert." measuredWidth="450" measuredHeight="39" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#008cba" foreground="#007ba1" textAlignment="Left" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="33" x="424" y="12" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#444444" icon="delete (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="840" y="83" measuredWidth="450" measuredHeight="39" name="Alert Success">
+    <widgets xsi:type="model:Shape" id="39" width="450" height="39" text="This is a success alert." measuredWidth="450" measuredHeight="39" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#43ac6a" foreground="#3c9a5e" textAlignment="Left" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="40" x="424" y="12" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#444444" icon="delete (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="41" x="840" y="136" measuredWidth="450" measuredHeight="39" name="Alert Warning">
+    <widgets xsi:type="model:Shape" id="42" width="450" height="39" text="This is a warning alert that is rounded." measuredWidth="450" measuredHeight="39" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#f08a24" foreground="#ea7d10" textAlignment="Left" shapeType="rectangle-round">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="43" x="424" y="12" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#444444" icon="delete (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="840" y="190" measuredWidth="450" measuredHeight="39" name="Alert Info">
+    <widgets xsi:type="model:Shape" id="45" width="450" height="39" text="This is an info alert." measuredWidth="450" measuredHeight="39" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#a0d3e8" foreground="#8bcae3" textAlignment="Left" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="46" x="424" y="12" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#444444" icon="delete (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="52" x="16" y="638" measuredWidth="453" measuredHeight="112" name="Panel">
+    <widgets xsi:type="model:Panel" id="48" width="453" height="112" measuredWidth="453" measuredHeight="112" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#f2f2f2" foreground="#d8d8d8"/>
+    <widgets xsi:type="model:Label" id="50" x="18" y="15" text="This is a regular panel" measuredWidth="159" measuredHeight="27" layoutParams="anchor-left|anchor-top" foreground="#333333">
+      <font size="16px" bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="51" x="19" y="47" width="414" height="48" text="It has an easy to override visual style, and is appropriately subdued." measuredWidth="414" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#333333" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="57" x="495" y="638" measuredWidth="453" measuredHeight="112" name="Panel Callout">
+    <widgets xsi:type="model:Panel" id="58" width="453" height="112" measuredWidth="453" measuredHeight="112" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#edfbff" foreground="#baf0ff"/>
+    <widgets xsi:type="model:Label" id="59" x="18" y="15" text="This is a callout panel" measuredWidth="155" measuredHeight="27" layoutParams="anchor-left|anchor-top" foreground="#333333">
+      <font size="16px" bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="60" x="19" y="47" width="414" height="48" text="It's a little ostentatious, but useful for important content." measuredWidth="414" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#333333" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="69" x="848" y="320" measuredWidth="300" measuredHeight="135" name="Joyride">
+    <widgets xsi:type="model:Shape" id="65" x="20" width="25" height="13" measuredWidth="25" measuredHeight="13" layoutParams="anchor-left|anchor-top" background="#333333" border="false" shapeType="triangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Panel" id="64" y="10" width="300" height="125" measuredWidth="300" measuredHeight="125" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#333333" border="none"/>
+    <widgets xsi:type="model:Text" id="66" x="19" y="26" width="246" height="35" text="Hello and welcome to the Joyride documentation page." measuredWidth="246" measuredHeight="35" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#ffffff" lineHeight="1.3">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="67" x="274" y="19" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#666666" icon="delete (small)"/>
+    <widgets xsi:type="model:Button" id="68" x="18" y="72" width="76" height="44" text="Next" measuredWidth="76" measuredHeight="44" layoutParams="anchor-left|anchor-bottom" background="#008cba">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="76" x="848" y="472" measuredWidth="300" measuredHeight="136" name="Joyride Top">
+    <widgets xsi:type="model:Shape" id="77" x="20" y="123" width="25" height="13" measuredWidth="25" measuredHeight="13" layoutParams="anchor-left|anchor-bottom" background="#333333" border="false" rotation="180" shapeType="triangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Panel" id="78" width="300" height="125" measuredWidth="300" measuredHeight="125" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#333333" border="none"/>
+    <widgets xsi:type="model:Text" id="79" x="19" y="16" width="246" height="35" text="Hello and welcome to the Joyride documentation page." measuredWidth="246" measuredHeight="35" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#ffffff" lineHeight="1.3">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="80" x="274" y="9" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#666666" icon="delete (small)"/>
+    <widgets xsi:type="model:Button" id="81" x="18" y="62" width="76" height="44" text="Next" measuredWidth="76" measuredHeight="44" layoutParams="anchor-left|anchor-bottom" background="#008cba">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="89" x="990" y="631" measuredWidth="300" measuredHeight="125" name="Joyride Modal">
+    <widgets xsi:type="model:Panel" id="91" width="300" height="125" measuredWidth="300" measuredHeight="125" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#333333" border="none"/>
+    <widgets xsi:type="model:Text" id="92" x="19" y="16" width="246" height="35" text="It works as a modal too." measuredWidth="246" measuredHeight="35" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#ffffff" lineHeight="1.3">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="93" x="274" y="9" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#666666" icon="delete (small)"/>
+    <widgets xsi:type="model:Button" id="94" x="18" y="62" width="76" height="44" text="End" measuredWidth="76" measuredHeight="44" layoutParams="anchor-left|anchor-bottom" background="#008cba">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="97" x="840" y="252" measuredWidth="294" measuredHeight="36" name="Tooltip">
+    <widgets xsi:type="model:Tooltip" id="95" text="Tooltips are awesome, you should totally use them!" measuredWidth="294" measuredHeight="36" background="#333333" skin="_tooltip.svg" position="topLeft">
+      <font bold="false"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

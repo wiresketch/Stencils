@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="64" width="64" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <cc:license rdf:resource=""/>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>cloud</rdf:li>
+      <rdf:li>download</rdf:li>
+      <rdf:li>load</rdf:li>
+      <rdf:li>retrieve</rdf:li>
+      <rdf:li>icloud</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="path6046" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M38,40,47.5,40c4.69,0,8.5-3.81,8.5-8.5,0-4.55-3.57-8.24-8.06-8.47,0.03-0.34,0.06-0.68,0.06-1.03,0-6.9-5.6-12.5-12.5-12.5-5.8,0-10.1,3.14-11.5,8.5-0.77-1.37-2.31-2-4-2-2.49,0-5,2.51-5,5,0,0.42,0.08,0.81,0.19,1.19-4.1,0.84-7.19,4.46-7.19,8.81,0,4.97,4.03,9,9,9h9" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ <path id="path6086" stroke-linejoin="miter" d="M32,27,32,55" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ <path id="path6088" stroke-linejoin="round" d="M24,49,32,57,40,49" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+</svg>

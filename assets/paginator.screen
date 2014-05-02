@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Label" id="1" x="16" y="8" text="Page 4 / 21" measuredWidth="73" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="2" x="105" y="8" text="« Previous,1,2,3,*4*,5,6,7,...,21,Next »" measuredWidth="387" measuredHeight="23" selection="4">
+    <font/>
+    <items x="0" y="0" width="63" height="23" text="« Previous"/>
+    <items x="81" y="0" width="10" height="23" text="1"/>
+    <items x="109" y="0" width="10" height="23" text="2"/>
+    <items x="137" y="0" width="10" height="23" text="3"/>
+    <items x="165" y="0" width="10" height="23" text="*4*"/>
+    <items x="193" y="0" width="10" height="23" text="5"/>
+    <items x="221" y="0" width="10" height="23" text="6"/>
+    <items x="249" y="0" width="10" height="23" text="7"/>
+    <items x="277" y="0" width="14" height="23" text="..."/>
+    <items x="309" y="0" width="18" height="23" text="21"/>
+    <items x="345" y="0" width="41" height="23" text="Next »"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

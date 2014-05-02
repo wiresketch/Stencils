@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: e143 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1600" xml:space="preserve">
+<g transform="translate(200, 1400) scale(1, -1)">
+	<path id="heart-empty" d="M79 784q0 131 99 229.5t230 98.5q144 0 242 -129q103 129 245 129q130 0 227 -98.5t97 -229.5q0 -46 -17.5 -91t-61 -99t-77 -89.5t-104.5 -105.5q-197 -191 -293 -322l-17 -23l-16 23q-43 58 -100 122.5t-92 99.5t-101 100l-84.5 84.5t-68 74t-60 78t-33.5 70.5t-15 78z M250 784q0 -27 30.5 -70t61.5 -75.5t95 -94.5l22 -22q93 -90 190 -201q82 92 195 203l12 12q64 62 97.5 97t64.5 79t31 72q0 71 -48 119.5t-106 48.5q-73 0 -131 -83l-118 -171l-114 174q-51 80 -124 80q-59 0 -108.5 -49.5t-49.5 -118.5z" />
+</g>
+</svg>	

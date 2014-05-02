@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="16" y="16" measuredWidth="320" measuredHeight="20" name="Status Bar">
+    <widgets xsi:type="model:Panel" id="2" width="320" height="20" measuredWidth="320" measuredHeight="20" background="#eeeeee" border="none"/>
+    <widgets xsi:type="model:SVGImage" id="3" x="7" y="7" measuredWidth="34" measuredHeight="6" layoutParams="anchor-left|anchor-top" src="_signal.svg"/>
+    <widgets xsi:type="model:Text" id="4" x="44" y="2" text="Carrier {wifi}" measuredWidth="57" measuredHeight="16" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="5" x="128" y="2" width="63" text="10:05 AM" measuredWidth="63" measuredHeight="15" layoutParams="anchor-center|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:SVGImage" id="6" x="287" y="5" width="26" height="10" measuredWidth="26" measuredHeight="10" background="#000000" foreground="#444444" src="_battery.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="16" y="55" measuredWidth="320" measuredHeight="45" name="Navigation Bar">
+    <widgets xsi:type="model:SVGImage" id="8" width="320" height="45" measuredWidth="320" measuredHeight="45" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="9" x="5" y="8" text="Back" measuredWidth="67" measuredHeight="29" layoutParams="anchor-left|anchor-top" foreground="#007aff" icon="assets/ios7-arrow-back (medium)">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="10" x="258" y="8" text="Action" measuredWidth="55" measuredHeight="29" layoutParams="anchor-right|anchor-top" textAlignment="Right" foreground="#007aff">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="11" x="83" y="8" width="153" text="Title" measuredWidth="153" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-top" textAlignment="Center">
+      <font size="17px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="16" y="119" measuredWidth="320" measuredHeight="45" name="Toolbar">
+    <widgets xsi:type="model:SVGImage" id="13" width="320" height="45" measuredWidth="320" measuredHeight="45" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="14" x="5" y="8" text="Toolbar" measuredWidth="65" measuredHeight="29" layoutParams="anchor-left|anchor-top" foreground="#007aff">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="15" x="278" y="6" measuredWidth="32" measuredHeight="32" layoutParams="anchor-right|anchor-top" foreground="#007aff" icon="assets/ios7-arrow (large)" iconRotation="90"/>
+    <widgets xsi:type="model:Icon" id="16" x="238" y="7" measuredWidth="32" measuredHeight="32" layoutParams="anchor-right|anchor-top" foreground="#007aff" icon="assets/ios7-arrow (large)" iconRotation="270"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="17" x="16" y="183" measuredWidth="320" measuredHeight="45" name="Toolbar Bottom">
+    <widgets xsi:type="model:SVGImage" id="18" width="320" height="45" measuredWidth="320" measuredHeight="45" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" vFlip="true" src="_panel.svg"/>
+    <widgets xsi:type="model:Icon" id="19" x="9" y="6" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-top" foreground="#007aff" icon="assets/ios7-flag (large)"/>
+    <widgets xsi:type="model:Icon" id="20" x="280" y="6" measuredWidth="32" measuredHeight="32" layoutParams="anchor-right|anchor-top" foreground="#007aff" icon="assets/ios7-compose (large)"/>
+    <widgets xsi:type="model:Icon" id="21" x="208" y="7" measuredWidth="32" measuredHeight="32" layoutParams="anchor-right|anchor-top" foreground="#007aff" icon="assets/ios7-reply (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="16" y="248" measuredWidth="320" measuredHeight="45" name="Search Bar">
+    <widgets xsi:type="model:SVGImage" id="24" width="320" height="45" measuredWidth="320" measuredHeight="45" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="_panel.svg"/>
+    <widgets xsi:type="model:Shape" id="23" x="15" y="8" width="289" height="29" text="Search" measuredWidth="289" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#cccccc" border="false" icon="assets/ios7-search (medium)" textAlignment="Left" shapeType="rectangle-rounded">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="16" y="312" measuredWidth="320" measuredHeight="50" name="Tab Bar">
+    <widgets xsi:type="model:SVGImage" id="27" width="320" height="50" measuredWidth="320" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" vFlip="true" src="_panel.svg"/>
+    <widgets xsi:type="model:WidgetGroup" id="28" x="3" y="5" measuredWidth="55" measuredHeight="44" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Icon" id="29" x="12" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-top" icon="assets/ios7-favorites (large)"/>
+      <widgets xsi:type="model:Text" id="30" y="31" width="55" text="Favorites" measuredWidth="55" measuredHeight="13" textAlignment="Center">
+        <font size="11px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="31" x="88" y="5" measuredWidth="55" measuredHeight="44" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Icon" id="32" x="12" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-top" icon="assets/ios7-contacts (large)"/>
+      <widgets xsi:type="model:Text" id="33" y="31" width="55" text="Contacts" measuredWidth="55" measuredHeight="13" textAlignment="Center">
+        <font size="11px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="34" x="174" y="5" measuredWidth="55" measuredHeight="44" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Icon" id="35" x="12" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-top" icon="options (large)"/>
+      <widgets xsi:type="model:Text" id="36" y="31" width="55" text="Settings" measuredWidth="55" measuredHeight="13" textAlignment="Center">
+        <font size="11px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="37" x="260" y="5" measuredWidth="55" measuredHeight="44" layoutParams="anchor-right|anchor-top">
+      <widgets xsi:type="model:Icon" id="38" x="12" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-top" icon="find (large)"/>
+      <widgets xsi:type="model:Text" id="39" y="31" width="55" text="Search" measuredWidth="55" measuredHeight="13" textAlignment="Center">
+        <font size="11px"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

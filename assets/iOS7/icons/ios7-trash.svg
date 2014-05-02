@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="64" width="64" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>trash</rdf:li>
+      <rdf:li>garbage</rdf:li>
+      <rdf:li>can</rdf:li>
+      <rdf:li>throw</rdf:li>
+      <rdf:li>delete</rdf:li>
+      <rdf:li>remove</rdf:li>
+      <rdf:li>trashcan</rdf:li>
+      <rdf:li>recycle</rdf:li>
+      <rdf:li>bin</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="rect3022" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M46,16,44,53c-0.09,1.66-1.34,3-3,3h-18c-1.66,0-2.91-1.34-3-3l-2-37" stroke="#000" stroke-linecap="round" stroke-width="4.00009999999999977" fill="none"/>
+ <path id="path3793" stroke-linejoin="miter" d="M15,14,49,14" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ <path id="path3795" stroke-linejoin="miter" d="M38.5,20,38,49" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ <path id="path3799" stroke-linejoin="miter" d="M26,49,25.5,20" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ <path id="path3801" stroke-linejoin="miter" d="M32,49,32,20" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ <path id="rect3803" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M25,14,25,11c0-1.66,1.34-3,3-3h7c1.66,0,3,1.34,3,3v3" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4" fill="none"/>
+</svg>

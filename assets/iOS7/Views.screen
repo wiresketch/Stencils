@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="2" x="10" y="10" height="320" measuredWidth="320" measuredHeight="320" name="Scroll View">
+    <widgets xsi:type="model:Panel" id="1" width="320" height="320" measuredWidth="320" measuredHeight="320" background="#f3f3f3" verticalScrollbar="true" foreground="#666666" border="none" skin="_scroll-view.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="352" y="10" measuredWidth="368" measuredHeight="290" name="Activity View iPad">
+    <widgets xsi:type="model:SVGImage" id="8" width="368" height="290" measuredWidth="368" measuredHeight="290" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" hFlip="true" src="_popover-side.svg"/>
+    <widgets xsi:type="model:Shape" id="9" x="14" y="168" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="assets/ios7-bookmarks (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="10" x="14" y="245" width="76" height="31" text="Bookmark" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="11" x="101" y="168" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="assets/ios7-add (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="12" x="101" y="245" width="76" height="31" text="Add to&#xA;Home Screen" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="13" x="188" y="168" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="copy (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="14" x="188" y="245" width="76" height="31" text="Copy" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="15" x="275" y="168" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="print (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="16" x="275" y="245" width="76" height="31" text="Print" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="17" x="14" y="30" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="comments (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="18" x="14" y="107" width="76" height="31" text="Message" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="19" x="101" y="30" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="email (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="20" x="101" y="107" width="76" height="31" text="Mail" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="21" x="188" y="30" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="twitter (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="22" x="188" y="107" width="76" height="31" text="Twitter" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="23" x="275" y="30" width="76" height="76" measuredWidth="76" measuredHeight="76" layoutParams="anchor-left|anchor-top" icon="facebook (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="24" x="275" y="107" width="76" height="31" text="Facebook" measuredWidth="76" measuredHeight="31" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="25" x="2" y="149" width="366" measuredWidth="366" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="66" x="10" y="352" measuredWidth="320" measuredHeight="288" name="Activity View">
+    <widgets xsi:type="model:Panel" id="67" width="320" height="288" measuredWidth="320" measuredHeight="288"/>
+    <widgets xsi:type="model:Shape" id="68" x="13" y="140" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="assets/ios7-bookmarks (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="69" x="13" y="205" width="60" height="28" text="Bookmark" measuredWidth="60" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="70" y="115" width="320" measuredWidth="320" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:Shape" id="71" x="89" y="140" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="assets/ios7-add (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="72" x="85" y="205" width="66" height="28" text="Add to&#xA;Home Screen" measuredWidth="66" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="73" x="165" y="140" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="copy (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="74" x="161" y="205" width="66" height="28" text="Copy" measuredWidth="66" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="75" x="239" y="140" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="print (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="76" x="235" y="205" width="66" height="28" text="Print" measuredWidth="66" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="77" x="123" y="247" text="Cancel" measuredWidth="74" measuredHeight="35" layoutParams="anchor-center|anchor-bottom" textAlignment="Center" foreground="#007aff">
+      <font size="23px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="78" x="13" y="22" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="comments (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="79" x="13" y="87" width="60" height="28" text="Message" measuredWidth="60" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="80" x="89" y="22" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="email (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="81" x="85" y="87" width="66" height="28" text="Mail" measuredWidth="66" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="82" x="165" y="22" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="twitter (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="83" x="161" y="87" width="66" height="28" text="Twitter" measuredWidth="66" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="84" x="239" y="22" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-left|anchor-top" icon="facebook (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="85" x="235" y="87" width="66" height="28" text="Facebook" measuredWidth="66" measuredHeight="28" layoutParams="anchor-left|anchor-top" textAlignment="Center">
+      <font size="11px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="86" x="352" y="352" measuredWidth="250" measuredHeight="145" name="Alert">
+    <widgets xsi:type="model:SVGImage" id="87" width="250" measuredWidth="250" measuredHeight="145" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_alert-panel.svg"/>
+    <widgets xsi:type="model:ButtonBar" id="88" y="98" width="250" text="OK, *Cancel*" measuredWidth="250" measuredHeight="47" layoutParams="anchor-left,anchor-right|anchor-bottom" background="#007aff" skin="_alert-buttons.svg">
+      <font size="17px" bold="false"/>
+      <items x="1" y="0" width="125" height="47" text="OK"/>
+      <items x="126" y="0" width="125" height="47" text="*Cancel*"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="89" x="17" y="17" width="216" text="Alert" measuredWidth="216" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-top" textAlignment="Center">
+      <font size="17px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="90" x="17" y="50" width="216" height="31" text="This is an alert message" measuredWidth="216" measuredHeight="31" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" textAlignment="Center">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="101" x="5" y="664" measuredWidth="300" measuredHeight="133" name="Action Sheet">
+    <widgets xsi:type="model:SVGImage" id="91" width="300" height="133" measuredWidth="300" measuredHeight="133" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_rounded-panel.svg"/>
+    <widgets xsi:type="model:WidgetGroup" id="94" x="5" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:SVGImage" id="92" width="290" height="44" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" src="_panel.svg"/>
+      <widgets xsi:type="model:Label" id="93" y="7" width="290" text="Action" measuredWidth="290" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#007aff">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="95" x="5" y="44" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:SVGImage" id="96" width="290" height="44" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" src="_panel.svg"/>
+      <widgets xsi:type="model:Label" id="97" y="7" width="290" text="Action" measuredWidth="290" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#007aff">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="98" x="5" y="88" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:Shape" id="130" width="290" height="44" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="false" shapeType="rectangle">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="100" y="7" width="290" text="Action" measuredWidth="290" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#007aff">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="102" x="352" y="650" measuredWidth="300" measuredHeight="147" name="Action Sheet Popover">
+    <widgets xsi:type="model:SVGImage" id="113" width="300" height="147" measuredWidth="300" measuredHeight="147" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_popover.svg"/>
+    <widgets xsi:type="model:WidgetGroup" id="104" x="5" y="14" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:SVGImage" id="105" width="290" height="44" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" src="_panel.svg"/>
+      <widgets xsi:type="model:Label" id="106" y="7" width="290" text="Action" measuredWidth="290" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#007aff">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="107" x="5" y="58" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:SVGImage" id="108" width="290" height="44" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" src="_panel.svg"/>
+      <widgets xsi:type="model:Label" id="109" y="7" width="290" text="Action" measuredWidth="290" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#007aff">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="110" x="5" y="102" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:Shape" id="131" width="290" height="44" measuredWidth="290" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="false" shapeType="rectangle">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="112" y="7" width="290" text="Action" measuredWidth="290" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#007aff">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="114" x="5" y="824" width="150" measuredWidth="150" measuredHeight="49" name="Action Sheet Cancel">
+    <widgets xsi:type="model:SVGImage" id="115" width="150" height="49" measuredWidth="150" measuredHeight="49" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_rounded-panel.svg"/>
+    <widgets xsi:type="model:WidgetGroup" id="122" x="5" y="3" width="140" measuredWidth="140" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:Shape" id="132" width="140" height="44" measuredWidth="140" measuredHeight="44" alpha="0" border="false" shapeType="rectangle">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="124" y="7" width="140" text="Cancel" measuredWidth="140" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#007aff">
+        <font size="17px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="125" x="192" y="824" measuredWidth="150" measuredHeight="49" name="Action Sheet Delete">
+    <widgets xsi:type="model:SVGImage" id="126" width="150" height="49" measuredWidth="150" measuredHeight="49" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_rounded-panel.svg"/>
+    <widgets xsi:type="model:WidgetGroup" id="127" x="5" y="3" width="140" measuredWidth="140" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" name="Action Button">
+      <widgets xsi:type="model:Shape" id="133" width="140" height="44" measuredWidth="140" measuredHeight="44" alpha="0" border="false" shapeType="rectangle">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="129" y="7" width="140" text="Delete" measuredWidth="140" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-middle" textAlignment="Center" foreground="#ff0000">
+        <font size="17px" bold="false"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

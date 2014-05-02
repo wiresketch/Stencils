@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="1242" width="870" version="1.1" ws-layout="scale-25" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="frame" stroke-linejoin="round" style="color:#000000;enable-background:accumulate;" d="M56.41,1c-30.7,0-55.41,24.71-55.41,55.41v1129.6c0,30,24.71,55,55.41,55h757.19c30.7,0,55.4-25,55.4-55v-1129.6c0-30.7-24.7-55.41-55.4-55.41h-757.19zm-6.41,103h770v1026h-770v-1026z" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="#FFF"/>
+ <g id="g3831" stroke-linejoin="round" fill-opacity="0" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2">
+  <path id="path3826" style="color:#000000;enable-background:accumulate;" d="M465,1184c0,17-13.4,30-30,30s-30-13-30-30,13.4-30,30-30,30,13,30,30z"/>
+  <rect id="rect3828" style="color:#000000;enable-background:accumulate;" ry="3" height="18" width="18" stroke-dasharray="none" y="1175" x="426"/>
+ </g>
+ <rect id="ws-guides-1" style="color:#000000;enable-background:accumulate;" ry="3" height="600" width="540" stroke="#000" y="321" x="165" stroke-width="2" fill="none"/>
+ <rect id="ws-guides-2" stroke-linejoin="round" style="color:#000000;enable-background:accumulate;" stroke-dashoffset="0" ry="3" height="480" width="420" stroke="#000" stroke-linecap="round" stroke-dasharray="none" stroke-miterlimit="4" y="381" x="225" stroke-width="2" fill="none"/>
+ <path id="camera" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M441,56a6,6,0,0,1,-12,0,6,6,0,1,1,12,0z" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+</svg>

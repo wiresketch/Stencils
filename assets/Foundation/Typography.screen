@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="3" x="27" y="24" measuredWidth="356" measuredHeight="53" name="h1. Header">
+    <widgets xsi:type="model:Label" id="2" text="h1. Header %(font:23)~small segment~%" measuredWidth="356" measuredHeight="53">
+      <font size="39px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="27" y="81" measuredWidth="309" measuredHeight="47" name="h2. Header">
+    <widgets xsi:type="model:Label" id="5" text="h2. Header %(font:20)~small segment~%" measuredWidth="309" measuredHeight="47">
+      <font size="33px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="27" y="133" measuredWidth="227" measuredHeight="36" name="h3. Header">
+    <widgets xsi:type="model:Label" id="7" text="h3. Header %(font:14)~small segment~%" measuredWidth="227" measuredHeight="36">
+      <font size="24px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="8" x="27" y="173" measuredWidth="186" measuredHeight="31" name="h4. Header">
+    <widgets xsi:type="model:Label" id="9" text="h4. Header %(font:12)~small segment~%" measuredWidth="186" measuredHeight="31">
+      <font size="20px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="27" y="209" measuredWidth="157" measuredHeight="27" name="h5. Header">
+    <widgets xsi:type="model:Label" id="11" text="h5. Header %(font:10)~small segment~%" measuredWidth="157" measuredHeight="27">
+      <font size="16px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="27" y="241" measuredWidth="157" measuredHeight="27" name="h6. Header">
+    <widgets xsi:type="model:Label" id="13" text="h6. Header %(font:10)~small segment~%" measuredWidth="157" measuredHeight="27">
+      <font size="16px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="27" y="280" measuredWidth="245" measuredHeight="53" name="h1. Subheader">
+    <widgets xsi:type="model:Label" id="14" text="h1.subheader" measuredWidth="245" measuredHeight="53">
+      <font size="39px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="27" y="338" measuredWidth="212" measuredHeight="47" name="h2. Subheader">
+    <widgets xsi:type="model:Label" id="17" text="h2.subheader" measuredWidth="212" measuredHeight="47">
+      <font size="33px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="27" y="390" measuredWidth="154" measuredHeight="36" name="h3. Subheader">
+    <widgets xsi:type="model:Label" id="19" text="h3.subheader" measuredWidth="154" measuredHeight="36">
+      <font size="24px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="27" y="431" measuredWidth="127" measuredHeight="31" name="h4. Subheader">
+    <widgets xsi:type="model:Label" id="21" text="h4.subheader" measuredWidth="127" measuredHeight="31">
+      <font size="20px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="22" x="27" y="467" measuredWidth="102" measuredHeight="27" name="h5. Subheader">
+    <widgets xsi:type="model:Label" id="23" text="h5.subheader" measuredWidth="102" measuredHeight="27">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="24" x="27" y="500" measuredWidth="102" measuredHeight="27" name="h6. Subheader">
+    <widgets xsi:type="model:Label" id="25" text="h6.subheader" measuredWidth="102" measuredHeight="27">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="408" y="24" measuredWidth="520" measuredHeight="81" name="Paragraph">
+    <widgets xsi:type="model:Text" id="27" width="520" height="81" text="Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.&#xA;" measuredWidth="520" measuredHeight="81" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="253" y="384" measuredWidth="146" measuredHeight="150" name="List">
+    <widgets xsi:type="model:Text" id="29" text="* List item&#xA;* List item&#xA;* List item&#xA;** Sub-list item&#xA;** Sub-list item&#xA;* List item&#xA;" measuredWidth="146" measuredHeight="150" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="31" x="424" y="383" measuredWidth="146" measuredHeight="150" name="List Ordered">
+    <widgets xsi:type="model:Text" id="32" text="# List item&#xA;# List item&#xA;# List item&#xA;## Sub-list item&#xA;## Sub-list item&#xA;# List item&#xA;" measuredWidth="146" measuredHeight="150" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="408" y="128" measuredWidth="417" measuredHeight="105" name="Definition">
+    <widgets xsi:type="model:Text" id="33" width="417" height="105" text="*Definition Title*&#xA;Definition Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit." measuredWidth="417" measuredHeight="105" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="408" y="257" measuredWidth="393" measuredHeight="78" name="Blockquote">
+    <widgets xsi:type="model:Text" id="35" x="21" y="10" width="372" height="66" text="Those people who think they know everything are a great annoyance to those of us who do.&#xA;%(font:12)_-- Isaac Asimov_%" measuredWidth="372" measuredHeight="66" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#666666" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="36" height="78" measuredWidth="6" measuredHeight="78" layoutParams="anchor-left|anchor-top,anchor-bottom" foreground="#999999"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="755" y="387" measuredWidth="173" measuredHeight="142" name="V-Card">
+    <widgets xsi:type="model:Shape" id="41" width="173" height="142" measuredWidth="173" measuredHeight="142" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#999999" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="42" x="11" y="10" text="Gaius Baltar" measuredWidth="81" measuredHeight="24" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="43" x="11" y="33" text="123 Colonial Ave.&#xA;Caprica City&#xA;Caprica, 12345" measuredWidth="124" measuredHeight="75" layoutParams="anchor-left|anchor-top" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="44" x="11" y="106" text="[g.baltar@cmail.com]" measuredWidth="145" measuredHeight="27" layoutParams="anchor-left|anchor-bottom">
+      <font size="16px" underline="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="46" x="600" y="383" measuredWidth="106" measuredHeight="150" name="List No Bullet">
+    <widgets xsi:type="model:Text" id="47" text="List item&#xA;List item&#xA;List item&#xA;    Sub-list item&#xA;    Sub-list item&#xA;List item&#xA;" measuredWidth="106" measuredHeight="150" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="58" x="27" y="544" measuredWidth="286" measuredHeight="19" name="Inline List">
+    <widgets xsi:type="model:LinkBar" id="55" text="Link 1, Link 2, Link 3, Link 4, Link 5" measuredWidth="286" measuredHeight="19" skin="_inline_list.svg">
+      <font size="16px"/>
+      <items x="0" y="0" width="42" height="19" text="Link 1"/>
+      <items x="61" y="0" width="42" height="19" text="Link 2"/>
+      <items x="122" y="0" width="42" height="19" text="Link 3"/>
+      <items x="183" y="0" width="42" height="19" text="Link 4"/>
+      <items x="244" y="0" width="42" height="19" text="Link 5"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="60" x="27" y="579" measuredWidth="83" measuredHeight="20" name="Label Regular">
+    <widgets xsi:type="model:Shape" id="61" height="20" text="Regular Label" measuredWidth="83" measuredHeight="20" background="#008cba" border="false" shapeType="rectangle">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="62" x="125" y="579" measuredWidth="95" measuredHeight="20" name="Label Secondary">
+    <widgets xsi:type="model:Shape" id="63" height="20" text="Secondary Label" measuredWidth="95" measuredHeight="20" background="#e7e7e7" border="false" shapeType="rectangle">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="64" x="235" y="579" measuredWidth="102" measuredHeight="20" name="Label Alert">
+    <widgets xsi:type="model:Shape" id="65" height="20" text="Round Alert Label" measuredWidth="102" measuredHeight="20" background="#f04124" border="false" shapeType="rectangle-round">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="66" x="352" y="579" measuredWidth="83" measuredHeight="20" name="Label Success">
+    <widgets xsi:type="model:Shape" id="67" height="20" text="Success Label" measuredWidth="83" measuredHeight="20" background="#43ac6a" border="false" shapeType="rectangle">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="68" x="456" y="579" measuredWidth="62" measuredHeight="20" name="Keystroke">
+    <widgets xsi:type="model:Shape" id="69" height="20" text="Cmd + Q" measuredWidth="62" measuredHeight="20" background="#eeeeee" foreground="#cccccc" shapeType="rectangle">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

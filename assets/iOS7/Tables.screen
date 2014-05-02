@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="3" x="24" y="24" measuredWidth="320" measuredHeight="44" name="Table Header">
+    <widgets xsi:type="model:SVGImage" id="1" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="2" x="11" y="8" text="HEADER" measuredWidth="71" measuredHeight="29" layoutParams="anchor-left|anchor-top,anchor-bottom">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="24" y="68" measuredWidth="320" measuredHeight="44" name="Table Row">
+    <widgets xsi:type="model:SVGImage" id="5" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="6" x="10" y="8" text="Row" measuredWidth="39" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="24" y="112" measuredWidth="320" measuredHeight="44" name="Table Row Checkmark">
+    <widgets xsi:type="model:SVGImage" id="8" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="9" x="10" y="8" text="Checkmark" measuredWidth="93" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="288" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" icon="assets/ios7-checkmark (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="24" y="156" measuredWidth="320" measuredHeight="44" name="Table Row Reorder">
+    <widgets xsi:type="model:SVGImage" id="13" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="14" x="10" y="8" text="Reorder" measuredWidth="70" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="15" x="288" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" icon="assets/ios7-reorder (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="24" y="200" measuredWidth="320" measuredHeight="44" name="Table Row Switch">
+    <widgets xsi:type="model:SVGImage" id="17" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="18" x="10" y="8" text="Switch" measuredWidth="56" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Switch" id="21" x="258" y="6" measuredWidth="52" measuredHeight="31" layoutParams="anchor-right|anchor-middle" selected="true" background="#4bd964" skin="_switch.svg">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="24" y="244" measuredWidth="320" measuredHeight="44" name="Table Row Detail">
+    <widgets xsi:type="model:SVGImage" id="27" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="28" x="10" y="8" text="Detail" measuredWidth="52" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="29" x="288" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" icon="assets/ios7-arrow-detail (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="24" y="288" measuredWidth="320" measuredHeight="44" name="Table Row Icon">
+    <widgets xsi:type="model:SVGImage" id="31" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="32" x="50" y="8" text="Icon" measuredWidth="38" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="36" x="10" y="6" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-middle" icon="assets/ios7-update (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="24" y="332" measuredWidth="320" measuredHeight="44" name="Table Row Subtitle">
+    <widgets xsi:type="model:SVGImage" id="38" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="39" x="50" text="Icon" measuredWidth="38" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="40" x="10" y="6" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-middle" icon="assets/ios7-contacts (large)"/>
+    <widgets xsi:type="model:Label" id="41" x="50" y="19" text="Subtitle" measuredWidth="48" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" x="24" y="376" measuredWidth="320" measuredHeight="44" name="Table Row Subtitle Right">
+    <widgets xsi:type="model:SVGImage" id="43" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="44" x="50" y="8" text="Right Subtitle" measuredWidth="113" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="45" x="10" y="6" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-middle" icon="assets/ios7-favorites (large)"/>
+    <widgets xsi:type="model:Label" id="47" x="263" y="9" text="Detail" measuredWidth="49" measuredHeight="25" layoutParams="anchor-right|anchor-middle" foreground="#666666">
+      <font size="14px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="48" x="24" y="420" measuredWidth="320" measuredHeight="44" name="Table Row Delete">
+    <widgets xsi:type="model:SVGImage" id="49" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="50" x="50" y="8" text="Delete" measuredWidth="59" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="51" x="14" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-middle" foreground="#ff0000" icon="assets/ios7-delete (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="24" y="464" measuredWidth="320" measuredHeight="44" name="Table Row Delete Confirm">
+    <widgets xsi:type="model:SVGImage" id="54" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="55" x="50" y="8" text="Confirm" measuredWidth="69" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="56" x="14" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-middle" foreground="#ff0000" icon="assets/ios7-delete (medium)"/>
+    <widgets xsi:type="model:Shape" id="57" x="260" height="44" text="Delete" measuredWidth="60" measuredHeight="44" layoutParams="anchor-right|anchor-top,anchor-bottom" background="#ff0000" shapeType="rectangle">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

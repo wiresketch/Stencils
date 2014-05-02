@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="145" width="272" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)" ws-fill="#00F">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, buttons, separator, container;
+ var buttonPadding = 13;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	buttons = doc.getElementById("buttons");
+ 	separator = doc.getElementById("separator");
+ 	svg.removeChild(separator);
+ 	container = doc.createElement("g");
+ 	svg.appendChild(container);
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	clearNode(container);
+ 	
+	var buttonWidth = Math.round(width / $items.length);
+	
+	for(var i = 0, x = 1; i < $items.length; i++, x += buttonWidth) {
+ 		var button = doc.createElement("foreignObject");
+ 		button.setAttribute("id", "item" + i);
+ 		button.setAttribute("x", x);
+ 		button.setAttribute("width", buttonWidth);
+ 		button.setAttribute("y", 0);
+ 		button.setAttribute("height", height);
+ 		button.setAttribute("stroke", "#00F");
+ 		container.appendChild(button);
+	}
+
+	for(var i = 0, x = buttonWidth + 1; i < $items.length - 1; i++, x += buttonWidth) {
+ 		var sep = separator.cloneNode(false);
+ 		sep.setAttribute("d", "M" + (x) + "," + 2 + "," + (x) + "," + (height - 3));
+ 		container.appendChild(sep);
+	}
+	
+	buttons.setAttribute("d", "M1,1," + (width - 2) + ",1");
+ }
+ 
+ function getPreferredSize() {
+	var buttonWidth = 0;
+	var buttonHeight = 0;
+
+	for(var i = 0; i < $items.length; i++) {
+		buttonWidth = Math.max(buttonWidth, $items[i].width);
+		buttonHeight = Math.max(buttonHeight, $items[i].height);
+	}
+	
+	buttonHeight += buttonPadding * 2;
+	buttonWidth += buttonPadding * 2;
+
+	var width = buttonWidth * $items.length;		
+	var height = buttonHeight;
+ 	
+ 	return {width: width, height: height};
+ }
+ 
+ function clearNode(node) {
+ 	while (node.firstChild) {
+ 		node.removeChild(node.firstChild);
+ 	}
+ }
+ ]]></script>
+ <path id="buttons" stroke-linejoin="miter" d="M2,99,270,99" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+ <path id="separator" stroke-linejoin="miter" d="M137,100,137,143" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+</svg>

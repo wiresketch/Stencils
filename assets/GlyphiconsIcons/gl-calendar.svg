@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: e109 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1600" xml:space="preserve">
+<g transform="translate(200, 1400) scale(1, -1)">
+	<path id="calendar" d="M0 50q0 -20 14.5 -35t35.5 -15h1000q21 0 35.5 15t14.5 35v750h-1100v-750zM0 900h1100v150q0 21 -14.5 35.5t-35.5 14.5h-150v100h-100v-100h-500v100h-100v-100h-150q-21 0 -35.5 -14.5t-14.5 -35.5v-150zM100 100v100h100v-100h-100zM100 300v100h100v-100h-100z M100 500v100h100v-100h-100zM300 100v100h100v-100h-100zM300 300v100h100v-100h-100zM300 500v100h100v-100h-100zM500 100v100h100v-100h-100zM500 300v100h100v-100h-100zM500 500v100h100v-100h-100zM700 100v100h100v-100h-100zM700 300v100h100v-100h-100zM700 500 v100h100v-100h-100zM900 100v100h100v-100h-100zM900 300v100h100v-100h-100zM900 500v100h100v-100h-100z" />
+</g>
+</svg>	

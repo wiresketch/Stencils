@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, frame, scrollbar;
+ var scrollWidth = 6;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	frame = doc.getElementById("frame");
+ 	scrollbar = doc.getElementById("scrollbar");
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+
+ 	var x = 1, y = 1, w = width, h = height;
+ 	
+ 	var border = $model.border;
+
+ 	if(border == BorderStyle.NONE) {
+ 		x = 0;
+ 		y = 0;
+ 		frame.removeAttribute("stroke");
+ 	} else {
+ 		h -= 2;
+ 		w -= 2; 
+ 		frame.setAttribute("stroke", "#000");
+	}
+	 	
+ 	if(border == BorderStyle.SOLID_ROUNDED || border == BorderStyle.DASHED_ROUNDED) {
+		var r = Math.min(Math.round(Math.min(width, height) / 6.4), 17.5);
+
+		frame.setAttribute("rx", r);
+ 	} else {
+ 		frame.removeAttribute("rx");
+ 	}
+ 	
+ 	if(border == BorderStyle.DASHED_ROUNDED) {
+ 		frame.setAttribute("stroke-dasharray", "6,4");
+ 	} else {
+ 		frame.removeAttribute("stroke-dasharray");
+ 	}
+ 	
+ 	frame.setAttribute("x", x);
+ 	frame.setAttribute("y", y);
+ 	frame.setAttribute("width", w);
+ 	frame.setAttribute("height", h);
+ 	
+ 	if($model.verticalScrollbar) {
+	 	scrollbar.setAttribute("display", "inline");
+	 	scrollbar.setAttribute("stroke-width", scrollWidth);
+	 	
+	 	var scrollHeight = height / 4;
+	 	
+	 	if(border == BorderStyle.NONE) {
+	 		var scrollY = scrollWidth / 2 + (height - scrollWidth - scrollHeight) * $model.value / 100;
+	 		scrollbar.setAttribute("d", "M" + (width - scrollWidth / 2) + "," + scrollY + "," + (width - scrollWidth / 2) + "," + (scrollY + scrollHeight));
+	 	} else if(border == BorderStyle.SOLID) {
+	 		var scrollY = scrollWidth / 2 + 3 + (height - scrollWidth - scrollHeight - 3 - 3) * $model.value / 100;
+	 		scrollbar.setAttribute("d", "M" + (width - scrollWidth / 2 - 3) + "," + scrollY + "," + (width - scrollWidth / 2 - 3) + "," + (scrollY + scrollHeight));
+	 	} else {
+	 		var scrollY = r + (height - scrollHeight - r - r) * $model.value / 100;
+	 		scrollbar.setAttribute("d", "M" + (width - scrollWidth / 2 - 3) + "," + scrollY + "," + (width - scrollWidth / 2 - 3) + "," + (scrollY + scrollHeight));
+	 	}
+	 } else {
+	 	scrollbar.setAttribute("display", "none");
+	 }
+ }
+ ]]></script>
+ <rect id="frame" stroke-linejoin="round" height="98" width="98" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" y="1" x="1" stroke-width="2" fill="#FFF"/>
+ <path id="scrollbar" stroke-linejoin="miter" d="M95,4,95,50" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+</svg>

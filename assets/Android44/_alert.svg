@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="187" width="550" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, frame, titleSeparator, buttonsSeparator, buttonSeparator, container;
+ var vPadding = 16, vSpacing = 10, hPadding = 16, buttonPadding = 13;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	frame = doc.getElementById("frame");
+ 	titleSeparator = doc.getElementById("title-separator");
+ 	buttonsSeparator = doc.getElementById("buttons-separator");
+ 	buttonSeparator = doc.getElementById("button-separator");
+ 	svg.removeChild(buttonsSeparator);
+ 	svg.removeChild(buttonSeparator);
+ 	container = doc.createElement("g");
+ 	svg.insertBefore(container, titleSeparator);
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	frame.setAttribute("width", width - 2);
+ 	frame.setAttribute("height", height - 2);
+ 	
+ 	clearNode(container);
+ 	
+ 	var top = vPadding;
+ 	
+ 	if($model.icon) {
+ 		var iconSize = $model.icon.sizePixels;
+ 		var icon = doc.createElement("foreignObject");
+ 		icon.setAttribute("id", "icon");
+ 		icon.setAttribute("x", hPadding);
+ 		icon.setAttribute("y", Math.round((64 - iconSize) / 2));
+ 		icon.setAttribute("width", $model.icon.sizePixels);
+ 		icon.setAttribute("height", $model.icon.sizePixels);
+ 		icon.setAttribute("fill", "white");
+ 		container.appendChild(icon);
+	}
+ 	
+ 	if($items.length > 0 && !$items[0].blank) {
+ 		var titleX = hPadding;
+ 		if($model.icon) {
+ 			titleX += $model.icon.sizePixels + vSpacing;
+ 		}
+ 		
+ 		var title = doc.createElement("foreignObject");
+ 		title.setAttribute("id", "item0");
+ 		title.setAttribute("x", titleX);
+ 		title.setAttribute("width", $items[0].width);
+ 		title.setAttribute("y", Math.round((64 - $items[0].height) / 2));
+ 		title.setAttribute("height", $items[0].height);
+ 		title.setAttribute("fill", "white");
+ 		container.appendChild(title);
+ 	}
+
+ 	if($model.icon || $items.length > 0 && !$items[0].blank) {
+ 		top += 64;
+ 		titleSeparator.setAttribute("display", "inline");
+ 	} else {
+ 		titleSeparator.setAttribute("display", "none");
+ 	}
+ 	
+ 	if($items.length > 1 && !$items[1].blank) {
+ 		var message = doc.createElement("foreignObject");
+ 		message.setAttribute("id", "item1");
+ 		message.setAttribute("x", hPadding);
+ 		message.setAttribute("width", $items[1].width);
+ 		message.setAttribute("y", top);
+ 		message.setAttribute("height", $items[1].height);
+ 		message.setAttribute("fill", "white");
+ 		container.appendChild(message);
+ 	}
+ 	
+ 	if($items.length > 2) {
+ 		var buttonWidth = Math.round((width - 2) / ($items.length  - 2));
+ 		var buttonHeight = 0;
+
+ 		for(var i = 2; i < $items.length; i++) {
+ 			buttonHeight = Math.max(buttonHeight, $items[i].height);
+		}
+		
+		buttonHeight += buttonPadding * 2;
+		
+		top = height - buttonHeight;
+		
+ 		for(var i = 2, x = 1; i < $items.length; i++, x += buttonWidth) {
+	 		var button = doc.createElement("foreignObject");
+	 		button.setAttribute("id", "item" + i);
+	 		button.setAttribute("x", x);
+	 		button.setAttribute("width", buttonWidth);
+	 		button.setAttribute("y", top);
+	 		button.setAttribute("height", buttonHeight);
+	 		button.setAttribute("fill", "white");
+	 		container.appendChild(button);
+ 		}
+ 	
+ 		for(var i = 2, x = buttonWidth + 1; i < $items.length - 1; i++, x += buttonWidth) {
+	 		var sep = buttonSeparator.cloneNode(false);
+	 		sep.setAttribute("d", "M" + (x) + "," + (top + 1) + "," + (x) + "," + (height - 2));
+	 		container.appendChild(sep);
+ 		}
+ 		
+ 		var bt = buttonsSeparator.cloneNode(false);
+ 		bt.setAttribute("d", "M2," + (top) + "," + (width - 2) + "," + (top));
+ 		container.appendChild(bt);
+ 	}
+ }
+ 
+ function getPreferredSize() {
+ 	var width = 0;
+ 	var height = 0;
+
+ 	if($items.length > 0 && !$items[0].blank) {
+ 		width = $items[0].width + hPadding * 2;
+ 		height += 64;
+ 		
+ 		if($model.icon) {
+ 			width += vSpacing + $model.icon.sizePixels;
+ 		}
+ 	} else if($model.icon) {
+		width += $model.icon.sizePixels + hPadding * 2;
+ 		height += 64;
+ 	} 	
+ 	
+ 	if($items.length > 1 && !$items[1].blank) {
+ 		width = Math.max(width, $items[1].width + hPadding * 2);
+ 		height += $items[1].height + vPadding * 2;
+ 	}
+ 	
+ 	if($items.length > 2) {
+ 		var buttonWidth = 0;
+ 		var buttonHeight = 0;
+
+ 		for(var i = 2; i < $items.length; i++) {
+ 			buttonWidth = Math.max(buttonWidth, $items[i].width);
+ 			buttonHeight = Math.max(buttonHeight, $items[i].height);
+		}
+		
+		buttonHeight += buttonPadding * 2;
+		buttonWidth += buttonPadding * 2;
+
+		width = Math.max(width, buttonWidth * ($items.length - 2));		
+		height += buttonHeight;
+ 	}
+
+	width += 2;	
+	height += 2;
+ 	
+ 	width = Math.max(250, width);
+ 	
+ 	return {width: width, height: height};
+ }
+ 
+ function clearNode(node) {
+ 	while (node.firstChild) {
+ 		node.removeChild(node.firstChild);
+ 	}
+ }
+ ]]></script>
+ <rect id="frame" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" stroke-dasharray="none" fill-rule="nonzero" height="185" width="548" stroke="#000" stroke-miterlimit="4" y="1" x="1" stroke-width="2" fill="#FFF"/>
+ <path id="title-separator" stroke-linejoin="miter" d="M2,66,548,66" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+ <path id="buttons-separator" stroke-linejoin="miter" d="M2,132,548,132" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+ <path id="button-separator" stroke-linejoin="miter" d="M275,133,275,185" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+</svg>

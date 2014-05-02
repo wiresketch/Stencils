@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Nouveau document 21">
+  <title
+     id="title2818">WireframeSketcher SVG asset</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.2 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.1 : 526.2 : 1"
+       inkscape:persp3d-origin="372 : 350.8 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3412"
+       inkscape:persp3d-origin="0.5 : 0.3333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.84"
+     inkscape:cx="12.7"
+     inkscape:cy="6.234"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="1"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>WireframeSketcher SVG asset</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Peter Severin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="path258"
+     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     d="M 14.72,-6e-4 14.08,16.28 9.862,16.28 9.251,-6e-4 14.72,-6e-4 z M 15.02,21.26 C 15.02,22.03 14.75,22.68 14.19,23.21 13.65,23.74 12.92,24 12.02,24 11.13,24 10.4,23.73 9.837,23.2 9.271,22.65 8.988,22.01 8.988,21.26 8.988,20.48 9.276,19.82 9.851,19.32 10.43,18.81 11.15,18.56 12.02,18.56 12.9,18.56 13.62,18.82 14.18,19.33 14.74,19.83 15.02,20.49 15.02,21.26" />
+</svg>

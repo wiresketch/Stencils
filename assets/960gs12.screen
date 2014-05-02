@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Panel" id="1" x="40" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="2" x="120" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="200" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="4" x="280" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="5" x="360" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="6" x="440" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="7" x="520" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="8" x="600" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="9" x="680" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="10" x="760" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="11" x="840" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <widgets xsi:type="model:Panel" id="12" x="920" y="40" width="61" height="800" measuredWidth="60" measuredHeight="800" background="#bfbfbf" border="none"/>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

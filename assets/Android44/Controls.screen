@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.2">
+  <widgets xsi:type="model:WidgetGroup" id="11" x="10" y="10" measuredWidth="100" measuredHeight="23" name="Switch">
+    <widgets xsi:type="model:Switch" id="1" text="OFF, ON" measuredWidth="100" measuredHeight="23" background="#0781aa" skin="_switch.svg">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="10" y="43" measuredWidth="21" measuredHeight="19" name="Radio Button">
+    <widgets xsi:type="model:RadioButton" id="2" measuredWidth="21" measuredHeight="19" selected="true" skin="_radio-button.svg">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="13" x="10" y="73" measuredWidth="21" measuredHeight="19" name="Checkbox">
+    <widgets xsi:type="model:Checkbox" id="3" measuredWidth="21" measuredHeight="19" selected="true" skin="_checkbox.svg">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="10" y="103" measuredWidth="252" measuredHeight="46" name="Tabs Scrollable">
+    <widgets xsi:type="model:ButtonBar" id="4" text="TAB 1, TAB 2, TAB 3" measuredWidth="252" measuredHeight="46" selection="0" background="#249ecf" skin="_tabs-scrollable.svg">
+      <font size="14px"/>
+      <items x="0" y="0" width="84" height="46" text="TAB 1"/>
+      <items x="84" y="0" width="84" height="46" text="TAB 2"/>
+      <items x="168" y="0" width="84" height="46" text="TAB 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="75" x="10" y="160" measuredWidth="252" measuredHeight="46" name="Tabs">
+    <widgets xsi:type="model:ButtonBar" id="76" text="TAB 1, TAB 2, TAB 3" measuredWidth="252" measuredHeight="46" selection="0" background="#249ecf" skin="_tabs.svg">
+      <font size="14px"/>
+      <items x="0" y="0" width="84" height="46" text="TAB 1"/>
+      <items x="84" y="0" width="84" height="46" text="TAB 2"/>
+      <items x="168" y="0" width="84" height="46" text="TAB 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="120" y="270" measuredWidth="82" measuredHeight="39" name="Spinner">
+    <widgets xsi:type="model:Combo" id="6" text="Spinner" measuredWidth="82" measuredHeight="39" alpha="0" skin="_spinner.svg">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="10" y="217" measuredWidth="92" measuredHeight="39" name="Text Field">
+    <widgets xsi:type="model:TextField" id="7" text="Text field" measuredWidth="92" measuredHeight="39" alpha="0" skin="_text-field.svg">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="81" x="240" y="217" measuredWidth="193" measuredHeight="62" name="Text Area">
+    <widgets xsi:type="model:TextArea" id="80" text="A *paragraph* of text&#xA;A _second_ row of text" measuredWidth="193" measuredHeight="62" alpha="0" skin="_text-area.svg">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="83" x="392" y="288" measuredWidth="32" measuredHeight="32" name="Error Marker">
+    <widgets xsi:type="model:SVGImage" id="82" measuredWidth="32" measuredHeight="32" foreground="#ff0000" src="_error.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="87" x="369" y="319" measuredWidth="59" measuredHeight="43" name="Error Popup">
+    <widgets xsi:type="model:Tooltip" id="84" text="Error" measuredWidth="59" measuredHeight="43" background="#000000" skin="_error-popup.svg" position="topRight">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="10" y="275" measuredWidth="73" measuredHeight="30" name="Button">
+    <widgets xsi:type="model:Shape" id="24" height="30" text="BUTTON" measuredWidth="73" measuredHeight="30" background="#249ecf" border="false" shapeType="rectangle">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="10" y="316" measuredWidth="100" measuredHeight="30" name="Slider">
+    <widgets xsi:type="model:HSlider" id="9" measuredWidth="100" measuredHeight="30" value="50" background="#249ecf" skin="_slider.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="19" x="10" y="357" measuredWidth="100" measuredHeight="8" name="Progress Bar">
+    <widgets xsi:type="model:ProgressBar" id="10" measuredWidth="100" measuredHeight="8" value="25" background="#249ecf" skin="_progress-bar.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="67" x="10" y="377" measuredWidth="100" measuredHeight="8" name="Progress Bar Infinite">
+    <widgets xsi:type="model:ProgressBar" id="68" measuredWidth="100" measuredHeight="8" value="25" background="#249ecf" skin="_progress-bar-infinite.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="10" y="396" measuredWidth="8" measuredHeight="100" name="Scrollbar">
+    <widgets xsi:type="model:VScrollbar" id="20" measuredWidth="8" measuredHeight="100" skin="_scrollbar.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="32" x="288" y="10" measuredWidth="64" measuredHeight="151" name="Picker">
+    <widgets xsi:type="model:Label" id="27" width="64" text="07" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="28" y="60" width="64" text="08" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="29" y="120" width="64" text="09" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="30" y="46" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+    <widgets xsi:type="model:HLine" id="31" y="96" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="176" y="334" width="150" measuredWidth="144" measuredHeight="31" name="Activity Bar">
+    <widgets xsi:type="model:ProgressBar" id="34" y="23" width="119" measuredWidth="119" measuredHeight="8" layoutParams="anchor-left,anchor-right|anchor-bottom" value="25" background="#249ecf" skin="_progress-bar.svg"/>
+    <widgets xsi:type="model:Label" id="35" text="Downloading..." measuredWidth="102" measuredHeight="26" layoutParams="anchor-left|anchor-top">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="40" x="128" y="9" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" name="Cancel">
+      <widgets xsi:type="model:Arrow" id="38" width="16" height="16" measuredWidth="16" measuredHeight="16" annotation="true" left="false"/>
+      <widgets xsi:type="model:Arrow" id="39" width="16" height="16" measuredWidth="16" measuredHeight="16" annotation="true" left="false" direction="bottom"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="64" x="64" y="396" measuredWidth="101" measuredHeight="100" name="Activity Indicator">
+    <widgets xsi:type="model:Image" id="63" measuredWidth="101" measuredHeight="100" src="_activity-indicator.png"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="74" x="184" y="396" measuredWidth="100" measuredHeight="100" name="Activity Spinner">
+    <widgets xsi:type="model:Icon" id="73" width="100" height="100" measuredWidth="100" measuredHeight="100" icon="loading (xlarge)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="49" x="120" y="217" measuredWidth="104" measuredHeight="40" name="Search Field">
+    <widgets xsi:type="model:TextField" id="50" text="{find} Search" measuredWidth="104" measuredHeight="40" state="focused" alpha="0" skin="_text-field.svg">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="51" x="376" y="80" measuredWidth="96" measuredHeight="60" name="Text Selection">
+    <widgets xsi:type="model:SVGImage" id="52" measuredWidth="96" measuredHeight="60" background="#1e92d1" src="_text_selection.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="496" y="80" measuredWidth="26" measuredHeight="60" name="Text Cursor">
+    <widgets xsi:type="model:SVGImage" id="54" measuredWidth="26" measuredHeight="60" background="#1e92d1" src="_text-cursor.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="55" x="10" y="684" measuredWidth="360" measuredHeight="150" name="Chrome">
+    <widgets xsi:type="model:Browser" id="56" width="360" height="150" text="wireframesketcher.com" measuredWidth="360" measuredHeight="150" background="#f3f3f3" skin="_chrome.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="57" x="10" y="516" measuredWidth="600" measuredHeight="150" name="Chrome Tablet">
+    <widgets xsi:type="model:Browser" id="58" width="600" height="150" text="{internet} WireframeSketcher&#xA;http://wireframesketcher.com" measuredWidth="600" measuredHeight="150" background="#f3f3f3" skin="_chrome-tablet.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="59" x="376" y="161" measuredWidth="300" measuredHeight="41" name="Google Search">
+    <widgets xsi:type="model:Panel" id="60" width="300" height="41" measuredWidth="300" measuredHeight="41" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#999999" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="61" x="15" y="3" text="Google" measuredWidth="71" measuredHeight="34" layoutParams="anchor-left|anchor-middle" foreground="#ffffff">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="62" x="264" y="8" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="microphone (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="89" x="471" y="36" measuredWidth="77" measuredHeight="34" name="Button Paste">
+    <widgets xsi:type="model:Shape" id="90" width="77" height="34" text="PASTE" measuredWidth="77" measuredHeight="34" background="#e9e9e9" shapeType="rectangle-rounded">
+      <font size="14px" bold="false"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="12px"/>
+</model:Screen>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="3.3.0">
+  <widgets xsi:type="model:WidgetGroup" id="4" x="80" y="15" measuredWidth="45" measuredHeight="30" annotation="true" name="Callout Point Left">
+    <widgets xsi:type="model:SVGImage" id="2" width="45" height="30" measuredWidth="45" measuredHeight="30" background="#6fa8dc" foreground="#6fa8dc" src="_drop.svg"/>
+    <widgets xsi:type="model:Label" id="3" x="13" y="4" width="31" text="1" measuredWidth="31" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="5" x="16" y="15" measuredWidth="45" measuredHeight="30" annotation="true" name="Callout Point Right">
+    <widgets xsi:type="model:SVGImage" id="6" width="45" height="30" measuredWidth="45" measuredHeight="30" background="#6fa8dc" foreground="#6fa8dc" rotation="180" src="_drop.svg"/>
+    <widgets xsi:type="model:Label" id="7" y="4" width="31" text="1" measuredWidth="31" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="8" x="24" y="55" measuredWidth="30" measuredHeight="45" annotation="true" name="Callout Point Up">
+    <widgets xsi:type="model:SVGImage" id="9" width="30" height="45" measuredWidth="30" measuredHeight="45" background="#6fa8dc" foreground="#6fa8dc" rotation="90" src="_drop.svg"/>
+    <widgets xsi:type="model:Label" id="10" y="19" width="30" text="1" measuredWidth="30" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="88" y="55" measuredWidth="30" measuredHeight="45" annotation="true" name="Callout Point Down">
+    <widgets xsi:type="model:SVGImage" id="13" width="30" height="45" measuredWidth="30" measuredHeight="45" background="#6fa8dc" foreground="#6fa8dc" rotation="270" src="_drop.svg"/>
+    <widgets xsi:type="model:Label" id="14" y="3" width="30" text="1" measuredWidth="30" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="19" x="16" y="110" measuredWidth="120" measuredHeight="30" annotation="true" name="Callout Box">
+    <widgets xsi:type="model:SVGImage" id="15" width="120" height="30" measuredWidth="120" measuredHeight="30" background="#6fa8dc" foreground="#6fa8dc" src="_box.svg"/>
+    <widgets xsi:type="model:Label" id="18" y="4" width="120" text="1.0.0" measuredWidth="120" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="152" y="14" height="30" measuredWidth="120" measuredHeight="30" annotation="true" name="Callout Pill Left">
+    <widgets xsi:type="model:SVGImage" id="17" width="120" height="30" measuredWidth="120" measuredHeight="30" background="#6fa8dc" foreground="#6fa8dc" src="_pill.svg"/>
+    <widgets xsi:type="model:Label" id="20" x="18" y="4" width="102" text="1.0.0" measuredWidth="102" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="22" x="152" y="63" height="30" measuredWidth="120" measuredHeight="30" annotation="true" name="Callout Pill Right">
+    <widgets xsi:type="model:SVGImage" id="23" width="120" height="30" measuredWidth="120" measuredHeight="30" background="#6fa8dc" foreground="#6fa8dc" rotation="180" src="_pill.svg"/>
+    <widgets xsi:type="model:Label" id="24" y="4" width="102" text="1.0.0" measuredWidth="102" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="152" y="111" height="30" measuredWidth="120" measuredHeight="30" annotation="true" name="Callout Tag Left">
+    <widgets xsi:type="model:SVGImage" id="16" width="120" height="30" measuredWidth="120" measuredHeight="30" background="#6fa8dc" foreground="#6fa8dc" src="_tag.svg"/>
+    <widgets xsi:type="model:Label" id="25" x="18" y="4" width="102" text="1.0.0" measuredWidth="102" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="152" y="159" height="30" measuredWidth="120" measuredHeight="30" annotation="true" name="Callout Tag Right">
+    <widgets xsi:type="model:SVGImage" id="28" width="120" height="30" measuredWidth="120" measuredHeight="30" background="#6fa8dc" foreground="#6fa8dc" rotation="180" src="_tag.svg"/>
+    <widgets xsi:type="model:Label" id="29" y="4" width="102" text="1.0.0" measuredWidth="102" measuredHeight="23" textAlignment="Center" foreground="#ffffff">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

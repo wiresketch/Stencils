@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="2" x="10" y="10" measuredWidth="320" measuredHeight="240" name="Fieldset">
+    <widgets xsi:type="model:SVGImage" id="1" width="320" height="240" measuredWidth="320" measuredHeight="240" src="_rounded-panel.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="3" x="10" y="284" measuredWidth="71" measuredHeight="29" name="Fieldset Header">
+    <widgets xsi:type="model:Label" id="5" text="HEADER" measuredWidth="71" measuredHeight="29" layoutParams="anchor-left|anchor-top,anchor-bottom">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="10" y="312" measuredWidth="320" measuredHeight="44" name="Form Radio">
+    <widgets xsi:type="model:SVGImage" id="7" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="8" x="10" y="8" text="Radio" measuredWidth="49" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="9" x="288" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" foreground="#007aff" icon="assets/ios7-checkmark (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="10" y="356" measuredWidth="320" measuredHeight="44" name="Form Switch">
+    <widgets xsi:type="model:SVGImage" id="11" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="12" x="10" y="8" text="Switch" measuredWidth="56" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Switch" id="13" x="258" y="6" measuredWidth="52" measuredHeight="31" layoutParams="anchor-right|anchor-middle" selected="true" background="#4bd964" skin="_switch.svg">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="10" y="400" measuredWidth="320" measuredHeight="44" name="Subform">
+    <widgets xsi:type="model:SVGImage" id="15" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="16" x="10" y="8" text="Subform" measuredWidth="73" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="17" x="288" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" icon="assets/ios7-arrow-detail (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="10" y="444" measuredWidth="320" measuredHeight="44" name="Form Choice">
+    <widgets xsi:type="model:SVGImage" id="19" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="20" x="10" y="8" text="Selection" measuredWidth="78" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="21" x="288" y="10" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" icon="assets/ios7-arrow-detail (medium)"/>
+    <widgets xsi:type="model:Label" id="22" x="230" y="7" text="Option" measuredWidth="59" measuredHeight="29" layoutParams="anchor-right|anchor-middle" foreground="#666666">
+      <font size="17px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="23" x="10" y="489" measuredWidth="320" measuredHeight="44" name="Form Text Field Hint">
+    <widgets xsi:type="model:SVGImage" id="24" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="25" x="10" y="8" text="Text Field" measuredWidth="82" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="28" x="102" y="10" text="Hint" measuredWidth="33" measuredHeight="25" layoutParams="anchor-left|anchor-middle" foreground="#666666">
+      <font size="15px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="10" y="534" measuredWidth="320" measuredHeight="44" name="Form Action">
+    <widgets xsi:type="model:SVGImage" id="30" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="31" x="10" y="8" text="Action" measuredWidth="55" measuredHeight="29" layoutParams="anchor-left|anchor-top" foreground="#007aff">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="36" x="10" y="578" measuredWidth="320" measuredHeight="44" name="Form Text Field">
+    <widgets xsi:type="model:SVGImage" id="37" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="38" x="10" y="8" text="Text Field" measuredWidth="82" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="39" x="270" y="10" text="Value" measuredWidth="43" measuredHeight="25" layoutParams="anchor-right|anchor-middle">
+      <font size="15px" bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="40" x="10" y="622" measuredWidth="320" measuredHeight="44" name="Form Field">
+    <widgets xsi:type="model:SVGImage" id="41" width="320" height="44" measuredWidth="320" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="42" x="10" y="8" text="Field" measuredWidth="43" measuredHeight="29" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

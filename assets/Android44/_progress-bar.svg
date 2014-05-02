@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" onload="onLoad(evt)" onresize="onResize(evt)" height="8" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, left, right;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	left = doc.getElementById("left");
+ 	right = doc.getElementById("right");
+	left.setAttribute("fill", "white");
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+
+	var value = $model.value;
+	
+	left.setAttribute("display", value == 0 ? "none" : "inline");
+	right.setAttribute("display", value == 100 ? "none" : "inline");
+	
+	var barHeight = height - 4;
+	var dx = Math.round(width * value / 100);
+
+	left.setAttribute("width", dx);	
+	left.setAttribute("height", barHeight);
+	right.setAttribute("x", dx - 1);	
+	right.setAttribute("width", width - dx + 1);	
+	right.setAttribute("height", barHeight);
+ }
+ ]]></script>
+ <rect id="right" fill-rule="nonzero" height="4" width="51" y="2" x="49" fill="#b2b2b2"/>
+ <rect id="left" fill-rule="nonzero" height="4" width="50" y="2" x="0" fill="#00F"/>
+</svg>

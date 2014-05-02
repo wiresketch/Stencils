@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.2">
+  <widgets xsi:type="model:WidgetGroup" id="10" x="10" y="10" measuredWidth="360" measuredHeight="50" name="Action Bar">
+    <widgets xsi:type="model:Panel" id="2" width="360" height="50" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#cccccc" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="7" x="320" y="13" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" name="Overflow">
+      <widgets xsi:type="model:SVGImage" id="3" measuredWidth="24" measuredHeight="24" src="_overflow.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="6" x="3" y="13" measuredWidth="9" measuredHeight="24" layoutParams="anchor-left|anchor-middle" name="Up">
+      <widgets xsi:type="model:SVGImage" id="4" measuredWidth="9" measuredHeight="24" src="_nav_up.svg"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="15" y="1" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left|anchor-middle" icon="image (xlarge)"/>
+    <widgets xsi:type="model:Label" id="9" x="65" y="9" text="Action Bar" measuredWidth="94" measuredHeight="31" layoutParams="anchor-left|anchor-middle">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="274" y="13" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" icon="check (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="10" y="72" measuredWidth="360" measuredHeight="50" name="Bottom Bar">
+    <widgets xsi:type="model:Panel" id="22" width="360" height="50" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#cccccc" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="23" x="320" y="13" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" name="Overflow">
+      <widgets xsi:type="model:SVGImage" id="24" measuredWidth="24" measuredHeight="24" src="_overflow.svg"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="30" x="16" y="9" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-middle" icon="image (large)"/>
+    <widgets xsi:type="model:Icon" id="31" x="92" y="9" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-middle" icon="image (large)"/>
+    <widgets xsi:type="model:Icon" id="32" x="168" y="9" measuredWidth="32" measuredHeight="32" layoutParams="anchor-right|anchor-middle" icon="image (large)"/>
+    <widgets xsi:type="model:Icon" id="29" x="244" y="9" measuredWidth="32" measuredHeight="32" layoutParams="anchor-right|anchor-middle" icon="image (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="10" y="136" measuredWidth="360" measuredHeight="50" name="Action Bar Drawer">
+    <widgets xsi:type="model:Panel" id="36" width="360" height="50" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#cccccc" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="37" x="320" y="13" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" name="Overflow">
+      <widgets xsi:type="model:SVGImage" id="38" measuredWidth="24" measuredHeight="24" src="_overflow.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="45" y="17" measuredWidth="16" measuredHeight="16" layoutParams="anchor-left|anchor-middle" name="Drawer">
+      <widgets xsi:type="model:SVGImage" id="44" measuredWidth="16" measuredHeight="16" src="_drawer.svg"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="41" x="15" y="1" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left|anchor-middle" icon="image (xlarge)"/>
+    <widgets xsi:type="model:Label" id="42" x="65" y="9" text="Action Bar" measuredWidth="94" measuredHeight="31" layoutParams="anchor-left|anchor-middle">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="43" x="274" y="13" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" icon="check (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="48" x="10" y="200" measuredWidth="301" measuredHeight="521" name="Navigation Drawer">
+    <widgets xsi:type="model:List" id="47" width="301" height="521" text="{image} Item One&#xA;{image} Item Two&#xA;{image} Item Three&#xA;" measuredWidth="301" measuredHeight="521" rowHeight="47" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="301" height="47" text="{image} Item One"/>
+      <items x="0" y="49" width="301" height="47" text="{image} Item Two"/>
+      <items x="0" y="96" width="301" height="47" text="{image} Item Three"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="57" x="392" y="10" measuredWidth="360" measuredHeight="50" name="Contextual Bar">
+    <widgets xsi:type="model:Panel" id="58" width="360" height="50" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#cccccc" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="59" x="320" y="13" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-middle" name="Overflow">
+      <widgets xsi:type="model:SVGImage" id="60" measuredWidth="24" measuredHeight="24" src="_overflow.svg"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="61" x="16" y="9" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-middle" icon="check (large)"/>
+    <widgets xsi:type="model:Icon" id="64" x="266" y="9" measuredWidth="32" measuredHeight="32" layoutParams="anchor-right|anchor-middle" icon="copy (large)"/>
+    <widgets xsi:type="model:Label" id="65" x="147" y="12" text="SELECT ALL" measuredWidth="97" measuredHeight="26">
+      <font size="14px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="67" x="552" y="65" measuredWidth="200" measuredHeight="192" name="Menu">
+    <widgets xsi:type="model:List" id="68" text="{video} Use menus&#xA;{image} Sparingly, and only&#xA;{microphone} For low usage&#xA;{computer} Commands" measuredWidth="200" measuredHeight="192" rowHeight="47" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="200" height="47" text="{video} Use menus"/>
+      <items x="0" y="49" width="200" height="47" text="{image} Sparingly, and only"/>
+      <items x="0" y="96" width="200" height="47" text="{microphone} For low usage"/>
+      <items x="0" y="143" width="200" height="47" text="{computer} Commands"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="69" x="392" y="280" measuredWidth="360" measuredHeight="47" name="Navbar">
+    <widgets xsi:type="model:Panel" id="70" width="360" height="47" measuredWidth="360" measuredHeight="47" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="71" x="60" y="4" measuredWidth="40" measuredHeight="40" layoutParams="anchor-center|anchor-middle" name="Back">
+      <widgets xsi:type="model:SVGImage" id="72" measuredWidth="40" measuredHeight="40" foreground="#cccccc" src="_nav_back.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="73" x="160" y="4" measuredWidth="40" measuredHeight="40" layoutParams="anchor-center|anchor-middle" name="Home">
+      <widgets xsi:type="model:SVGImage" id="74" measuredWidth="40" measuredHeight="40" foreground="#cccccc" src="_nav_home.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="75" x="261" y="4" measuredWidth="40" measuredHeight="40" layoutParams="anchor-center|anchor-middle" name="Recents">
+      <widgets xsi:type="model:SVGImage" id="76" measuredWidth="40" measuredHeight="40" foreground="#cccccc" src="_nav_recents.svg"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="77" x="392" y="344" measuredWidth="360" measuredHeight="47" name="Navbar Hidden">
+    <widgets xsi:type="model:Panel" id="78" width="360" height="47" measuredWidth="360" measuredHeight="47" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="79" x="60" y="4" measuredWidth="40" measuredHeight="40" layoutParams="anchor-center|anchor-middle" name="Back">
+      <widgets xsi:type="model:SVGImage" id="80" measuredWidth="40" measuredHeight="40" foreground="#cccccc" src="_nav_back.svg"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="81" x="60" y="4" measuredWidth="40" measuredHeight="40" layoutParams="anchor-center|anchor-middle" name="Back">
+      <widgets xsi:type="model:Shape" id="82" width="40" height="40" measuredWidth="40" measuredHeight="40" background="#444444" border="false" icon="bullet (small)" shapeType="rectangle">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="83" x="160" y="4" measuredWidth="40" measuredHeight="40" layoutParams="anchor-center|anchor-middle" name="Home">
+      <widgets xsi:type="model:Shape" id="84" width="40" height="40" measuredWidth="40" measuredHeight="40" background="#444444" border="false" icon="bullet (small)" shapeType="rectangle">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="85" x="261" y="4" measuredWidth="40" measuredHeight="40" layoutParams="anchor-center|anchor-middle" name="Recents">
+      <widgets xsi:type="model:Shape" id="86" width="40" height="40" measuredWidth="40" measuredHeight="40" background="#444444" border="false" icon="bullet (small)" shapeType="rectangle">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="12px"/>
+</model:Screen>

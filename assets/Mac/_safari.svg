@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="400" width="400" version="1.1" ws-layout="scale-9" ws-fill="#ABC" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onload(evt)" onresize="onresize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var svg, doc;
+ var scrollbar;
+ var sourceWidth, sourceHeight;
+ 
+ function onload(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	scrollbar = doc.getElementById("scrollbar");
+ 	sourceWidth = parseInt(svg.getAttribute("width"));
+ 	sourceHeight = parseInt(svg.getAttribute("height"));
+ }
+ 
+ function onresize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	toggleDisplay(scrollbar, model.verticalScrollbar);
+ 	
+ 	var scrollbarHeight = height / 10;
+ 	scrollbar.setAttribute("height", scrollbarHeight);
+ 	scrollbar.setAttribute("x", width - 8 - 4);
+ 	scrollbar.setAttribute("y", 55 + (height - scrollbarHeight - 55 - 4) * model.value / 100);
+ 	
+ 	svg.setAttribute("width", sourceWidth);
+ 	svg.setAttribute("height", sourceHeight);
+ }
+ 
+ function toggleDisplay(element, on) {
+ 	element.setAttribute("display", on ? "inline" : "none");
+ }
+ ]]></script>
+ <path id="window" style="color:#000000;enable-background:accumulate;" d="M399,53,399,399,1,399,1,53" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#ABC"/>
+ <g id="chrome">
+  <rect id="background" style="color:#000000;enable-background:accumulate;" rx="2" ry="0.2352" height="52" width="398" stroke="#000" y="1" x="1" stroke-width="2" fill="#FFF"/>
+  <path id="close-button" style="color:#000000;enable-background:accumulate;" d="M20,11.5c0,3.03-2.47,5.5-5.5,5.5s-5.5-2.47-5.5-5.5c0-3.025,2.47-5.5,5.5-5.5s5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#ff8f89"/>
+  <path id="minimize-button" style="color:#000000;enable-background:accumulate;" d="M40,11.5c0,3.03-2.46,5.5-5.5,5.5-3.03,0-5.5-2.47-5.5-5.5,0-3.025,2.47-5.5,5.5-5.5,3.04,0,5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#fee28d"/>
+  <path id="maximize-button" style="color:#000000;enable-background:accumulate;" d="M60,11.5c0,3.03-2.46,5.5-5.5,5.5-3.03,0-5.5-2.47-5.5-5.5,0-3.025,2.47-5.5,5.5-5.5,3.04,0,5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#c7e79e"/>
+  <g id="nav-buttons">
+   <rect id="rect3788" style="color:#000000;enable-background:accumulate;" rx="2.133" ry="1.585" height="22" width="48" stroke="#000" stroke-dasharray="none" x="9" y="24" stroke-miterlimit="4" stroke-width="2" fill="none"/>
+   <path id="path3790" stroke-linejoin="miter" d="M33,27.57,33,43.5" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+   <path id="rect3792" d="M25,30.8,25,39.8,17,35.3z" style="color:#000000;enable-background:accumulate;" fill="#000"/>
+   <path id="rect3792-2" d="M41,30.8,41,39.8,49,35.3z" style="color:#000000;enable-background:accumulate;" fill="#000"/>
+  </g>
+  <rect id="address-field" style="color:#000000;enable-background:accumulate;" rx="1.79" ry="1.743" height="22" width="323" stroke="#000" y="24" x="66" stroke-width="2" fill="none"/>
+  <foreignObject id="item0" height="20" width="292" stroke="#000" y="3" x="66"/>
+  <foreignObject id="item1" height="20" width="313" stroke="#000" y="25" x="71"/>
+ </g>
+ <rect id="ws-guides" style="color:#000000;enable-background:accumulate;" rx="0" ry="0" height="198" width="198" stroke="#000" y="101" x="101" stroke-width="2.0004" fill="none"/>
+ <rect id="scrollbar" rx="4" ry="4" height="40" width="8" y="55" x="388" fill="#636363" ws-layout-data="skip"/>
+</svg>

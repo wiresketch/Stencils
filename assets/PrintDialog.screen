@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Window" id="1" x="24" y="21" width="500" height="486" text="{print} Print" measuredWidth="500" measuredHeight="486"/>
+  <widgets xsi:type="model:TabbedPane" id="2" x="36" y="53" width="477" height="404" text="General, Options" measuredWidth="477" measuredHeight="404" selection="0">
+    <items x="10" y="0" width="60" height="30" text="General"/>
+    <items x="70" y="0" width="62" height="30" text="Options"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="3" x="48" y="88" width="452" height="169" text="Select Printer" measuredWidth="452" measuredHeight="169">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="4" x="55" y="106" width="435" height="67" text="{print} Printer 1&#xA;{print} Printer 2&#xA;" measuredWidth="435" measuredHeight="67" selection="0">
+    <font/>
+    <items x="0" y="2" width="435" height="23" text="{print} Printer 1"/>
+    <items x="0" y="25" width="435" height="23" text="{print} Printer 2"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="55" y="188" text="Status:" measuredWidth="40" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="55" y="208" text="Location:" measuredWidth="54" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="55" y="229" text="Comment:" measuredWidth="59" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="127" y="188" text="Ready" measuredWidth="37" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="9" x="262" y="188" text="Print to file" measuredWidth="79" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="371" y="186" width="118" text="Preferences" measuredWidth="118" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="371" y="220" width="118" text="Find Printer..." measuredWidth="118" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="12" x="45" y="267" width="220" height="173" text="Page Range" measuredWidth="220" measuredHeight="173">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="13" x="55" y="285" text="All" measuredWidth="34" measuredHeight="25" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="14" x="55" y="309" text="Selection" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="15" x="144" y="309" text="Current Page" measuredWidth="88" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="16" x="55" y="333" text="Pages" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="17" x="144" y="333" width="103" text="1" measuredWidth="103" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="18" x="280" y="275" width="220" height="165" measuredWidth="220" measuredHeight="165">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="290" y="285" text="Number of copies:" measuredWidth="102" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="21" x="421" y="285" width="65" text="1" measuredWidth="65" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="22" x="290" y="351" text="Collate" measuredWidth="57" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="23" x="371" y="388" measuredWidth="32" measuredHeight="32" icon="copy (large)"/>
+  <widgets xsi:type="model:Icon" id="24" x="416" y="388" measuredWidth="32" measuredHeight="32" icon="copy (large)"/>
+  <widgets xsi:type="model:Icon" id="25" x="461" y="388" measuredWidth="32" measuredHeight="32" icon="copy (large)"/>
+  <widgets xsi:type="model:Button" id="26" x="423" y="468" width="90" text="&amp;Apply" measuredWidth="90" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="318" y="468" width="90" text="Cancel" measuredWidth="90" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="28" x="213" y="468" width="90" text="&amp;Print" measuredWidth="90" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="29" x="55" y="375" width="210" height="58" text="Enter either a single page number or a single page range. For example, 5-12" measuredWidth="210" measuredHeight="58">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Segoe UI" size="12px"/>
+</model:Screen>

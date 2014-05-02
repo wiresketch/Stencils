@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.2">
+  <widgets xsi:type="model:WidgetGroup" id="4" x="10" y="10" measuredWidth="360" measuredHeight="167" name="List 1 Line">
+    <widgets xsi:type="model:Label" id="5" x="9" text="SINGLE LINE LIST" measuredWidth="127" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="6" y="22" width="360" text="List item number one&#xA;Second list item&#xA;This is third item" measuredWidth="360" measuredHeight="145" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" rowHeight="47" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="360" height="47" text="List item number one"/>
+      <items x="0" y="49" width="360" height="47" text="Second list item"/>
+      <items x="0" y="96" width="360" height="47" text="This is third item"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="7" y="20" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="8" x="10" y="192" measuredWidth="360" measuredHeight="220" name="List 2 Lines">
+    <widgets xsi:type="model:Label" id="9" x="9" text="2 LINE LIST" measuredWidth="85" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="10" y="21" width="360" text="List item number one\n%(font:14)Second line text%&#xA;Second list item\n%(font:14)Second line text%&#xA;This is third item\n%(font:14)Second line text%" measuredWidth="360" measuredHeight="199" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" rowHeight="65" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="360" height="65" text="List item number one\n%(font:14)Second line text%"/>
+      <items x="0" y="67" width="360" height="65" text="Second list item\n%(font:14)Second line text%"/>
+      <items x="0" y="132" width="360" height="65" text="This is third item\n%(font:14)Second line text%"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="11" y="20" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="10" y="416" measuredWidth="360" measuredHeight="268" name="List 3 Lines">
+    <widgets xsi:type="model:Label" id="13" x="9" text="3 LINE LIST" measuredWidth="85" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="14" y="21" width="360" text="List item number one\n%(font:14)Second line text%\n%(font:14)Third line text%&#xA;Second list item\n%(font:14)Second line text%\n%(font:14)Third line text%&#xA;This is third item\n%(font:14)Second line text%\n%(font:14)Third line text%" measuredWidth="360" measuredHeight="247" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" rowHeight="81" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="360" height="81" text="List item number one\n%(font:14)Second line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="83" width="360" height="81" text="Second list item\n%(font:14)Second line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="164" width="360" height="81" text="This is third item\n%(font:14)Second line text%\n%(font:14)Third line text%"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="15" y="20" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="424" y="10" measuredWidth="360" measuredHeight="167" name="List Radio">
+    <widgets xsi:type="model:Label" id="19" x="9" text="RADIO LIST" measuredWidth="84" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="20" y="22" width="360" text="Option one&#xA;Option two&#xA;Option three" measuredWidth="360" measuredHeight="145" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" rowHeight="47" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="360" height="47" text="Option one"/>
+      <items x="0" y="49" width="360" height="47" text="Option two"/>
+      <items x="0" y="96" width="360" height="47" text="Option three"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="21" y="20" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:RadioButton" id="25" x="327" y="39" measuredWidth="21" measuredHeight="19" layoutParams="anchor-right|anchor-top" selected="true" skin="_radio-button.svg">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:RadioButton" id="24" x="327" y="85" measuredWidth="21" measuredHeight="19" layoutParams="anchor-right|anchor-top" skin="_radio-button.svg">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:RadioButton" id="26" x="327" y="133" measuredWidth="21" measuredHeight="19" layoutParams="anchor-right|anchor-top" skin="_radio-button.svg">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="424" y="200" measuredWidth="360" measuredHeight="167" name="List Checks">
+    <widgets xsi:type="model:Label" id="35" x="9" text="CHECK LIST" measuredWidth="86" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="36" y="22" width="360" text="Option one&#xA;Option two&#xA;Option three" measuredWidth="360" measuredHeight="145" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" rowHeight="47" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="360" height="47" text="Option one"/>
+      <items x="0" y="49" width="360" height="47" text="Option two"/>
+      <items x="0" y="96" width="360" height="47" text="Option three"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="37" y="20" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:Checkbox" id="42" x="327" y="39" measuredWidth="21" measuredHeight="19" layoutParams="anchor-right|anchor-top" selected="true" skin="_checkbox.svg">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="43" x="327" y="85" measuredWidth="21" measuredHeight="19" layoutParams="anchor-right|anchor-top" skin="_checkbox.svg">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="44" x="327" y="133" measuredWidth="21" measuredHeight="19" layoutParams="anchor-right|anchor-top" skin="_checkbox.svg">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="62" x="424" y="381" measuredWidth="360" measuredHeight="338" name="List Contacts">
+    <widgets xsi:type="model:Placeholder" id="46" x="9" y="31" width="64" height="64" measuredWidth="64" measuredHeight="64" layoutParams="anchor-left|anchor-top"/>
+    <widgets xsi:type="model:Label" id="47" x="82" y="50" text="List item" measuredWidth="66" measuredHeight="27" layoutParams="anchor-left|anchor-top">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="50" x="9" text="CONTACT LIST" measuredWidth="106" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="51" y="20" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:HLine" id="52" y="101" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:Placeholder" id="53" x="9" y="112" width="64" height="64" measuredWidth="64" measuredHeight="64" layoutParams="anchor-left|anchor-top"/>
+    <widgets xsi:type="model:Label" id="54" x="82" y="131" text="List item" measuredWidth="66" measuredHeight="27" layoutParams="anchor-left|anchor-top">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="55" y="182" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:Placeholder" id="56" x="9" y="193" width="64" height="64" measuredWidth="64" measuredHeight="64" layoutParams="anchor-left|anchor-top"/>
+    <widgets xsi:type="model:Label" id="57" x="82" y="212" text="List item" measuredWidth="66" measuredHeight="27" layoutParams="anchor-left|anchor-top">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="58" y="263" width="360" measuredWidth="360" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:Placeholder" id="59" x="9" y="274" width="64" height="64" measuredWidth="64" measuredHeight="64" layoutParams="anchor-left|anchor-top"/>
+    <widgets xsi:type="model:Label" id="60" x="82" y="293" text="List item" measuredWidth="66" measuredHeight="27" layoutParams="anchor-left|anchor-top">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="12px"/>
+</model:Screen>

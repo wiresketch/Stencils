@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Panel" id="32" width="1684" height="1054" measuredWidth="1684" measuredHeight="1054"/>
+  <widgets xsi:type="model:WidgetGroup" id="36" x="2" y="2" measuredWidth="336" measuredHeight="700">
+    <widgets xsi:type="model:Panel" id="6" width="336" height="700" measuredWidth="336" measuredHeight="700"/>
+    <widgets xsi:type="model:Label" id="10" x="12" y="12" text="Key Partners" measuredWidth="112" measuredHeight="32" textAlignment="Center" icon="link (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="338" y="2" measuredWidth="336" measuredHeight="350">
+    <widgets xsi:type="model:Panel" id="8" width="336" height="350" measuredWidth="336" measuredHeight="350"/>
+    <widgets xsi:type="model:Label" id="11" x="12" y="12" text="Key Activities" measuredWidth="117" measuredHeight="32" textAlignment="Center" icon="wrench (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="39" x="674" y="2" measuredWidth="336" measuredHeight="700">
+    <widgets xsi:type="model:Panel" id="7" width="336" height="700" measuredWidth="336" measuredHeight="700"/>
+    <widgets xsi:type="model:Label" id="12" x="12" y="12" text="Value Propositions" measuredWidth="146" measuredHeight="32" textAlignment="Center" icon="smile (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="40" x="1010" y="2" measuredWidth="336" measuredHeight="350">
+    <widgets xsi:type="model:Panel" id="4" width="336" height="350" measuredWidth="336" measuredHeight="350"/>
+    <widgets xsi:type="model:Label" id="13" x="12" y="12" text="Customer Relationships" measuredWidth="178" measuredHeight="32" textAlignment="Center" icon="heart (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" x="1346" y="2" measuredWidth="336" measuredHeight="700">
+    <widgets xsi:type="model:Panel" id="3" width="336" height="700" measuredWidth="336" measuredHeight="700"/>
+    <widgets xsi:type="model:Label" id="14" x="12" y="12" text="Customer Segments" measuredWidth="161" measuredHeight="32" textAlignment="Center" icon="usergroup (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="338" y="352" measuredWidth="336" measuredHeight="350">
+    <widgets xsi:type="model:Panel" id="9" width="336" height="350" measuredWidth="336" measuredHeight="350"/>
+    <widgets xsi:type="model:Label" id="15" x="12" y="12" text="Key Resources" measuredWidth="123" measuredHeight="32" textAlignment="Center" icon="suitcase (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="41" x="1010" y="352" measuredWidth="336" measuredHeight="350">
+    <widgets xsi:type="model:Panel" id="5" width="336" height="350" measuredWidth="336" measuredHeight="350"/>
+    <widgets xsi:type="model:Label" id="16" x="12" y="12" text="Channels" measuredWidth="93" measuredHeight="32" textAlignment="Center" icon="truck (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="2" y="702" measuredWidth="840" measuredHeight="350">
+    <widgets xsi:type="model:Panel" id="17" width="840" height="350" measuredWidth="840" measuredHeight="350"/>
+    <widgets xsi:type="model:Label" id="19" x="14" y="12" text="Cost Structure" measuredWidth="126" measuredHeight="32" textAlignment="Center" icon="pie-chart (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="842" y="702" measuredWidth="840" measuredHeight="350">
+    <widgets xsi:type="model:Panel" id="18" width="840" height="350" measuredWidth="840" measuredHeight="350"/>
+    <widgets xsi:type="model:Label" id="20" x="12" y="12" text="Revenue Streams" measuredWidth="143" measuredHeight="32" textAlignment="Center" icon="currency-dollar (large)">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

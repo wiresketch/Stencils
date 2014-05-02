@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Nouveau document 2">
+  <title
+     id="title2818">WireframeSketcher SVG asset</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.2 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.1 : 526.2 : 1"
+       inkscape:persp3d-origin="372 : 350.8 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2831"
+       inkscape:persp3d-origin="0.5 : 0.3333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.84"
+     inkscape:cx="10.8"
+     inkscape:cy="15.62"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="true"
+     inkscape:window-width="1916"
+     inkscape:window-height="1076"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="1"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>WireframeSketcher SVG asset</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Peter Severin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#000000"
+     d="M 5,24.05 C 5,22.69 6.399,21.47 9.61,20.05 11.62,19.16 14,18.8 14,18 14,18 14.26,16.62 14,16 13.82,15.56 13.23,15.41 13,15 12.32,13.8 11.91,12.37 12,11 12.12,9.209 12.51,7.006 14,6 15.38,5.066 17.62,5.066 19,6 20.49,7.006 20.66,9.237 21,11 21.13,11.65 21.15,12.35 21,13 20.83,13.73 20.44,14.4 20,15 19.72,15.38 19.18,15.56 19,16 18.74,16.62 19,18 19,18 19,18.76 21.32,19.07 23.51,20 26.73,21.38 28,22.51 28,23.96 28,24.7 28,26 28,26 L 5,26 C 5,26 5,24.64 5,24.05 z"
+     id="path2845"
+     sodipodi:nodetypes="ccsaaaaaaaaascsccc" />
+  <path
+     style="fill:#000000"
+     d="M -1,21.03 C -1,20.5 0.2071,19.43 1.682,18.66 2.773,18.09 5,17.88 5,17 L 5,16 C 5,15.81 4.18,15.44 4,15 3.49,13.77 3.49,12.23 4,11 4.361,10.13 5.062,9.093 6,9 7.196,8.882 8.433,9.94 9,11 9.629,12.18 9.51,13.77 9,15 8.82,15.44 8,15.43 8,16 L 8,17 C 8,17.47 10.09,17.67 10,18 9.771,18.83 8.303,19.25 7,20 6.37,20.36 4.705,22 4,22 L -1,22 C -1.234,22 -1,21.28 -1,21.03 z"
+     id="path2843" />
+  <path
+     id="path2847"
+     d="M 34,21 C 34,20.47 32.79,19.4 31.32,18.63 30.23,18.06 28,17.85 28,16.97 L 28,15.97 C 28,15.78 28.82,15.41 29,14.97 29.51,13.74 29.51,12.2 29,10.97 28.64,10.1 27.94,9.063 27,8.97 25.8,8.852 24.57,9.91 24,10.97 23.37,12.15 23.49,13.74 24,14.97 24.18,15.41 25,15.4 25,15.97 L 25,16.97 C 25,17.44 22.91,17.64 23,17.97 23.23,18.8 24.7,19.22 26,19.97 26.63,20.33 28.29,21.97 29,21.97 L 34,21.97 C 34.23,21.97 34,21.25 34,21 z"
+     style="fill:#000000" />
+</svg>

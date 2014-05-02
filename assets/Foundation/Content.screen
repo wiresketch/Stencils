@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="7" x="32" y="24" measuredWidth="200" measuredHeight="107" name="Popover Link">
+    <widgets xsi:type="model:SVGImage" id="4" height="107" measuredWidth="200" measuredHeight="107" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_popover.svg"/>
+    <widgets xsi:type="model:List" id="6" x="4" y="7" text="This is a link&#xA;This is another&#xA;Yet another" measuredWidth="90" measuredHeight="100" layoutParams="anchor-left|anchor-top" border="false" alpha="0" rowHeight="32">
+      <font/>
+      <items x="0" y="2" width="90" height="32" text="This is a link"/>
+      <items x="0" y="34" width="90" height="32" text="This is another"/>
+      <items x="0" y="66" width="90" height="32" text="Yet another"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="32" y="144" measuredWidth="499" measuredHeight="205" name="Popover Content">
+    <widgets xsi:type="model:SVGImage" id="9" width="499" height="205" measuredWidth="499" measuredHeight="205" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="_popover.svg"/>
+    <widgets xsi:type="model:Label" id="14" x="19" y="23" text="TITLE" measuredWidth="37" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="16" x="20" y="53" width="459" height="78" text="Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!" measuredWidth="459" measuredHeight="78" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="17" x="19" y="138" width="102" height="48" text="Button" measuredWidth="102" measuredHeight="48" layoutParams="anchor-left|anchor-bottom" background="#008cba">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="552" y="24" measuredWidth="300" measuredHeight="337" name="Pricing Table">
+    <widgets xsi:type="model:Table" id="26" width="300" height="337" text="(bg:#333)=. Standard&#xA;(bg:#F6F6F6). %(font:28)$99.99%&#xA;%(font:11)An awesome description%&#xA;1 Database&#xA;5GB Storage&#xA;20 Users&#xA;&#xA;" measuredWidth="300" measuredHeight="337" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" rowHeight="44" horizontalLines="true">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="29" x="92" y="276" width="114" height="42" text="Buy Now" measuredWidth="114" measuredHeight="42" layoutParams="anchor-center|anchor-bottom" background="#008cba">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="36" x="32" y="376" measuredWidth="746" measuredHeight="152" name="Table">
+    <widgets xsi:type="model:Table" id="34" text="*Table Header*, *Table Header*, *Table Header*, *Table Header*&#xA;Content Goes Here, This is longer content Donec id elit non mi porta gravida at eget metus., Content Goes Here, Content Goes Here&#xA;Content Goes Here, This is longer Content Goes Here Donec id elit non mi porta gravida at\neget metus., Content Goes Here, Content Goes Here&#xA;Content Goes Here, This is longer Content Goes Here Donec id elit non mi porta gravida at\neget metus., Content Goes Here, Content Goes Here" measuredWidth="746" measuredHeight="152" rowHeight="37" alternative="#eeeeee">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="41" x="272" y="24" measuredWidth="220" measuredHeight="22" name="Progress">
+    <widgets xsi:type="model:ProgressBar" id="37" width="220" height="22" measuredWidth="220" measuredHeight="22" value="25" background="#008cba"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" x="272" y="56" measuredWidth="220" measuredHeight="22" name="Progress Success">
+    <widgets xsi:type="model:ProgressBar" id="38" width="220" height="22" measuredWidth="220" measuredHeight="22" value="25" background="#43ac6a"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="272" y="88" measuredWidth="220" measuredHeight="22" name="Progress Alert">
+    <widgets xsi:type="model:ProgressBar" id="39" width="220" height="22" measuredWidth="220" measuredHeight="22" value="25" background="#f04124"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="272" y="120" measuredWidth="220" measuredHeight="22" name="Progress Secondary">
+    <widgets xsi:type="model:ProgressBar" id="40" width="220" height="22" measuredWidth="220" measuredHeight="22" value="25" background="#e7e7e7"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="47" x="32" y="544" measuredWidth="406" measuredHeight="233" name="Tabs">
+    <widgets xsi:type="model:TabbedPane" id="45" width="406" height="233" text="Tab 1, Tab 2, Tab 3, Tab 4" measuredWidth="406" measuredHeight="233" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" selection="0">
+      <items x="10" y="0" width="55" height="30" text="Tab 1"/>
+      <items x="65" y="0" width="55" height="30" text="Tab 2"/>
+      <items x="120" y="0" width="55" height="30" text="Tab 3"/>
+      <items x="175" y="0" width="55" height="30" text="Tab 4"/>
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="46" x="24" y="54" width="360" height="154" text="First panel content goes here. Panel 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." measuredWidth="360" measuredHeight="154" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="484" y="505" measuredWidth="368" measuredHeight="272" name="Accordion">
+    <widgets xsi:type="model:Accordion" id="51" width="368" height="272" text="Accordion 1&#xA;Accordion 2&#xA;Accordion 3" measuredWidth="368" measuredHeight="272" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" selection="0">
+      <items x="0" y="2" width="368" height="27" text="Accordion 1"/>
+      <items x="0" y="218" width="368" height="27" text="Accordion 2"/>
+      <items x="0" y="245" width="368" height="27" text="Accordion 3"/>
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="52" x="24" y="48" width="320" height="152" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." measuredWidth="320" measuredHeight="152" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.6">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

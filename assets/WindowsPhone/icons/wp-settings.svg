@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="wp-settings.svg">
+  <title
+     id="title2818">WireframeSketcher SVG asset</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.2 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.1 : 526.2 : 1"
+       inkscape:persp3d-origin="372 : 350.8 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3092"
+       inkscape:persp3d-origin="0.5 : 0.3333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="0.7316"
+     inkscape:cy="8.624"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="1"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>WireframeSketcher SVG asset</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Peter Severin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>settings</rdf:li>
+            <rdf:li>options</rdf:li>
+            <rdf:li>gear</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g182"
+     transform="matrix(1.031,0,0,-1.032,14.13,16.14)">
+    <path
+       d="M 0,0 C -2.224,-1.139 -4.955,-0.264 -6.092,1.963 -7.233,4.189 -6.354,6.914 -4.131,8.057 -1.906,9.195 0.822,8.314 1.961,6.092 3.103,3.867 2.226,1.143 0,0 M 7.631,4.893 6.881,8.041 4.125,7.746 C 3.847,8.215 3.524,8.643 3.162,9.025 L 4.181,11.5 1.422,13.2 -0.299,11.06 C -0.896,11.22 -1.51,11.29 -2.131,11.3 L -3.209,13.7 -6.342,12.86 -5.974,10.2 C -6.406,9.934 -6.803,9.629 -7.156,9.295 L -9.535,10.27 -11.24,7.518 -9.188,5.865 C -9.338,5.303 -9.426,4.719 -9.438,4.131 L -11.77,3.164 -11.02,0.012 -8.416,0.291 C -8.115,-0.23 -7.763,-0.703 -7.354,-1.119 L -8.313,-3.441 -5.556,-5.139 -3.901,-3.09 C -3.34,-3.229 -2.769,-3.307 -2.185,-3.313 L -1.205,-5.672 1.947,-4.922 1.662,-2.244 C 2.149,-1.947 2.599,-1.607 2.985,-1.225 L 5.401,-2.219 7.101,0.539 4.963,2.262 C 5.092,2.787 5.164,3.326 5.172,3.869 L 7.631,4.893 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path184" />
+  </g>
+  <g
+     id="g186"
+     transform="matrix(1.031,0,0,-1.032,13.55,11.2)">
+    <path
+       d="M 0,0 C 0.418,-0.814 0.097,-1.816 -0.717,-2.232 -1.531,-2.65 -2.533,-2.328 -2.951,-1.514 -3.369,-0.695 -3.047,0.299 -2.233,0.721 -1.414,1.137 -0.412,0.816 0,0"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path188" />
+  </g>
+</svg>

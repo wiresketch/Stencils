@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="12" x="32" y="24" measuredWidth="932" measuredHeight="44" name="Top Bar">
+    <widgets xsi:type="model:Shape" id="7" width="932" height="44" text="Top Bar" measuredWidth="932" measuredHeight="44" layoutParams="anchor-left,anchor-right|anchor-top" background="#333333" border="false" textAlignment="Left" shapeType="rectangle">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="41" x="91" height="44" text="Left Button 1, Dropdown {desc}" measuredWidth="207" measuredHeight="44" layoutParams="anchor-left|anchor-top" background="#333333">
+      <font size="13px"/>
+      <items x="0" y="0" width="102" height="44" text="Left Button 1"/>
+      <items x="102" y="0" width="105" height="44" text="Dropdown {desc}"/>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="42" x="745" height="44" text="Right Button Dropdown {desc}" measuredWidth="187" measuredHeight="44" layoutParams="anchor-right|anchor-top" background="#333333">
+      <font size="13px"/>
+      <items x="0" y="0" width="186" height="44" text="Right Button Dropdown {desc}"/>
+    </widgets>
+    <widgets xsi:type="model:SearchField" id="43" x="312" y="10" width="145" text="Search" measuredWidth="145" measuredHeight="24" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="32" y="80" measuredWidth="688" measuredHeight="229" name="Off Canvas">
+    <widgets xsi:type="model:List" id="2" text="OFF-CANVAS MENU&#xA;Item 1&#xA;Item 2&#xA;Item 3&#xA;Item 4" measuredWidth="158" measuredHeight="229" layoutParams="anchor-left|anchor-top,anchor-bottom" rowHeight="45" horizontalLines="true" header="true">
+      <font size="16px"/>
+      <items x="0" y="2" width="158" height="45" text="OFF-CANVAS MENU"/>
+      <items x="0" y="47" width="158" height="45" text="Item 1"/>
+      <items x="0" y="92" width="158" height="45" text="Item 2"/>
+      <items x="0" y="137" width="158" height="45" text="Item 3"/>
+      <items x="0" y="182" width="158" height="45" text="Item 4"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="34" x="158" measuredWidth="530" measuredHeight="40" layoutParams="anchor-left,anchor-right|anchor-top" name="Bar">
+      <widgets xsi:type="model:Panel" id="29" width="530" height="40" measuredWidth="530" measuredHeight="40" background="#333333" border="none"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="33" x="157" y="39" measuredWidth="531" measuredHeight="190" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" name="Content">
+      <widgets xsi:type="model:Panel" id="32" width="531" height="190" measuredWidth="531" measuredHeight="190" background="#dbdbdb" border="none"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="31" x="207" y="7" text="Off Canvas" measuredWidth="77" measuredHeight="25" layoutParams="anchor-left|anchor-top" foreground="#ffffff">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="40" x="158" width="41" measuredWidth="41" measuredHeight="39" layoutParams="anchor-left|anchor-top" name="Menu Button">
+      <widgets xsi:type="model:Button" id="30" width="41" height="39" measuredWidth="41" measuredHeight="39" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#333333">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="39" x="11" y="10" measuredWidth="17" measuredHeight="18" layoutParams="anchor-center|anchor-middle" name="Menu">
+        <widgets xsi:type="model:HLine" id="36" width="17" measuredWidth="17" measuredHeight="6" foreground="#ffffff"/>
+        <widgets xsi:type="model:HLine" id="37" y="6" width="17" measuredWidth="17" measuredHeight="6" foreground="#ffffff"/>
+        <widgets xsi:type="model:HLine" id="38" y="12" width="17" measuredWidth="17" measuredHeight="6" foreground="#ffffff"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="736" y="80" measuredWidth="42" measuredHeight="120" name="Side Nav">
+    <widgets xsi:type="model:List" id="14" text="[Link 1]&#xA;[Link 2]&#xA;[Link 3]&#xA;[Link 4]" measuredWidth="42" measuredHeight="120" border="false" alpha="0" rowHeight="29">
+      <font/>
+      <items x="0" y="2" width="42" height="29" text="[Link 1]"/>
+      <items x="0" y="31" width="42" height="29" text="[Link 2]"/>
+      <items x="0" y="60" width="42" height="29" text="[Link 3]"/>
+      <items x="0" y="89" width="42" height="29" text="[Link 4]"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="32" y="330" measuredWidth="234" measuredHeight="19" name="Sub Nav">
+    <widgets xsi:type="model:ButtonBar" id="17" text="All, Active, Pending, Suspended" measuredWidth="234" measuredHeight="19" selection="0" background="#008cba" skin="_sub_nav.svg">
+      <font size="12px"/>
+      <items x="0" y="0" width="34" height="19" text="All"/>
+      <items x="34" y="0" width="55" height="19" text="Active"/>
+      <items x="89" y="0" width="65" height="19" text="Pending"/>
+      <items x="154" y="0" width="80" height="19" text="Suspended"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="584" y="323" measuredWidth="306" measuredHeight="34" name="Breadcrumbs">
+    <widgets xsi:type="model:Panel" id="20" width="306" height="34" measuredWidth="306" measuredHeight="34" layoutParams="anchor-left,anchor-right|anchor-top" background="#f4f4f4" foreground="#dbdbdb"/>
+    <widgets xsi:type="model:Breadcrumbs" id="19" x="14" y="7" text="HOME, FEATURES, ~GENE SPLICING~, CLONING" measuredWidth="266" measuredHeight="21" layoutParams="anchor-left|anchor-top">
+      <font size="10px" underline="false"/>
+      <items x="0" y="0" width="31" height="21" text="HOME"/>
+      <items x="51" y="0" width="50" height="21" text="FEATURES"/>
+      <items x="121" y="0" width="75" height="21" text="~GENE SPLICING~"/>
+      <items x="216" y="0" width="47" height="21" text="CLONING"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="280" y="329" measuredWidth="271" measuredHeight="22" name="Pagination">
+    <widgets xsi:type="model:ButtonBar" id="27" text="«, 1, 2, 3, 4,..., 12, 13, »" measuredWidth="271" measuredHeight="22" selection="1" background="#008cba" skin="_pagination.svg">
+      <font size="13px"/>
+      <items x="0" y="0" width="23" height="22" text="«"/>
+      <items x="28" y="0" width="24" height="22" text="1"/>
+      <items x="57" y="0" width="24" height="22" text="2"/>
+      <items x="86" y="0" width="24" height="22" text="3"/>
+      <items x="115" y="0" width="24" height="22" text="4"/>
+      <items x="144" y="0" width="25" height="22" text="..."/>
+      <items x="174" y="0" width="32" height="22" text="12"/>
+      <items x="211" y="0" width="32" height="22" text="13"/>
+      <items x="248" y="0" width="23" height="22" text="»"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

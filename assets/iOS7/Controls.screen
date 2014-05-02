@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="5" x="48" y="48" measuredWidth="52" measuredHeight="31" name="Switch">
+    <widgets xsi:type="model:Switch" id="1" measuredWidth="52" measuredHeight="31" selected="true" background="#4bd964" skin="_switch.svg">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="48" y="104" measuredWidth="161" measuredHeight="30" name="Segmented Control">
+    <widgets xsi:type="model:ButtonBar" id="6" text="One, Two, Three" measuredWidth="161" measuredHeight="30" selection="0" background="#007aff" skin="_segmented-control.svg">
+      <font size="13px"/>
+      <items x="1" y="0" width="53" height="30" text="One"/>
+      <items x="54" y="0" width="53" height="30" text="Two"/>
+      <items x="107" y="0" width="53" height="30" text="Three"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="72" y="160" measuredWidth="86" measuredHeight="29" name="Segmented Control Icons">
+    <widgets xsi:type="model:ButtonBar" id="8" height="29" text="{assets/ios7-bookmarks}, {assets/ios7-cloud}" measuredWidth="86" measuredHeight="29" selection="0" background="#007aff" skin="_segmented-control.svg">
+      <font size="17px"/>
+      <items x="1" y="0" width="42" height="29" text="{assets/ios7-bookmarks}"/>
+      <items x="43" y="0" width="42" height="29" text="{assets/ios7-cloud}"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="48" y="407" measuredWidth="185" measuredHeight="31" name="Slider">
+    <widgets xsi:type="model:HSlider" id="17" measuredWidth="185" measuredHeight="31" background="#007aff" skin="_slider.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="48" y="456" measuredWidth="94" measuredHeight="30" name="Stepper">
+    <widgets xsi:type="model:ButtonBar" id="19" width="94" text="{minus}, {add}" measuredWidth="94" measuredHeight="30" background="#007aff" skin="_segmented-control.svg">
+      <font size="12px"/>
+      <items x="1" y="0" width="46" height="30" text="{minus}"/>
+      <items x="47" y="0" width="46" height="30" text="{add}"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="22" x="48" y="504" measuredWidth="185" measuredHeight="10" name="Progress View">
+    <widgets xsi:type="model:ProgressBar" id="21" measuredWidth="185" measuredHeight="10" value="25" background="#007aff" skin="_progress-view.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="40" y="544" measuredWidth="134" measuredHeight="48" name="Popover Text">
+    <widgets xsi:type="model:SVGImage" id="24" width="134" height="48" measuredWidth="134" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#000000" vFlip="true" src="_popover.svg"/>
+    <widgets xsi:type="model:ButtonBar" id="25" y="2" text="Select, Paste" measuredWidth="134" measuredHeight="30" layoutParams="anchor-left,anchor-right|anchor-top" skin="_popover-buttons.svg">
+      <font size="14px"/>
+      <items x="1" y="0" width="67" height="30" text="Select"/>
+      <items x="68" y="0" width="67" height="30" text="Paste"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="40" y="600" measuredWidth="24" measuredHeight="24" name="Activity Indicator">
+    <widgets xsi:type="model:Icon" id="27" measuredWidth="24" measuredHeight="24" icon="loading (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="40" y="648" measuredWidth="32" measuredHeight="32" name="Button Contact Add">
+    <widgets xsi:type="model:Icon" id="29" measuredWidth="32" measuredHeight="32" foreground="#007aff" icon="assets/ios7-plus (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="31" x="99" y="648" measuredWidth="32" measuredHeight="32" name="Button Info">
+    <widgets xsi:type="model:Icon" id="32" measuredWidth="32" measuredHeight="32" foreground="#007aff" icon="assets/ios7-info (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="157" y="649" measuredWidth="60" measuredHeight="29" name="Button">
+    <widgets xsi:type="model:Label" id="33" text="Button" measuredWidth="60" measuredHeight="29" foreground="#007aff">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="232" y="649" measuredWidth="67" measuredHeight="29" name="Button Back">
+    <widgets xsi:type="model:Label" id="36" text="Back" measuredWidth="67" measuredHeight="29" foreground="#007aff" icon="assets/ios7-arrow-back (medium)">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="67" x="40" y="688" measuredWidth="75" measuredHeight="45" name="Button Border">
+    <widgets xsi:type="model:Button" id="66" height="45" text="Button" measuredWidth="75" measuredHeight="45" background="#ff0000">
+      <font size="17px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="312" y="40" width="100" measuredWidth="145" measuredHeight="29" name="Search">
+    <widgets xsi:type="model:Shape" id="37" width="145" height="29" text="~Search~" measuredWidth="145" measuredHeight="29" background="#eeeeee" icon="assets/ios7-search (medium)" textAlignment="Left" shapeType="rectangle-rounded">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="40" x="312" y="652" measuredWidth="24" measuredHeight="24" name="Badge">
+    <widgets xsi:type="model:Shape" id="39" width="24" height="24" text="9" measuredWidth="24" measuredHeight="24" background="#ff0000">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="41" x="312" y="78" measuredWidth="73" measuredHeight="8" name="Page Control">
+    <widgets xsi:type="model:Shape" id="42" width="8" height="8" measuredWidth="8" measuredHeight="8" layoutParams="anchor-left|anchor-top" background="#cccccc" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="43" x="16" width="8" height="8" measuredWidth="8" measuredHeight="8" layoutParams="anchor-left|anchor-top" background="#666666" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="44" x="32" width="8" height="8" measuredWidth="8" measuredHeight="8" layoutParams="anchor-left|anchor-top" background="#666666" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="45" x="48" width="8" height="8" measuredWidth="8" measuredHeight="8" layoutParams="anchor-left|anchor-top" background="#666666" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="46" x="65" width="8" height="8" measuredWidth="8" measuredHeight="8" layoutParams="anchor-left|anchor-top" background="#666666" border="false">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="47" x="312" y="112" measuredWidth="218" measuredHeight="214" name="Picker">
+    <widgets xsi:type="model:List" id="48" width="218" text="Danks&#xA;Deutsch&#xA;{assets/ios7-checkmark} English&#xA;Espanol&#xA;Suomi" measuredWidth="218" measuredHeight="214">
+      <font size="23px"/>
+      <items x="0" y="2" width="218" height="42" text="Danks"/>
+      <items x="0" y="44" width="218" height="42" text="Deutsch"/>
+      <items x="0" y="86" width="218" height="42" text="{assets/ios7-checkmark} English"/>
+      <items x="0" y="128" width="218" height="42" text="Espanol"/>
+      <items x="0" y="170" width="218" height="42" text="Suomi"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="49" y="83" width="218" measuredWidth="218" measuredHeight="6"/>
+    <widgets xsi:type="model:HLine" id="50" y="126" width="218" measuredWidth="218" measuredHeight="6"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="51" x="312" y="344" measuredWidth="305" measuredHeight="189" name="Date Picker">
+    <widgets xsi:type="model:Table" id="52" width="305" text="(align=right). Tue Sep 3, (align=right). 7, 58&#xA;Wed Sep 4, 8, 59&#xA;Today, 9, 00, AM&#xA;Fri Sep 6, 10, 01, PM&#xA;Sat Sep 7, 11, 02" measuredWidth="305" measuredHeight="189" verticalLines="false" header="false">
+      <font size="23px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="53" y="72" width="305" measuredWidth="305" measuredHeight="6"/>
+    <widgets xsi:type="model:HLine" id="54" y="109" width="305" measuredWidth="305" measuredHeight="6"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="56" x="368" y="578" measuredWidth="320" measuredHeight="100" name="Refresh Control">
+    <widgets xsi:type="model:Shape" id="55" width="320" height="100" measuredWidth="320" measuredHeight="100" background="#cccccc" border="false" icon="loading (medium)" shapeType="rectangle">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="63" x="544" y="41" measuredWidth="320" measuredHeight="81" name="Paragraph">
+    <widgets xsi:type="model:Text" id="61" width="320" height="81" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." measuredWidth="320" measuredHeight="81">
+      <font size="13px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="65" x="546" y="137" measuredWidth="38" measuredHeight="24" name="Label">
+    <widgets xsi:type="model:Label" id="64" text="Label" measuredWidth="38" measuredHeight="24">
+      <font size="13px"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

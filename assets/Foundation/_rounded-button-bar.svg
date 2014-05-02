@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" onload="onLoad(evt)" onresize="onResize(evt)" height="32" width="160" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script src="_button-bar.js" />
+ <script><![CDATA[
+ 	var backgroundLeftD, backgroundRightD;
+ 	
+ 	var superOnLoad = onLoad;
+ 	onLoad = function(evt) {
+ 		superOnLoad(evt);
+ 		
+ 		// Templatize paths
+ 		backgroundLeftD = backgroundLeft.getAttribute("d").
+ 			replace(/15/g, "{r}").replace(/50/g, "{w1}").replace(/35/g, "{w2}").
+ 			replace(/8\.31/g, "{r1}").replace(/6\.69/g, "{r2}");
+ 		backgroundRightD = backgroundRight.getAttribute("d").
+ 			replace(/35/g, "{w}").replace(/15/g, "{r}").
+ 			replace(/8\.31/g, "{r1}").replace(/6\.69/g, "{r2}");
+ 	};
+ 	
+ 	function resizeBar(element, width, height) {
+    	element.setAttribute("width", width - 2);
+    	element.setAttribute("height", height - 2);
+    	element.setAttribute("ry", (height - 2) / 2);
+	}
+ 	
+	function resizeBackground(template, element, x, y, width, height) {
+    	var r = (height - 2) / 2;
+    	
+	    if (template === backgroundSingle) {
+	        element.setAttribute("x", x - 1);
+	        element.setAttribute("height", height - 2);
+	        element.setAttribute("width", width);
+	        element.setAttribute("ry", r);
+	    } else if (template === backgroundLeft) {
+	        element.setAttribute("d", backgroundLeftD.replace(/{w1}/g, width).
+	        	replace(/{w2}/g, width - r).replace(/{r}/g, r).
+	        	replace(/{r1}/g, r / 2 + 1).replace(/{r2}/g, r / 2 - 1));
+	        element.setAttribute("transform", "translate(1,0)");
+	    } else if (template === backgroundRight) {
+	        element.setAttribute("d", backgroundRightD.replace(/{w}/g, width - r).replace(/{r}/g, r).
+	        	replace(/{r1}/g, r / 2 + 1).replace(/{r2}/g, r / 2 - 1));
+	        element.setAttribute("transform", "translate(" + (x - 1) + ",0)");
+	    } else {
+	        element.setAttribute("x", x - 1);
+	        element.setAttribute("height", height - 2);
+	        element.setAttribute("width", width);
+	    }
+	}
+ ]]></script>
+ <g id="container" fill-rule="nonzero" fill="#505050">
+  <path id="background-left" d="M50,1,15,1c-8.31,0-15,6.69-15,15s6.69,15,15,15h35z"/>
+  <path id="background-right" d="M0,1,35,1c8.31,0,15,6.69,15,15,0,8.31-6.69,15-15,15h-35z"/>
+  <rect id="background-middle" y="1" width="44" x="0" height="30"/>
+  <path id="separator" stroke-linejoin="miter" d="M45,2,45,30" stroke="#000" stroke-linecap="butt" stroke-dasharray="none" stroke-miterlimit="4" stroke-width="2" fill="none"/>
+  <rect id="background-single" ry="15" height="30" width="40" y="1" x="0"/>
+ </g>
+ <rect id="bar" ry="15" height="30" width="158" stroke="#000" stroke-linecap="round" stroke-dasharray="none" x="1" y="1" stroke-miterlimit="4" stroke-width="2" fill="none"/>
+</svg>

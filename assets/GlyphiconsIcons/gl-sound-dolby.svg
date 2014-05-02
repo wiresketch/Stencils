@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: e190 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1600" xml:space="preserve">
+<g transform="translate(200, 1400) scale(1, -1)">
+	<path id="sound-dolby" d="M-100 300v500q0 124 88 212t212 88h700q124 0 212 -88t88 -212v-500q0 -124 -88 -212t-212 -88h-700q-124 0 -212 88t-88 212zM100 200h900v700h-900v-700zM200 300v500h700v-500h-700zM300 400h130q41 0 68 42t27 107t-28.5 108t-66.5 43h-130v-300zM575 549 q0 -65 27 -107t68 -42h130v300h-130q-38 0 -66.5 -43t-28.5 -108z" />
+</g>
+</svg>	

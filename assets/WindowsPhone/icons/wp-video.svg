@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="wp-video.svg">
+  <title
+     id="title2818">WireframeSketcher SVG asset</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.2 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.1 : 526.2 : 1"
+       inkscape:persp3d-origin="372 : 350.8 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3882"
+       inkscape:persp3d-origin="0.5 : 0.3333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="31.68"
+     inkscape:cx="-4.699"
+     inkscape:cy="12.82"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="1"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>WireframeSketcher SVG asset</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Peter Severin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>video</rdf:li>
+            <rdf:li>film</rdf:li>
+            <rdf:li>movie</rdf:li>
+            <rdf:li>camera</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g190"
+     transform="matrix(0.9997,0,0,-0.9997,6.996,9.594)">
+    <path
+       d="M 0,0 C 1.926,0 3.488,1.562 3.488,3.487 3.488,5.414 1.926,6.976 0,6.976 -1.928,6.976 -3.488,5.414 -3.488,3.487 -3.488,1.562 -1.928,0 0,0 M 7.479,0 C 9.408,0 10.97,1.562 10.97,3.487 10.97,5.414 9.408,6.976 7.479,6.976 5.555,6.976 3.994,5.414 3.994,3.487 3.994,1.562 5.555,0 7.479,0 M -6.166,-0.847 C -6.625,-0.847 -6.998,-1.22 -6.998,-1.68 L -6.998,-5.068 C -6.998,-5.525 -6.625,-5.898 -6.166,-5.898 -5.709,-5.898 -5.334,-5.525 -5.334,-5.068 L -5.334,-1.68 C -5.334,-1.22 -5.709,-0.847 -6.166,-0.847 M 17.01,-0.297 17,-10.87 C 17,-11.39 16.67,-11.53 16.28,-11.2 L 13.85,-9.124 C 13.69,-8.979 13.54,-8.766 13.41,-8.532 L 12.34,-8.532 12.34,-10.77 C 12.34,-11.34 11.88,-11.8 11.31,-11.79 L -3.48,-11.67 C -4.049,-11.67 -4.516,-11.2 -4.516,-10.63 L -4.516,-1.436 C -4.516,-0.865 -4.049,-0.401 -3.48,-0.401 L 11.31,-0.401 C 11.88,-0.401 12.34,-0.865 12.34,-1.436 L 12.34,-2.628 13.44,-2.628 C 13.56,-2.411 13.69,-2.209 13.85,-2.07 L 16.29,0.031 C 16.69,0.372 17.01,0.224 17.01,-0.297"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path192" />
+  </g>
+</svg>

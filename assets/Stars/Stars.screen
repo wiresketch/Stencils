@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.3">
+  <widgets xsi:type="model:WidgetGroup" id="2" x="10" y="10" measuredWidth="100" measuredHeight="20" name="Stars">
+    <widgets xsi:type="model:ProgressBar" id="1" measuredWidth="100" measuredHeight="20" background="#000000" skin="_stars.svg"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

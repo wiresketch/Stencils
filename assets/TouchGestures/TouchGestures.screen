@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="6" x="42" y="40" measuredWidth="38" measuredHeight="38" annotation="true" name="Touch">
+    <widgets xsi:type="model:SVGImage" id="5" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="64" x="41" y="96" text="Touch" measuredWidth="38" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="130" y="30" measuredWidth="58" measuredHeight="58" annotation="true" name="Long Press">
+    <widgets xsi:type="model:SVGImage" id="10" width="58" height="58" measuredWidth="58" measuredHeight="58" background="#5397f9" alpha="128" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="8" x="10" y="10" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="66" x="124" y="96" text="Long Press" measuredWidth="64" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="32" y="166" measuredWidth="81" measuredHeight="38" annotation="true" name="Swipe Left">
+    <widgets xsi:type="model:SVGImage" id="13" x="43" measuredWidth="38" measuredHeight="38" layoutParams="anchor-right|anchor-middle" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="14" y="10" measuredWidth="39" measuredHeight="18" layoutParams="anchor-left,anchor-right|anchor-middle" background="#5397f9" src="_arrow.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="70" x="38" y="234" text="Swipe Left" measuredWidth="63" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="17" x="160" y="166" measuredWidth="82" measuredHeight="38" annotation="true" name="Swipe Right">
+    <widgets xsi:type="model:SVGImage" id="19" measuredWidth="38" measuredHeight="38" layoutParams="anchor-left|anchor-middle" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="20" x="43" y="10" measuredWidth="39" measuredHeight="18" layoutParams="anchor-left,anchor-right|anchor-middle" background="#5397f9" rotation="180" src="_arrow.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="162" y="234" text="Swipe Right" measuredWidth="70" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="290" y="144" measuredWidth="38" measuredHeight="81" annotation="true" name="Swipe Up">
+    <widgets xsi:type="model:SVGImage" id="23" y="43" measuredWidth="38" measuredHeight="38" layoutParams="anchor-center|anchor-bottom" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="24" x="10" measuredWidth="18" measuredHeight="39" layoutParams="anchor-center|anchor-top,anchor-bottom" background="#5397f9" rotation="90" src="_arrow.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="72" x="278" y="234" text="Swipe Up" measuredWidth="55" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="376" y="144" measuredWidth="38" measuredHeight="82" annotation="true" name="Swipe Down">
+    <widgets xsi:type="model:SVGImage" id="27" measuredWidth="38" measuredHeight="38" layoutParams="anchor-center|anchor-top" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="28" x="10" y="43" measuredWidth="18" measuredHeight="39" layoutParams="anchor-center|anchor-top,anchor-bottom" background="#5397f9" rotation="270" src="_arrow.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="73" x="355" y="234" text="Swipe Down" measuredWidth="72" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="328" y="30" measuredWidth="100" measuredHeight="58" annotation="true" name="Drag">
+    <widgets xsi:type="model:SVGImage" id="30" width="58" height="58" measuredWidth="58" measuredHeight="58" background="#5397f9" alpha="128" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="31" x="10" y="10" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="32" x="61" y="36" measuredWidth="39" measuredHeight="18" background="#5397f9" src="_arrow-angle.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="67" x="361" y="96" text="Drag" measuredWidth="32" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="225" y="30" measuredWidth="60" measuredHeight="60" annotation="true" name="Double Touch">
+    <widgets xsi:type="model:SVGImage" id="34" width="60" height="60" measuredWidth="60" measuredHeight="60" background="#5397f9" alpha="128" src="_ring.svg"/>
+    <widgets xsi:type="model:SVGImage" id="36" x="11" y="11" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="65" x="215" y="96" text="Double Touch" measuredWidth="81" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="32" y="298" measuredWidth="152" measuredHeight="91" annotation="true" name="Pinch Open">
+    <widgets xsi:type="model:SVGImage" id="38" x="36" y="38" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="40" y="67" measuredWidth="35" measuredHeight="24" background="#5397f9" src="_arrow-angle2.svg"/>
+    <widgets xsi:type="model:SVGImage" id="41" x="117" measuredWidth="35" measuredHeight="24" background="#5397f9" rotation="180" src="_arrow-angle2.svg"/>
+    <widgets xsi:type="model:SVGImage" id="42" x="78" y="14" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="68" x="71" y="432" text="Pinch Open" measuredWidth="68" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="63" x="189" y="264" measuredWidth="108" measuredHeight="159" annotation="true" name="Pinch Close">
+    <widgets xsi:type="model:SVGImage" id="59" x="70" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="60" x="55" y="39" measuredWidth="24" measuredHeight="36" background="#5397f9" src="_arrow-angle3.svg"/>
+    <widgets xsi:type="model:SVGImage" id="61" y="121" measuredWidth="38" measuredHeight="38" background="#5397f9" alpha="192" src="_disc.svg"/>
+    <widgets xsi:type="model:SVGImage" id="62" x="30" y="84" measuredWidth="24" measuredHeight="36" background="#5397f9" rotation="180" src="_arrow-angle3.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="69" x="206" y="432" text="Pinch Close" measuredWidth="67" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="74" x="351" y="301" measuredWidth="60" measuredHeight="116" annotation="true" name="Double Touch Drag">
+    <widgets xsi:type="model:SVGImage" id="79" x="21" measuredWidth="18" measuredHeight="39" layoutParams="anchor-center|anchor-top,anchor-bottom" background="#5397f9" rotation="90" src="_arrow.svg"/>
+    <widgets xsi:type="model:SVGImage" id="80" x="21" y="77" measuredWidth="18" measuredHeight="39" layoutParams="anchor-center|anchor-top,anchor-bottom" background="#5397f9" rotation="270" src="_arrow.svg"/>
+    <widgets xsi:type="model:SVGImage" id="75" y="28" width="60" height="60" measuredWidth="60" measuredHeight="60" layoutParams="anchor-center|anchor-middle" background="#5397f9" alpha="128" src="_ring.svg"/>
+    <widgets xsi:type="model:SVGImage" id="76" x="11" y="39" measuredWidth="38" measuredHeight="38" layoutParams="anchor-center|anchor-middle" background="#5397f9" alpha="192" src="_disc.svg"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="77" x="325" y="432" text="Double Touch Drag" measuredWidth="111" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

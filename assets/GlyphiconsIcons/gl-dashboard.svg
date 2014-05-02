@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: e141 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1600" xml:space="preserve">
+<g transform="translate(200, 1400) scale(1, -1)">
+	<path id="dashboard" d="M0 596q0 162 80 299t217 217t299 80t299 -80t217 -217t80 -299t-80 -299t-217 -217t-299 -80t-299 80t-217 217t-80 299zM182 596q0 -172 121.5 -293t292.5 -121t292.5 121t121.5 293q0 171 -121.5 292.5t-292.5 121.5t-292.5 -121.5t-121.5 -292.5zM291 655 q0 23 15.5 38.5t38.5 15.5t39 -16t16 -38q0 -23 -16 -39t-39 -16q-22 0 -38 16t-16 39zM400 850q0 22 16 38.5t39 16.5q22 0 38 -16t16 -39t-16 -39t-38 -16q-23 0 -39 16.5t-16 38.5zM513 609q0 32 21 56.5t52 29.5l122 126l1 1q-9 14 -9 28q0 22 16 38.5t39 16.5 q22 0 38 -16t16 -39t-16 -39t-38 -16q-16 0 -29 10l-55 -145q17 -22 17 -51q0 -36 -25.5 -61.5t-61.5 -25.5q-37 0 -62.5 25.5t-25.5 61.5zM800 655q0 22 16 38t39 16t38.5 -15.5t15.5 -38.5t-16 -39t-38 -16q-23 0 -39 16t-16 39z" />
+</g>
+</svg>	

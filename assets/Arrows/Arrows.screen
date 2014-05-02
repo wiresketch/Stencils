@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:WidgetGroup" id="3" x="392" y="208" measuredWidth="200" measuredHeight="200" annotation="true" name="Curved Arrow">
+    <widgets xsi:type="model:SVGImage" id="1" width="200" height="200" measuredWidth="200" measuredHeight="200" src="_arrow-curved.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="360" y="208" measuredWidth="14" measuredHeight="200" annotation="true" name="Vertical Arrow">
+    <widgets xsi:type="model:SVGImage" id="2" height="200" measuredWidth="14" measuredHeight="200" src="_arrow-vertical.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="8" x="392" y="176" measuredWidth="200" measuredHeight="14" annotation="true" name="Horizontal Arrow">
+    <widgets xsi:type="model:SVGImage" id="7" width="200" measuredWidth="200" measuredHeight="14" src="_arrow-horizontal.svg"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

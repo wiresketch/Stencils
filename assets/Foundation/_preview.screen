@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:Master" id="1" x="36" y="17" measuredWidth="901" measuredHeight="575">
+    <screen xsi:type="model:Screen" href="Typography.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="36" y="618" measuredWidth="933" measuredHeight="333">
+    <screen xsi:type="model:Screen" href="Navigation.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="860" y="-46" measuredWidth="1274" measuredHeight="738">
+    <screen xsi:type="model:Screen" href="Callouts%20&amp;%20Prompts.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="36" y="970" measuredWidth="1011" measuredHeight="496">
+    <screen xsi:type="model:Screen" href="Buttons.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="893" y="713" measuredWidth="820" measuredHeight="753">
+    <screen xsi:type="model:Screen" href="Content.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="1634" y="1114" measuredWidth="500" measuredHeight="296">
+    <screen xsi:type="model:WidgetGroup" href="Media.screen#Clearing%20Lightbox"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="1541" y="1168" measuredWidth="498" measuredHeight="296">
+    <screen xsi:type="model:WidgetGroup" href="Media.screen#Orbit%20Slider"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="1532" y="404" measuredWidth="110" measuredHeight="110">
+    <screen xsi:type="model:WidgetGroup" href="Media.screen#Thumbnail"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="1795" y="832" measuredWidth="126" measuredHeight="73">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Text%20Area"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="1949" y="832" measuredWidth="145" measuredHeight="89">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Text%20Area%20Error"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="1797" y="760" measuredWidth="124" measuredHeight="47">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="3" width="124"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="1949" y="760" measuredWidth="145" measuredHeight="72">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Text%20Input%20Error"/>
+    <overrides>
+      <widgets ref="48" width="145"/>
+      <widgets ref="47" width="145"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="1795" y="946" measuredWidth="244" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Text%20Input%20Action"/>
+    <overrides>
+      <widgets ref="42" width="212"/>
+      <widgets ref="43" x="209"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="16" x="1795" y="987" measuredWidth="247" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Text%20Input%20Prefix"/>
+    <overrides>
+      <widgets ref="34" width="189"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="17" x="1795" y="1023" measuredWidth="244" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Text%20Input%20Postfix"/>
+    <overrides>
+      <widgets ref="8" width="201"/>
+      <widgets ref="9" x="198"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="1797" y="1087" width="297" measuredWidth="297" measuredHeight="20">
+    <screen xsi:type="model:WidgetGroup" href="Forms.screen#Range%20Slider"/>
+    <overrides>
+      <widgets ref="69" width="297"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

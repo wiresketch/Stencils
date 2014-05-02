@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="16" x="16" y="16" measuredWidth="76" measuredHeight="33" name="Button Tiny">
+    <widgets xsi:type="model:Button" id="15" height="33" text=".tiny.button" measuredWidth="76" measuredHeight="33" background="#008cba">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="17" x="16" y="66" measuredWidth="91" measuredHeight="43" name="Button Small">
+    <widgets xsi:type="model:Button" id="18" height="43" text=".small.button" measuredWidth="91" measuredHeight="43" background="#008cba">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="19" x="16" y="126" measuredWidth="70" measuredHeight="48" name="Button">
+    <widgets xsi:type="model:Button" id="20" height="48" text=".button" measuredWidth="70" measuredHeight="48" background="#008cba">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="16" y="191" measuredWidth="133" measuredHeight="57" name="Button Large">
+    <widgets xsi:type="model:Button" id="22" height="57" text=".large.button" measuredWidth="133" measuredHeight="57" background="#008cba">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="31" x="177" y="16" measuredWidth="76" measuredHeight="33" name="Secondary Button Tiny">
+    <widgets xsi:type="model:Button" id="32" height="33" text=".tiny.button" measuredWidth="76" measuredHeight="33" background="#e7e7e7">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="177" y="66" measuredWidth="91" measuredHeight="43" name="Secondary Button Small">
+    <widgets xsi:type="model:Button" id="34" height="43" text=".small.button" measuredWidth="91" measuredHeight="43" background="#e7e7e7">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="177" y="126" measuredWidth="70" measuredHeight="48" name="Secondary Button">
+    <widgets xsi:type="model:Button" id="36" height="48" text=".button" measuredWidth="70" measuredHeight="48" background="#e7e7e7">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="177" y="191" measuredWidth="133" measuredHeight="57" name="Secondary Button Large">
+    <widgets xsi:type="model:Button" id="38" height="57" text=".large.button" measuredWidth="133" measuredHeight="57" background="#e7e7e7">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="39" x="338" y="16" measuredWidth="76" measuredHeight="33" name="Success Button Tiny">
+    <widgets xsi:type="model:Button" id="40" height="33" text=".tiny.button" measuredWidth="76" measuredHeight="33" background="#43ac6a">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="41" x="338" y="66" measuredWidth="91" measuredHeight="43" name="Success Button Small">
+    <widgets xsi:type="model:Button" id="42" height="43" text=".small.button" measuredWidth="91" measuredHeight="43" background="#43ac6a">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="338" y="126" measuredWidth="70" measuredHeight="48" name="Success Button">
+    <widgets xsi:type="model:Button" id="44" height="48" text=".button" measuredWidth="70" measuredHeight="48" background="#43ac6a">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="338" y="191" measuredWidth="133" measuredHeight="57" name="Success Button Large">
+    <widgets xsi:type="model:Button" id="46" height="57" text=".large.button" measuredWidth="133" measuredHeight="57" background="#43ac6a">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="47" x="499" y="16" measuredWidth="76" measuredHeight="33" name="Alert Button Tiny">
+    <widgets xsi:type="model:Button" id="48" height="33" text=".tiny.button" measuredWidth="76" measuredHeight="33" background="#f04124">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="49" x="499" y="66" measuredWidth="91" measuredHeight="43" name="Alert Button Small">
+    <widgets xsi:type="model:Button" id="50" height="43" text=".small.button" measuredWidth="91" measuredHeight="43" background="#f04124">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="51" x="499" y="126" measuredWidth="70" measuredHeight="48" name="Alert Button">
+    <widgets xsi:type="model:Button" id="52" height="48" text=".button" measuredWidth="70" measuredHeight="48" background="#f04124">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="499" y="191" measuredWidth="133" measuredHeight="57" name="Alert Button Large">
+    <widgets xsi:type="model:Button" id="54" height="57" text=".large.button" measuredWidth="133" measuredHeight="57" background="#f04124">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="23" x="16" y="280" measuredWidth="110" measuredHeight="33" name="Dropdown Tiny">
+    <widgets xsi:type="model:Button" id="24" height="33" text=".tiny.dropdown {desc}" measuredWidth="110" measuredHeight="33" background="#008cba">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="16" y="330" measuredWidth="128" measuredHeight="43" name="Dropdown Small">
+    <widgets xsi:type="model:Button" id="26" height="43" text=".small.dropdown {desc}" measuredWidth="128" measuredHeight="43" background="#008cba">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="16" y="390" measuredWidth="113" measuredHeight="48" name="Dropdown">
+    <widgets xsi:type="model:Button" id="28" height="48" text=".dropdown {desc}" measuredWidth="113" measuredHeight="48" background="#008cba">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="16" y="455" measuredWidth="189" measuredHeight="57" name="Dropdown Large">
+    <widgets xsi:type="model:Button" id="30" height="57" text=".large.dropdown {desc}" measuredWidth="189" measuredHeight="57" background="#008cba">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="55" x="236" y="280" measuredWidth="99" measuredHeight="33" name="Split Button Tiny">
+    <widgets xsi:type="model:Button" id="56" height="33" text=".tiny.split {separator}{desc}" measuredWidth="99" measuredHeight="33" background="#008cba">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="57" x="236" y="330" measuredWidth="111" measuredHeight="43" name="Split Button Small">
+    <widgets xsi:type="model:Button" id="58" height="43" text=".small.split {separator}{desc}" measuredWidth="111" measuredHeight="43" background="#008cba">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="59" x="236" y="390" measuredWidth="89" measuredHeight="48" name="Split Button">
+    <widgets xsi:type="model:Button" id="60" height="48" text=".split {separator}{desc}" measuredWidth="89" measuredHeight="48" background="#008cba">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="61" x="236" y="455" measuredWidth="162" measuredHeight="57" name="Split Button Large">
+    <widgets xsi:type="model:Button" id="62" height="57" text=".large.split {separator}{desc}" measuredWidth="162" measuredHeight="57" background="#008cba">
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="64" x="430" y="280" measuredWidth="183" measuredHeight="33" name="ButtonGroup Tiny">
+    <widgets xsi:type="model:ButtonBar" id="63" height="33" text="Button 1, Button 2, Button 3" measuredWidth="183" measuredHeight="33" background="#008cba" skin="_radius-button-bar.svg">
+      <font size="10px"/>
+      <items x="0" y="0" width="61" height="33" text="Button 1"/>
+      <items x="61" y="0" width="61" height="33" text="Button 2"/>
+      <items x="122" y="0" width="61" height="33" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="65" x="430" y="330" measuredWidth="207" measuredHeight="43" name="ButtonGroup Small">
+    <widgets xsi:type="model:ButtonBar" id="66" height="43" text="Button 1, Button 2, Button 3" measuredWidth="207" measuredHeight="43" background="#008cba" skin="_radius-button-bar.svg">
+      <font size="12px"/>
+      <items x="0" y="0" width="69" height="43" text="Button 1"/>
+      <items x="69" y="0" width="69" height="43" text="Button 2"/>
+      <items x="138" y="0" width="69" height="43" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="67" x="430" y="390" measuredWidth="231" measuredHeight="48" name="ButtonGroup">
+    <widgets xsi:type="model:ButtonBar" id="68" height="48" text="Button 1, Button 2, Button 3" measuredWidth="231" measuredHeight="48" background="#008cba" skin="_radius-button-bar.svg">
+      <font size="14px"/>
+      <items x="0" y="0" width="77" height="48" text="Button 1"/>
+      <items x="77" y="0" width="77" height="48" text="Button 2"/>
+      <items x="154" y="0" width="77" height="48" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="69" x="430" y="455" measuredWidth="288" measuredHeight="57" name="ButtonGroup Large">
+    <widgets xsi:type="model:ButtonBar" id="70" height="57" text="Button 1, Button 2, Button 3" measuredWidth="288" measuredHeight="57" background="#008cba" skin="_radius-button-bar.svg">
+      <font size="18px"/>
+      <items x="0" y="0" width="96" height="57" text="Button 1"/>
+      <items x="96" y="0" width="96" height="57" text="Button 2"/>
+      <items x="192" y="0" width="96" height="57" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="71" x="736" y="280" measuredWidth="183" measuredHeight="33" name="Round ButtonGroup Tiny">
+    <widgets xsi:type="model:ButtonBar" id="72" height="33" text="Button 1, Button 2, Button 3" measuredWidth="183" measuredHeight="33" background="#008cba" skin="_rounded-button-bar.svg">
+      <font size="10px"/>
+      <items x="0" y="0" width="61" height="33" text="Button 1"/>
+      <items x="61" y="0" width="61" height="33" text="Button 2"/>
+      <items x="122" y="0" width="61" height="33" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="73" x="736" y="330" measuredWidth="207" measuredHeight="43" name="Round ButtonGroup Small">
+    <widgets xsi:type="model:ButtonBar" id="74" height="43" text="Button 1, Button 2, Button 3" measuredWidth="207" measuredHeight="43" background="#008cba" skin="_rounded-button-bar.svg">
+      <font size="12px"/>
+      <items x="0" y="0" width="69" height="43" text="Button 1"/>
+      <items x="69" y="0" width="69" height="43" text="Button 2"/>
+      <items x="138" y="0" width="69" height="43" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="75" x="736" y="390" measuredWidth="231" measuredHeight="48" name="Round ButtonGroup">
+    <widgets xsi:type="model:ButtonBar" id="76" height="48" text="Button 1, Button 2, Button 3" measuredWidth="231" measuredHeight="48" background="#008cba" skin="_rounded-button-bar.svg">
+      <font size="14px"/>
+      <items x="0" y="0" width="77" height="48" text="Button 1"/>
+      <items x="77" y="0" width="77" height="48" text="Button 2"/>
+      <items x="154" y="0" width="77" height="48" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="77" x="736" y="455" measuredWidth="288" measuredHeight="57" name="Round ButtonGroup Large">
+    <widgets xsi:type="model:ButtonBar" id="78" height="57" text="Button 1, Button 2, Button 3" measuredWidth="288" measuredHeight="57" background="#008cba" skin="_rounded-button-bar.svg">
+      <font size="18px"/>
+      <items x="0" y="0" width="96" height="57" text="Button 1"/>
+      <items x="96" y="0" width="96" height="57" text="Button 2"/>
+      <items x="192" y="0" width="96" height="57" text="Button 3"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

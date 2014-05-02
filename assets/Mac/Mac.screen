@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.3">
+  <widgets xsi:type="model:WidgetGroup" id="17" x="48" y="40" measuredWidth="400" measuredHeight="400" name="Window">
+    <widgets xsi:type="model:Window" id="16" text="Window" measuredWidth="400" measuredHeight="400" skin="_window.svg" minimizeButton="true" maximizeButton="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="72" y="80" measuredWidth="400" measuredHeight="400" name="Dialog">
+    <widgets xsi:type="model:Window" id="19" text="Dialog" measuredWidth="400" measuredHeight="400" skin="_dialog.svg" minimizeButton="true" maximizeButton="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="96" y="128" measuredWidth="400" measuredHeight="400" name="Window with Toolbar">
+    <widgets xsi:type="model:Window" id="21" text="Window with Toolbar" measuredWidth="400" measuredHeight="400" skin="_window-toolbar.svg" minimizeButton="true" maximizeButton="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="23" x="120" y="192" measuredWidth="400" measuredHeight="400" name="Safari">
+    <widgets xsi:type="model:Browser" id="22" text="Safari&#xA;http://wireframesketcher.com" measuredWidth="400" measuredHeight="400" skin="_safari.svg"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

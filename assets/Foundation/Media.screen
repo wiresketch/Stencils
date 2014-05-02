@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="165" x="552" y="24" measuredWidth="110" measuredHeight="110" name="Thumbnail">
+    <widgets xsi:type="model:Shape" id="166" width="110" height="110" measuredWidth="110" measuredHeight="110" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#666666" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="167" x="6" y="6" width="98" height="98" text="Thumbnail" measuredWidth="98" measuredHeight="98" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#cccccc" border="false" shapeType="rectangle">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="32" y="24" measuredWidth="498" measuredHeight="296" name="Orbit Slider">
+    <widgets xsi:type="model:Shape" id="4" width="498" height="280" text="Image" measuredWidth="498" measuredHeight="280" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#999999" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="3" x="12" y="4" width="36" text="1 of 3" measuredWidth="36" measuredHeight="23" layoutParams="anchor-left|anchor-top" foreground="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="14" x="8" y="136" measuredWidth="8" measuredHeight="20" layoutParams="anchor-left|anchor-middle" name="Previous">
+      <widgets xsi:type="model:Shape" id="5" width="8" height="20" measuredWidth="8" measuredHeight="20" border="false" rotation="270" shapeType="triangle">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="15" x="477" y="136" measuredWidth="8" measuredHeight="20" layoutParams="anchor-right|anchor-middle" name="Next">
+      <widgets xsi:type="model:Shape" id="6" width="8" height="20" measuredWidth="8" measuredHeight="20" border="false" rotation="90" shapeType="triangle">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="7" y="244" width="498" height="36" text="Caption" measuredWidth="498" measuredHeight="36" layoutParams="anchor-left,anchor-right|anchor-bottom" background="#000000" alpha="192" border="false" textAlignment="Left" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="12" x="230" y="288" measuredWidth="36" measuredHeight="8" layoutParams="anchor-center|anchor-bottom">
+      <widgets xsi:type="model:Shape" id="8" width="8" height="8" measuredWidth="8" measuredHeight="8" background="#444444" border="false">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="9" x="14" width="8" height="8" measuredWidth="8" measuredHeight="8" background="#999999" border="false">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="10" x="28" width="8" height="8" measuredWidth="8" measuredHeight="8" background="#999999" border="false">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="61" x="32" y="346" height="296" measuredWidth="500" measuredHeight="296" name="Clearing Lightbox">
+    <widgets xsi:type="model:Panel" id="174" width="500" height="295" measuredWidth="500" measuredHeight="295" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+    <widgets xsi:type="model:Shape" id="62" width="500" height="159" text="Image" measuredWidth="500" measuredHeight="159" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#999999" border="false" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="50" x="467" y="20" width="14" measuredWidth="14" measuredHeight="14" layoutParams="anchor-right|anchor-top" name="Close">
+      <widgets xsi:type="model:Arrow" id="48" width="14" height="14" measuredWidth="14" measuredHeight="14" annotation="true" foreground="#ffffff" left="false"/>
+      <widgets xsi:type="model:Arrow" id="49" width="14" height="14" measuredWidth="14" measuredHeight="14" annotation="true" foreground="#ffffff" left="false" direction="bottom"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="54" x="17" y="104" measuredWidth="12" measuredHeight="23" layoutParams="anchor-left|anchor-middle" name="Previous">
+      <widgets xsi:type="model:Shape" id="55" width="12" height="23" measuredWidth="12" measuredHeight="23" border="false" rotation="270" shapeType="triangle">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="53" x="469" y="104" measuredWidth="12" measuredHeight="23" layoutParams="anchor-right|anchor-middle" name="Next">
+      <widgets xsi:type="model:Shape" id="52" width="12" height="23" measuredWidth="12" measuredHeight="23" border="false" rotation="90" shapeType="triangle">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Label" id="57" x="17" y="166" width="464" text="Description" measuredWidth="464" measuredHeight="25" layoutParams="anchor-left,anchor-right|anchor-bottom" textAlignment="Center" foreground="#cccccc">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="58" y="217" width="119" height="79" text="Image 1" measuredWidth="119" measuredHeight="79" layoutParams="anchor-left|anchor-bottom" background="#999999" border="false" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="59" x="125" y="217" width="119" height="79" text="Image 2" measuredWidth="119" measuredHeight="79" layoutParams="anchor-left|anchor-bottom" background="#999999" border="false" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="60" x="250" y="217" width="119" height="79" text="Image 3" measuredWidth="119" measuredHeight="79" layoutParams="anchor-left|anchor-bottom" background="#999999" border="false" shapeType="rectangle">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

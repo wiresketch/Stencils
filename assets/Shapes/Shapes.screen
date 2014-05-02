@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="3.3.0">
+  <widgets xsi:type="model:WidgetGroup" id="2" x="64" y="32" measuredWidth="100" measuredHeight="100" name="Diamond">
+    <widgets xsi:type="model:SVGImage" id="1" measuredWidth="100" measuredHeight="100" src="_diamond.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="216" y="32" measuredWidth="100" measuredHeight="100" name="Parallelogram">
+    <widgets xsi:type="model:SVGImage" id="3" measuredWidth="100" measuredHeight="100" src="_parallelogram.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="368" y="32" measuredWidth="100" measuredHeight="100" name="Triangle">
+    <widgets xsi:type="model:SVGImage" id="5" measuredWidth="100" measuredHeight="100" src="_triangle.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="8" x="504" y="32" measuredWidth="100" measuredHeight="100" name="Star">
+    <widgets xsi:type="model:SVGImage" id="7" measuredWidth="100" measuredHeight="100" src="_star.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="64" y="176" measuredWidth="100" measuredHeight="100" name="Octagon">
+    <widgets xsi:type="model:SVGImage" id="9" measuredWidth="100" measuredHeight="100" src="_octagon.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="216" y="176" measuredWidth="100" measuredHeight="100" name="Pentagon">
+    <widgets xsi:type="model:SVGImage" id="11" measuredWidth="100" measuredHeight="100" src="_pentagon.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="368" y="176" measuredWidth="100" measuredHeight="100" name="Hexagon">
+    <widgets xsi:type="model:SVGImage" id="13" measuredWidth="100" measuredHeight="100" src="_hexagon.svg"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="504" y="176" measuredWidth="100" measuredHeight="100" name="Trapezoid">
+    <widgets xsi:type="model:SVGImage" id="15" measuredWidth="100" measuredHeight="100" src="_trapezoid.svg"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

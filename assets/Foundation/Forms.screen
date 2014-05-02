@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="5" x="36" y="24" measuredWidth="67" measuredHeight="47" name="Text Input">
+    <widgets xsi:type="model:Label" id="2" text="Input Label" measuredWidth="67" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="3" y="24" text="Text Input" measuredWidth="67" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="36" y="257" measuredWidth="109" measuredHeight="48" name="Text Input Postfix">
+    <widgets xsi:type="model:Label" id="7" text="Input Label" measuredWidth="67" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="8" y="24" text="Text Input" measuredWidth="67" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="9" x="63" y="23" text=".com" measuredWidth="46" measuredHeight="25" layoutParams="anchor-right|anchor-top" state="selected">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="36" y="184" measuredWidth="65" measuredHeight="48" name="Select Box">
+    <widgets xsi:type="model:Label" id="14" text="Select Box" measuredWidth="64" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="15" y="25" text="Husker" measuredWidth="65" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="36" y="88" measuredWidth="126" measuredHeight="73" name="Text Area">
+    <widgets xsi:type="model:Label" id="21" text="Text Area Label" measuredWidth="91" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="23" y="25" width="126" height="48" measuredWidth="126" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="232" y="48" measuredWidth="143" measuredHeight="23" name="Text Input Inline">
+    <widgets xsi:type="model:Label" id="25" text="Label" measuredWidth="35" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="26" x="43" text="Inline Text Input" measuredWidth="100" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="32" x="232" y="239" measuredWidth="186" measuredHeight="122" name="Fieldset">
+    <widgets xsi:type="model:Group" id="28" width="186" height="122" text="Fieldset Legend" measuredWidth="186" measuredHeight="122" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="64">
+      <font size="16px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="36" y="336" measuredWidth="162" measuredHeight="25" name="Text Input Prefix">
+    <widgets xsi:type="model:TextField" id="34" x="58" y="1" text="Enter your URL..." measuredWidth="104" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="33" width="60" text="http://" measuredWidth="60" measuredHeight="25" layoutParams="anchor-left|anchor-top" state="selected">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="36" y="392" measuredWidth="73" measuredHeight="25" name="Text Input Action">
+    <widgets xsi:type="model:TextField" id="42" y="1" text="Value" measuredWidth="42" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="43" x="38" text="Go" measuredWidth="35" measuredHeight="25" layoutParams="anchor-right|anchor-top" background="#008cba">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="49" x="36" y="433" measuredWidth="100" measuredHeight="72" name="Text Input Error">
+    <widgets xsi:type="model:Label" id="46" text="Error" measuredWidth="35" measuredHeight="23" layoutParams="anchor-left|anchor-top" foreground="#f04124">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="48" y="46" width="100" height="26" text="Invalid entry" measuredWidth="100" measuredHeight="26" layoutParams="anchor-left,anchor-right|anchor-top" background="#f04124" border="false" textAlignment="Left" shapeType="rectangle">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="47" y="24" width="100" text="Text Input" measuredWidth="100" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="55" x="232" y="424" measuredWidth="145" measuredHeight="89" name="Text Area Error">
+    <widgets xsi:type="model:Label" id="51" text="Error" measuredWidth="35" measuredHeight="23" layoutParams="anchor-left|anchor-top" foreground="#f04124">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="52" y="63" width="145" height="26" text="Invalid entry" measuredWidth="145" measuredHeight="26" layoutParams="anchor-left,anchor-right|anchor-bottom" background="#f04124" border="false" textAlignment="Left" shapeType="rectangle">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="54" y="24" width="145" height="41" measuredWidth="145" measuredHeight="41" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="60" x="232" y="113" measuredWidth="169" measuredHeight="48" name="Text Area Inline">
+    <widgets xsi:type="model:Label" id="61" text="Label" measuredWidth="35" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="62" x="43" width="126" height="48" text="Inline Text Input" measuredWidth="126" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="63" x="232" y="188" measuredWidth="161" measuredHeight="23" name="Select Box Inline">
+    <widgets xsi:type="model:Label" id="64" text="Label" measuredWidth="35" measuredHeight="23" layoutParams="anchor-left|anchor-top">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="65" x="43" text="Inline Select Box" measuredWidth="118" measuredHeight="23" layoutParams="anchor-left,anchor-right|anchor-top">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="67" x="36" y="528" measuredWidth="100" measuredHeight="20" name="Range Slider">
+    <widgets xsi:type="model:HSlider" id="69" measuredWidth="100" measuredHeight="20" background="#008cba" skin="_range-slider.svg"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

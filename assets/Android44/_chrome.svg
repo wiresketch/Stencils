@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="98" width="384" version="1.1" ws-fill="#00F" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, chrome, canvas, separator, thumb, bar, icons;
+ var text;
+ var srcWidth, srcBarWidth, barPadding = 7, chromeHeight = 48, scrollbarPadding = 4, thumbWidth = 4;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	
+ 	chrome = doc.getElementById("chrome");
+ 	canvas = doc.getElementById("canvas");
+ 	separator = doc.getElementById("separator");
+ 	thumb = doc.getElementById("thumb");
+ 	bar = doc.getElementById("bar");
+ 	icons = doc.getElementById("icons");
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("id", "item0");
+ 	text.setAttribute("x", parseInt(bar.getAttribute("x")) + barPadding);
+ 	text.setAttribute("y", bar.getAttribute("y"));
+ 	text.setAttribute("height", bar.getAttribute("height"));
+ 	text.setAttribute("stroke", "black");
+ 	svg.appendChild(text);
+
+	chrome.setAttribute("height", chromeHeight);
+	
+ 	thumb.setAttribute("fill", "black");
+ 	thumb.setAttribute("opacity", "0.6");
+ 	thumb.setAttribute("width", thumbWidth);
+
+ 	srcWidth = parseInt(svg.getAttribute("width"));
+ 	srcBarWidth = parseInt(bar.getAttribute("width")); 	
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	bar.setAttribute("width", srcBarWidth + (width - srcWidth));	
+	icons.setAttribute("transform", "translate(" + (width - srcWidth) + ")");
+	chrome.setAttribute("width", width);
+	separator.setAttribute("d", "M1," + (chromeHeight) + "," + (width - 1) + "," + (chromeHeight));
+
+	var canvasHeight = height - chromeHeight;
+	
+	canvas.setAttribute("width", width);
+	canvas.setAttribute("height", canvasHeight);
+
+	if($model.verticalScrollbar) {
+		thumb.setAttribute("display", "inline");
+		
+		var scrollbarHeight = canvasHeight - scrollbarPadding * 2;
+		var thumbHeight = Math.round(scrollbarHeight / 5);
+		var thumbY = chromeHeight + scrollbarPadding + Math.round((scrollbarHeight - thumbHeight) * $model.value / 100);
+		
+		thumb.setAttribute("x", width - thumbWidth - scrollbarPadding);
+		thumb.setAttribute("y", thumbY);
+		thumb.setAttribute("height", thumbHeight);
+	} else {
+		thumb.setAttribute("display", "none");
+	}
+
+		
+	text.setAttribute("width", $items[0].width);
+ }
+ 
+ ]]></script>
+ <rect id="chrome" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" height="48" width="384" y="0" x="0" fill="#e1e1e1"/>
+ <rect id="canvas" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" height="50" width="384" y="48" x="0" fill="#00F"/>
+ <path id="separator" stroke-linejoin="miter" d="M1,48,383,48" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+ <rect id="thumb" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" height="19" width="4" y="54" x="376" fill="#000"/>
+ <rect id="bar" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" ry="3" height="31" width="276" y="8" x="10" fill="#FFF"/>
+ <g id="icons">
+  <g id="refresh">
+   <path id="path3807" stroke-linejoin="round" style="color:#000000;enable-background:accumulate;" d="M277,27.48c-1.2,2.1-3.5,3.52-6.1,3.52-3.9,0-7-3.13-7-7s3.1-7,7-7c2.4,0,4.5,1.18,5.7,3" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" fill="none"/>
+   <path id="rect3920" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" fill="#000" d="M279,16,279,23,272,23z"/>
+  </g>
+  <g id="tabs" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none">
+   <rect id="rect3770" style="color:#000000;enable-background:accumulate;" ry="1" height="15" width="15" y="18" x="306"/>
+   <path id="rect3772" style="color:#000000;enable-background:accumulate;" d="M303,30,303,16.1c0-0.61,0.5-1.1,1.1-1.1h13.9"/>
+  </g>
+  <path id="overflow" d="M363,29v5h-5v-5h5zm-5-7.66v5h5v-5h-5zm0-7.34v5h5v-5h-5z"/>
+ </g>
+</svg>

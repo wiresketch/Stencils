@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="24" width="24" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <cc:license rdf:resource=""/>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>add</rdf:li>
+      <rdf:li>insert</rdf:li>
+      <rdf:li>new</rdf:li>
+      <rdf:li>create</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="path7238" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" fill="#000" d="M12,0c-6.627,0-12,5.373-12,12,0,6.63,5.373,12,12,12,6.63,0,12-5.37,12-12,0-6.627-5.37-12-12-12zm-1,6h2v5h5v2h-5v5h-2v-5h-5v-2h5v-5z"/>
+</svg>

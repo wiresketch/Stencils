@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="31" width="52" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" ws-fill="#0F0" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, frame, toggle;
+ var fillOn, fillOff;
+ var text;
+ var minWidth, minHeight;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	frame = doc.getElementById("frame");
+ 	toggle = doc.getElementById("toggle");
+ 	fillOn = frame.getAttribute("fill");
+ 	fillOff = "#eee";
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("y", 0);
+ 	svg.appendChild(text);
+ 	
+ 	minWidth = parseInt(svg.getAttribute("width"));
+ 	minHeight = parseInt(svg.getAttribute("height"));
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	frame.setAttribute("width", width - 3);
+ 	frame.setAttribute("height", height - 2);
+ 	frame.setAttribute("ry", (height - 2) / 2);
+
+	toggle.setAttribute("cy", height / 2);
+ 	toggle.setAttribute("r", (height - 2) / 2);
+	
+	text.setAttribute("height", height);
+	text.setAttribute("width", width - height - height / 4);
+	
+ 	if($model.selected) {
+	 	frame.setAttribute("x", 1);
+ 		toggle.setAttribute("cx", width - height / 2);
+ 		frame.setAttribute("fill", fillOn);
+ 		text.setAttribute("x", height / 4);
+ 		text.setAttribute("fill", fillOn);
+ 		text.setAttribute("id", "item0");
+ 	} else {
+	 	frame.setAttribute("x", 2);
+ 		toggle.setAttribute("cx", height / 2);
+ 		frame.setAttribute("fill", fillOff);
+ 		text.setAttribute("x", height);
+ 		text.setAttribute("fill", fillOff);
+ 		text.setAttribute("id", "item1");
+ 	}
+
+	if($model.state == State.DISABLED) {
+		frame.setAttribute("stroke", "#808080");
+		toggle.setAttribute("stroke", "#808080");
+		frame.setAttribute("fill", "#CCC");
+		text.setAttribute("stroke", "#808080");
+		text.removeAttribute("fill");
+	} else {
+		frame.setAttribute("stroke", "black");
+		toggle.setAttribute("stroke", "black");
+	}
+ }
+ 
+ function getPreferredSize() {
+ 	var textWidth = Math.max($items[0].width, $items[1].width);
+ 	var textHeight = Math.max($items[0].height, $items[1].height);
+
+	var height = Math.max(textHeight, minHeight);
+	var width = Math.max(minWidth, textWidth + Math.round(height + height / 3));
+	
+	return {width: width, height: height }; 	
+ }
+ ]]></script>
+ <rect id="frame" ry="14.5" height="29" width="49" stroke="#000" y="1" x="1" stroke-width="2" fill="#0F0"/>
+ <circle id="toggle" cx="36.5" cy="15.5" r="14.5" stroke="#000" stroke-width="2" fill="#FFF"/>
+</svg>

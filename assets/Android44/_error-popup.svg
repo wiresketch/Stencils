@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="53" width="238" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, container, background, tip;
+ var text;
+ var hPadding = 14, vPadding = 8, tipHeight = 9, srcWidth;
+ var tipTemplate;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	container = doc.getElementById("container");
+ 	background = doc.getElementById("background");
+ 	tip = doc.getElementById("tip");
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("id", "item0");
+ 	text.setAttribute("y", vPadding);
+ 	text.setAttribute("fill", "white");
+ 	container.appendChild(text);
+ 	
+ 	background.setAttribute("fill", "white");
+ 	background.setAttribute("y", tipHeight - 1);
+ 	
+ 	tipTemplate = tip.getAttribute("d").
+ 		replace(/214/, "{x1}").
+ 		replace(/219/, "{x2}").
+ 		replace(/224/, "{x3}").
+ 		replace(/238/g, "{w}");
+ 		
+ 	srcWidth = parseInt(svg.getAttribute("width"));
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	background.setAttribute("width", width);
+ 	background.setAttribute("height", height - tipHeight + 1);
+ 	
+ 	tip.setAttribute("d", tipTemplate.
+ 		replace(/{x1}/, width - (srcWidth - 214)).
+ 		replace(/{x2}/, width - (srcWidth - 219)).
+ 		replace(/{x3}/, width - (srcWidth - 224)).
+ 		replace(/{w}/g, width));
+ 	
+ 	text.setAttribute("x", hPadding);
+ 	text.setAttribute("y", tipHeight + vPadding);
+ 	text.setAttribute("width", width - hPadding * 2);
+ 	text.setAttribute("height", height - tipHeight - vPadding * 2);
+ 	
+ 	var position = $model.position;
+
+	if(position == Position.TOP_RIGHT)
+		container.removeAttribute("transform");
+	else if(position == Position.BOTTOM_RIGHT)
+		container.setAttribute("transform", "scale(1,-1) translate(0,-" + height + ")");
+	else if(position == Position.TOP_LEFT)
+		container.setAttribute("transform", "scale(-1,1) translate(-" + width + ")");
+	else
+		container.setAttribute("transform", "scale(-1,-1) translate(-" + width + ",-" + height + ")");
+ }
+ 
+ function getPreferredSize() {
+ 	var width = $item.width + hPadding * 2;
+	var height = $item.height + vPadding * 2 + tipHeight;
+	
+	return { width: width, height: height }; 	
+ }
+ ]]></script>
+ <g id="container">
+ <rect id="background" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" height="45" width="238" y="8" x="0" fill="#000"/>
+ <path id="tip" style="enable-background:accumulate;color:#000000;" d="M0,5,214,5,219,0,224,5,238,5,238,9,0,9z" fill-rule="nonzero" fill="#F00"/>
+ </g>
+</svg>

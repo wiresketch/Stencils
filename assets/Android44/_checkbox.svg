@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="19" width="21" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, checkbox, box, check;
+ var text;
+ var minWidth, minHeight;
+ var spacing = 3;
+ var enabledColor, disabledColor = "#808080";
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	checkbox = doc.getElementById("checkbox");
+ 	box = doc.getElementById("box");
+ 	check = doc.getElementById("check");
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("y", 1);
+ 	text.setAttribute("stroke", "black");
+ 	text.setAttribute("id", "item0");
+ 	svg.appendChild(text);
+ 	
+ 	enabledColor = check.getAttribute("stroke");
+ 	
+ 	minWidth = parseInt(svg.getAttribute("width"));
+ 	minHeight = parseInt(svg.getAttribute("height"));
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+	if($item.blank) {
+ 		text.setAttribute("display", "none");
+	} else {
+ 		text.setAttribute("display", "inline");
+		text.setAttribute("x", minWidth + spacing);
+		text.setAttribute("height", height - 1);
+		text.setAttribute("width", width - minWidth - spacing);
+	}
+	
+ 	if($model.selected) {
+ 		check.setAttribute("display", "inline");
+ 	} else {
+ 		check.setAttribute("display", "none");
+ 	}
+ 	
+ 	if($model.state == State.DISABLED) {
+ 		box.setAttribute("stroke", disabledColor);
+ 		check.setAttribute("stroke", disabledColor);
+ 		text.setAttribute("stroke", disabledColor);
+ 	} else {
+ 		box.setAttribute("stroke", "black");
+ 		check.setAttribute("stroke", enabledColor);
+ 		text.setAttribute("stroke", "black");
+ 	}
+ 	
+ 	if(height > minHeight) {
+ 		checkbox.setAttribute("transform", "translate(0," + Math.round((height - minHeight) / 2) + ")");
+ 	} else {
+ 		checkbox.removeAttribute("transform");
+ 	}
+ }
+ 
+ function getPreferredSize() {
+	var height = minHeight;
+	var width = minWidth;
+	
+	if(!$item.blank) {
+		width += spacing + $item.width;
+		height = Math.max($item.height, minHeight);
+	}
+	
+	return {width: width, height: height }; 	
+ }
+ ]]></script>
+ <g id="checkbox">
+ <rect id="box" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" ry="0" height="16" width="16" stroke="#000" y="2" x="1" stroke-width="2" fill="none"/>
+ <path id="check" stroke-linejoin="miter" d="M6,9,9,12,18,3" stroke="#249ecf" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ </g>
+</svg>

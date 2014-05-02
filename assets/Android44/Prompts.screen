@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.2">
+  <widgets xsi:type="model:WidgetGroup" id="5" x="10" y="10" measuredWidth="250" measuredHeight="170" name="Alert">
+    <widgets xsi:type="model:Alert" id="1" text="%(font:22)Alert%&#xA;Alert message&#xA;OK, Cancel" measuredWidth="250" measuredHeight="170" icon="warning (large)" skin="_alert.svg">
+      <items x="1" y="121" width="124" height="49" text="OK"/>
+      <items x="125" y="121" width="124" height="49" text="Cancel"/>
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="288" y="10" measuredWidth="250" measuredHeight="129" name="Alert no Title">
+    <widgets xsi:type="model:Alert" id="7" text="&#xA;Alert message\nwith multiple lines&#xA;OK, Cancel" measuredWidth="250" measuredHeight="129" skin="_alert.svg">
+      <items x="1" y="80" width="124" height="49" text="OK"/>
+      <items x="125" y="80" width="124" height="49" text="Cancel"/>
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="8" x="10" y="208" width="300" measuredWidth="300" measuredHeight="257" name="Dialog">
+    <widgets xsi:type="model:Alert" id="9" width="300" height="257" text="%(font:22)Dialog%&#xA;&#xA;OK, Cancel" measuredWidth="300" measuredHeight="257" skin="_alert.svg">
+      <items x="1" y="208" width="149" height="49" text="OK"/>
+      <items x="150" y="208" width="149" height="49" text="Cancel"/>
+      <font size="18px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="10" y="480" measuredWidth="151" measuredHeight="44" name="Toast">
+    <widgets xsi:type="model:Shape" id="10" width="151" height="44" text="Toast message" measuredWidth="151" measuredHeight="44" background="#444444" alpha="192" shapeType="rectangle-round">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="336" y="160" measuredWidth="250" measuredHeight="263" name="Popup">
+    <widgets xsi:type="model:Alert" id="22" height="263" text="%(font:22)Share via%&#xA;" measuredWidth="250" measuredHeight="263" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" skin="_alert.svg">
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="29" x="2" y="69" width="246" text="{email} Email&#xA;{facebook} Facebook&#xA;{twitter} Twitter&#xA;{image} Another app" measuredWidth="246" measuredHeight="192" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" rowHeight="47" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="246" height="47" text="{email} Email"/>
+      <items x="0" y="49" width="246" height="47" text="{facebook} Facebook"/>
+      <items x="0" y="96" width="246" height="47" text="{twitter} Twitter"/>
+      <items x="0" y="143" width="246" height="47" text="{image} Another app"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="10" y="544" measuredWidth="330" measuredHeight="305" name="Time Picker">
+    <widgets xsi:type="model:Alert" id="31" width="330" height="305" text="%(font:22)Set time%&#xA;&#xA;Cancel, Set" measuredWidth="330" measuredHeight="305" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" skin="_alert.svg">
+      <items x="1" y="256" width="164" height="49" text="Cancel"/>
+      <items x="165" y="256" width="164" height="49" text="Set"/>
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="52" x="35" y="88" measuredWidth="260" measuredHeight="151" layoutParams="anchor-center|anchor-middle">
+      <widgets xsi:type="model:WidgetGroup" id="33" measuredWidth="64" measuredHeight="151" name="Picker">
+        <widgets xsi:type="model:Label" id="34" width="64" text="07" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="35" y="60" width="64" text="08" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="36" y="120" width="64" text="09" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:HLine" id="37" y="46" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+        <widgets xsi:type="model:HLine" id="38" y="96" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="39" x="75" y="57" text=":" measuredWidth="11" measuredHeight="36" textAlignment="Center">
+        <font size="22px"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="40" x="98" measuredWidth="64" measuredHeight="151" name="Picker">
+        <widgets xsi:type="model:Label" id="41" width="64" text="29" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="42" y="60" width="64" text="30" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="43" y="120" width="64" text="31" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:HLine" id="44" y="46" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+        <widgets xsi:type="model:HLine" id="45" y="96" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="46" x="196" measuredWidth="64" measuredHeight="151" name="Picker">
+        <widgets xsi:type="model:Label" id="47" width="64" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="48" y="60" width="64" text="AM" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="49" y="120" width="64" text="PM" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:HLine" id="50" y="46" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+        <widgets xsi:type="model:HLine" id="51" y="96" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="392" y="544" measuredWidth="330" measuredHeight="305" name="Date Picker">
+    <widgets xsi:type="model:Alert" id="54" width="330" height="305" text="%(font:22)Set date%&#xA;&#xA;Cancel, Set" measuredWidth="330" measuredHeight="305" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" skin="_alert.svg">
+      <items x="1" y="256" width="164" height="49" text="Cancel"/>
+      <items x="165" y="256" width="164" height="49" text="Set"/>
+      <font size="18px"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="55" x="35" y="88" measuredWidth="260" measuredHeight="151" layoutParams="anchor-center|anchor-middle">
+      <widgets xsi:type="model:WidgetGroup" id="56" measuredWidth="64" measuredHeight="151" name="Picker">
+        <widgets xsi:type="model:Label" id="57" width="64" text="Sep" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="58" y="60" width="64" text="Oct" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="59" y="120" width="64" text="Nov" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:HLine" id="60" y="46" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+        <widgets xsi:type="model:HLine" id="61" y="96" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="63" x="98" measuredWidth="64" measuredHeight="151" name="Picker">
+        <widgets xsi:type="model:Label" id="64" width="64" text="06" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="65" y="60" width="64" text="07" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="66" y="120" width="64" text="08" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:HLine" id="67" y="46" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+        <widgets xsi:type="model:HLine" id="68" y="96" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="69" x="196" measuredWidth="64" measuredHeight="151" name="Picker">
+        <widgets xsi:type="model:Label" id="70" width="64" text="2010" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="71" y="60" width="64" text="2011" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="72" y="120" width="64" text="2012" measuredWidth="64" measuredHeight="31" textAlignment="Center">
+          <font size="18px"/>
+        </widgets>
+        <widgets xsi:type="model:HLine" id="73" y="46" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+        <widgets xsi:type="model:HLine" id="74" y="96" width="64" measuredWidth="64" measuredHeight="6" foreground="#249ecf"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="97" x="616" y="160" measuredWidth="246" measuredHeight="192" name="Popup no Title">
+    <widgets xsi:type="model:List" id="96" width="246" text="{video} Use popups&#xA;{image} For a single&#xA;{microphone} Selection&#xA;{computer} From the user" measuredWidth="246" measuredHeight="192" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" rowHeight="47" horizontalLines="true">
+      <font size="18px"/>
+      <items x="0" y="2" width="246" height="47" text="{video} Use popups"/>
+      <items x="0" y="49" width="246" height="47" text="{image} For a single"/>
+      <items x="0" y="96" width="246" height="47" text="{microphone} Selection"/>
+      <items x="0" y="143" width="246" height="47" text="{computer} From the user"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="12px"/>
+</model:Screen>

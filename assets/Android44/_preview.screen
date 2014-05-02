@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" theme="clean" minVersion="4.2.2">
+  <widgets xsi:type="model:Master" id="1" x="32" y="32" measuredWidth="975" measuredHeight="1452">
+    <screen xsi:type="model:WidgetGroup" href="Devices.screen#Tablet%20Portrait"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="120" y="144" width="800" measuredWidth="800" measuredHeight="150">
+    <screen xsi:type="model:WidgetGroup" href="Controls.screen#Chrome%20Tablet"/>
+    <overrides>
+      <widgets ref="58" width="800">
+        <attributes key="background" value="#ffffff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="257" y="204" measuredWidth="690" measuredHeight="1220">
+    <screen xsi:type="model:WidgetGroup" href="Devices.screen#Tablet%20Small%20Portrait"/>
+    <overrides>
+      <widgets ref="12">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="702" y="408" measuredWidth="200" measuredHeight="192">
+    <screen xsi:type="model:WidgetGroup" href="Navigation.screen#Menu"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="471" y="528" measuredWidth="406" measuredHeight="794">
+    <screen xsi:type="model:WidgetGroup" href="Devices.screen#Phone"/>
+    <overrides>
+      <widgets ref="2">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="25" x="494" y="622" measuredWidth="360" measuredHeight="568">
+    <screen xsi:type="model:WidgetGroup" href="Content.screen#Home%20Screen"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="302" y="358" width="600" measuredWidth="600" measuredHeight="50">
+    <screen xsi:type="model:WidgetGroup" href="Navigation.screen#Action%20Bar"/>
+    <overrides>
+      <widgets ref="2" width="600"/>
+      <widgets ref="7" x="560"/>
+      <widgets ref="11" x="514"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="549" y="816" measuredWidth="250" measuredHeight="170">
+    <screen xsi:type="model:WidgetGroup" href="Prompts.screen#Alert"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="1032" y="32" measuredWidth="361" measuredHeight="736">
+    <screen xsi:type="model:Screen" href="Controls.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="57"/>
+      <widgets ref="1">
+        <attributes key="selected" value="true"/>
+      </widgets>
+      <widgets ref="14" width="361"/>
+      <widgets ref="4" width="361" text="APPS, WIDGETS">
+        <items ref="@items.2" text="WIDGETS"/>
+        <items ref="@items.0" text="APPS"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+      </widgets>
+      <widgets ref="75" width="361"/>
+      <widgets ref="76" width="361"/>
+      <widgets ref="32" x="10" y="524"/>
+      <widgets ref="37" width="193"/>
+      <widgets ref="34" width="168"/>
+      <widgets ref="40" x="177"/>
+      <widgets ref="51" x="184" y="524"/>
+      <widgets ref="53" x="322" y="524"/>
+      <widgets ref="56" height="62">
+        <attributes key="background" value="#ffffff"/>
+      </widgets>
+      <widgets ref="59" x="98" y="605" width="273"/>
+      <widgets ref="60" width="273"/>
+      <widgets ref="62" x="237"/>
+      <widgets ref="55" height="62"/>
+      <widgets ref="81" x="234" width="137" height="92"/>
+      <widgets ref="80" width="137" height="92" text="Text area">
+        <attributes key="verticalScrollbar" value="true"/>
+        <attributes key="background" value="#f3f3f3"/>
+        <attributes key="alpha" value="255"/>
+      </widgets>
+      <widgets ref="83" x="335" y="377"/>
+      <widgets ref="87" x="311" y="408"/>
+      <widgets ref="89" x="294" y="482"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="1032" y="788" measuredWidth="360" measuredHeight="167">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%201%20Line"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="1032" y="975" measuredWidth="360" measuredHeight="220">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%202%20Lines"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="1032" y="1216" measuredWidth="360" measuredHeight="268">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%203%20Lines"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="1180" y="32" measuredWidth="211" measuredHeight="44">
+    <screen xsi:type="model:WidgetGroup" href="Prompts.screen#Toast"/>
+    <overrides>
+      <widgets ref="10" width="211"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="1418" y="30" width="360" measuredWidth="360" measuredHeight="305">
+    <screen xsi:type="model:WidgetGroup" href="Prompts.screen#Time%20Picker"/>
+    <overrides>
+      <widgets ref="31" width="360"/>
+      <widgets ref="52" x="50"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="16" x="1418" y="349" width="360" measuredWidth="360" measuredHeight="305">
+    <screen xsi:type="model:WidgetGroup" href="Prompts.screen#Date%20Picker"/>
+    <overrides>
+      <widgets ref="54" width="360"/>
+      <widgets ref="55" x="50"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="20" x="1418" y="673" width="360" measuredWidth="360" measuredHeight="129">
+    <screen xsi:type="model:WidgetGroup" href="Prompts.screen#Alert%20no%20Title"/>
+    <overrides>
+      <widgets ref="7" width="360"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="1418" y="811" measuredWidth="360" measuredHeight="167">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%20Checks"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="1418" y="978" measuredWidth="360" measuredHeight="167">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%20Radio"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="23" x="1418" y="1146" measuredWidth="360" measuredHeight="338">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%20Contacts"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="12px"/>
+</model:Screen>

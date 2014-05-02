@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="20" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, field, triangle, dropdown, frame, separator, background;
+ var text;
+ var fieldHeight = 6;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	field = doc.getElementById("field");
+ 	triangle = doc.getElementById("triangle");
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("id", "item0");
+ 	text.setAttribute("y", 0);
+ 	text.setAttribute("stroke", "black");
+ 	svg.appendChild(text);
+ 	
+ 	dropdown = doc.createElement("g");
+ 	svg.appendChild(dropdown);
+ 	
+ 	frame = doc.createElement("rect");
+ 	frame.setAttribute("stroke", "black");
+ 	frame.setAttribute("fill", "white");
+ 	frame.setAttribute("stroke-width", "2");
+ 	frame.setAttribute("x", 1);
+ 	
+ 	separator = doc.createElement("path");
+ 	separator.setAttribute("stroke", "black");
+ 	separator.setAttribute("stroke-width", "2");
+ 	
+ 	background = doc.createElement("rect");
+ 	background.setAttribute("x", 0);
+ 	background.setAttribute("y", 0);
+ 	background.setAttribute("fill", "white");
+ 	svg.insertBefore(background, triangle);
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	var hPadding = Math.round($items[0].height / 3); 
+ 	var vPadding = Math.round($items[0].height / 2) - 4;
+
+ 	var fieldHeight = $items[0].height + vPadding * 2;
+ 	
+ 	text.setAttribute("x", hPadding);
+ 	text.setAttribute("width", width - hPadding * 2);
+ 	text.setAttribute("height", fieldHeight);
+
+ 	background.setAttribute("width", width);
+ 	background.setAttribute("height", fieldHeight);
+ 	
+ 	field.setAttribute("d", "M1," + (fieldHeight - 1) + "," + (width - 1) + "," + (fieldHeight - 1));
+ 	triangle.setAttribute("transform", "translate(" + (width - 100) + "," + (fieldHeight - 20) + ")");
+ 	
+ 	if($model.state == State.DISABLED) {
+ 		field.setAttribute("stroke", "#808080");
+ 		triangle.setAttribute("stroke", "#808080");
+ 		triangle.setAttribute("fill", "#808080");
+ 		text.setAttribute("stroke", "#808080");
+ 		text.removeAttribute("fill");
+ 	} else if($model.state == State.FOCUSED) {
+ 		field.setAttribute("stroke", "#249ecf");
+ 		triangle.setAttribute("stroke", "#249ecf");
+ 		triangle.setAttribute("fill", "#249ecf");
+ 		text.removeAttribute("stroke");
+ 		text.setAttribute("fill", "white");
+ 	} else {
+ 		field.setAttribute("stroke", $model.borderColor);
+ 		triangle.setAttribute("stroke", $model.borderColor);
+ 		triangle.setAttribute("fill", $model.borderColor);
+ 		text.removeAttribute("stroke");
+ 		text.setAttribute("fill", "white");
+ 	}
+ 	
+ 	if($items.length <= 1) {
+ 		dropdown.setAttribute("display", "none");
+ 	} else {
+ 		dropdown.setAttribute("display", "inline");
+ 		clearNode(dropdown);
+ 		
+ 		frame.setAttribute("y", fieldHeight + 3);
+ 		frame.setAttribute("width", width - 2);
+ 		frame.setAttribute("height", height - fieldHeight - 4);
+ 		dropdown.appendChild(frame);
+ 		
+	 	for(var i = 1, n = $items.length, top = fieldHeight + 3; i < n; i ++) {
+	 		var item = $items[i];
+	 		var itemHeight = item.height + (vPadding + 4) * 2;
+	 		
+	 		var itemText = doc.createElement("foreignObject");
+	 		itemText.setAttribute("id", "item" + i);
+	 		itemText.setAttribute("stroke", "black");
+	 		itemText.setAttribute("x", hPadding);
+	 		itemText.setAttribute("width", width - hPadding * 2);
+	 		itemText.setAttribute("y", top);
+	 		itemText.setAttribute("height", itemHeight);
+	 		dropdown.appendChild(itemText);
+	 		
+	 		top += itemHeight;
+	 		
+	 		if(i < n - 1) {
+	 			var sep = separator.cloneNode(false);
+	 			sep.setAttribute("d", "M1," + (top) + "," + (width - 1) + "," + (top));
+	 			dropdown.appendChild(sep);
+	 		}
+	 	} 		
+ 	}
+ }
+ 
+ function getPreferredSize() {
+ 	if($items.length == 0)
+ 		return {};
+ 		
+ 	var hPadding = Math.round($items[0].height / 3); 
+ 	var vPadding = Math.round($items[0].height / 2) - 4;
+ 	
+ 	var width = $items[0].width + hPadding * 2;
+ 	var height = $items[0].height + vPadding * 2;
+ 	
+ 	for(var i = 1, n = $items.length; i < n; i ++) {
+ 		width = Math.max(width, $items[i].width + hPadding * 2);
+ 		height += $items[i].height + (vPadding + 4) * 2;
+ 	}
+ 	
+ 	if(n > 1)
+ 		height += 4;
+ 		
+	return { width: width, height: height };
+ }
+ 
+ function clearNode(node) {
+ 	while (node.firstChild) {
+ 		node.removeChild(node.firstChild);
+ 	}
+ } 
+ ]]></script>
+ <path id="triangle" d="M99,8,99,19,88,19,99,8z" fill-rule="nonzero" stroke="#000" stroke-miterlimit="4" stroke-width="2" fill="#000"/>
+ <path id="field" stroke-linejoin="miter" d="M1,19,99,19" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="23" width="99" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, frame, toggle;
+ var fillOn = "#fff", fillOff = "#525252", fillDisabled = "#525252";
+ var text;
+ var minWidth, minHeight;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	frame = doc.getElementById("frame");
+ 	toggle = doc.getElementById("toggle");
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("y", 0);
+ 	svg.appendChild(text);
+ 	
+ 	minWidth = parseInt(svg.getAttribute("width"));
+ 	minHeight = parseInt(svg.getAttribute("height"));
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	frame.setAttribute("width", width);
+ 	frame.setAttribute("height", height);
+	
+	var toggleWidth = Math.floor(width / 2);
+	
+	toggle.setAttribute("width", toggleWidth);
+	toggle.setAttribute("height", height - 2);
+	
+	text.setAttribute("height", height);
+	text.setAttribute("width", toggleWidth);
+	
+ 	if($model.selected) {
+ 		toggle.setAttribute("fill", fillOn);
+ 		toggle.setAttribute("x", width - toggleWidth - 1);
+ 		text.setAttribute("x", width - toggleWidth - 1);
+ 		text.setAttribute("fill", fillOn);
+ 		text.setAttribute("id", "item1");
+ 	} else {
+ 		toggle.setAttribute("fill", fillOff);
+ 		toggle.setAttribute("x", 1);
+ 		text.setAttribute("x", 1);
+ 		text.setAttribute("fill", fillOff);
+ 		text.setAttribute("id", "item0");
+ 	}
+
+	if($model.state == State.DISABLED) {
+		toggle.setAttribute("fill", fillDisabled);
+		text.setAttribute("stroke", "#aaa");
+		text.removeAttribute("fill");
+	} else {
+		text.removeAttribute("stroke");
+	}
+ }
+ 
+ function getPreferredSize() {
+ 	var textWidth = Math.max($items[0].width, $items[1].width);
+ 	var textHeight = Math.max($items[0].height, $items[1].height);
+
+	var height = Math.max(textHeight, minHeight);
+	var width = Math.max(minWidth, (textWidth + 12*2) * 2);
+	
+	return {width: width, height: height }; 	
+ }
+ ]]></script>
+ <rect id="frame" style="enable-background:accumulate;color:#000000;" ry="0" height="23" width="99" y="0" x="0" fill="#555" opacity="0.5"/>
+ <rect id="toggle" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" ry="1.3" height="21" width="48" y="1" x="50" fill="#FFF"/>
+</svg>

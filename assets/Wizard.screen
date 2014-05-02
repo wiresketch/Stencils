@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:XMI="http://www.omg.org/XMI" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" XMI:version="2.0">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="25" y="25" measuredWidth="619" measuredHeight="632">
+    <widgets xsi:type="model:Window" id="2" width="619" height="632" text="Wizard" measuredWidth="619" measuredHeight="632"/>
+    <widgets xsi:type="model:HLine" id="3" x="3" y="92" width="613" measuredWidth="613" measuredHeight="6"/>
+    <widgets xsi:type="model:HLine" id="4" x="4" y="566" width="613" measuredWidth="613" measuredHeight="6"/>
+    <widgets xsi:type="model:Icon" id="5" x="23" y="589" measuredWidth="16" measuredHeight="16" icon="help (small)"/>
+    <widgets xsi:type="model:Placeholder" id="6" x="541" y="23" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="180" y="608" width="107" height="29" text="&lt; Back" measuredWidth="107" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="288" y="608" width="107" height="29" text="Next >" measuredWidth="107" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="9" x="408" y="608" width="107" height="29" text="Finish" measuredWidth="107" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="523" y="608" width="107" height="29" text="Cancel" measuredWidth="107" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="35" y="57" text="Title" measuredWidth="35" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="12" x="40" y="83" width="526" height="34" text="Description" measuredWidth="526" measuredHeight="34">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   height="64"
+   width="64"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="ios7-camera.svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     id="namedview7"
+     showgrid="true"
+     inkscape:zoom="14.75"
+     inkscape:cx="26.88"
+     inkscape:cy="33.95"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2986"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       dotted="true" />
+  </sodipodi:namedview>
+  <title
+     id="title2818">WireframeSketcher SVG asset</title>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>WireframeSketcher SVG asset</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Peter Severin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>camera</rdf:li>
+            <rdf:li>photo</rdf:li>
+            <rdf:li>shoot</rdf:li>
+            <rdf:li>picture</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="rect7198"
+     d="M 25,15 21,20 9.812,20 C 8.833,20.09 8,21.01 8,22 L 8,50 C 8,51.05 8.95,52 10,52 L 56,52 C 57.05,52 58,51.05 58,50 L 58,22 C 58,20.95 57.05,20 56,20 L 45,20 41,15 z M 33.5,22 C 40.38,22 46,27.62 46,34.5 46,41.38 40.38,47 33.5,47 26.62,47 21,41.38 21,34.5 21,27.62 26.62,22 33.5,22 z M 47,23 C 48.1,23 49,23.9 49,25 49,26.1 48.1,27 47,27 45.9,27 45,26.1 45,25 45,23.9 45.9,23 47,23 z M 33.5,26 C 28.78,26 25,29.78 25,34.5 25,39.22 28.78,43 33.5,43 38.22,43 42,39.22 42,34.5 42,29.78 38.22,26 33.5,26 z"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-rule:nonzero"
+     sodipodi:nodetypes="cccssssssscccsssssssssssssss" />
+  <rect
+     id="rect7727"
+     style="color:#000000;enable-background:accumulate;"
+     fill-rule="nonzero"
+     height="2"
+     width="6"
+     y="16"
+     x="12"
+     fill="#000" />
+</svg>

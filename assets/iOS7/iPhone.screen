@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="19" x="24" y="24" measuredWidth="375" measuredHeight="795" name="iPhone">
+    <widgets xsi:type="model:SVGImage" id="17" measuredWidth="375" measuredHeight="795" background="#eeeeee" src="_iphone.svg"/>
+    <widgets xsi:type="model:Panel" id="18" x="29" y="117" width="320" height="568" measuredWidth="320" measuredHeight="568" alpha="0" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="34" x="29" y="117" measuredWidth="320" measuredHeight="20" name="Status Bar">
+      <widgets xsi:type="model:Panel" id="35" width="320" height="20" measuredWidth="320" measuredHeight="20" background="#eeeeee" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="36" x="7" y="7" measuredWidth="34" measuredHeight="6" layoutParams="anchor-left|anchor-top" src="_signal.svg"/>
+      <widgets xsi:type="model:Text" id="37" x="44" y="2" text="Carrier {wifi}" measuredWidth="57" measuredHeight="16" layoutParams="anchor-left|anchor-top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="38" x="128" y="2" width="63" text="10:05 AM" measuredWidth="63" measuredHeight="15" layoutParams="anchor-center|anchor-top" textAlignment="Center">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:SVGImage" id="46" x="287" y="5" width="26" height="10" measuredWidth="26" measuredHeight="10" background="#000000" foreground="#444444" src="_battery.svg"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="424" y="24" measuredWidth="795" measuredHeight="375" name="iPhone Landscape">
+    <widgets xsi:type="model:SVGImage" id="21" measuredWidth="795" measuredHeight="375" background="#eeeeee" rotation="270" src="_iphone.svg"/>
+    <widgets xsi:type="model:Panel" id="22" x="117" y="26" width="568" height="320" measuredWidth="568" measuredHeight="320" alpha="0" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="40" x="117" y="26" measuredWidth="568" measuredHeight="20" name="Status Bar">
+      <widgets xsi:type="model:Panel" id="41" width="568" height="20" measuredWidth="568" measuredHeight="20" background="#eeeeee" border="none"/>
+      <widgets xsi:type="model:SVGImage" id="42" x="7" y="7" measuredWidth="34" measuredHeight="6" layoutParams="anchor-left|anchor-top" src="_signal.svg"/>
+      <widgets xsi:type="model:Text" id="43" x="44" y="2" text="Carrier {wifi}" measuredWidth="57" measuredHeight="16" layoutParams="anchor-left|anchor-top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="44" x="252" y="2" width="63" text="10:05 AM" measuredWidth="63" measuredHeight="15" layoutParams="anchor-center|anchor-top" textAlignment="Center">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:SVGImage" id="48" x="535" y="5" width="26" height="10" measuredWidth="26" measuredHeight="10" background="#000000" foreground="#444444" src="_battery.svg"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="49" x="53" y="160" measuredWidth="320" measuredHeight="45" name="Safari">
+    <widgets xsi:type="model:SVGImage" id="53" width="320" height="45" measuredWidth="320" measuredHeight="45" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" src="_panel.svg"/>
+    <widgets xsi:type="model:Shape" id="51" x="10" y="4" width="300" height="29" text="wireframesketcher.com" measuredWidth="300" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-top" background="#cccccc" border="false" shapeType="rectangle-rounded">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="52" x="283" y="6" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ios7-refresh (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="54" x="53" y="493" measuredWidth="320" measuredHeight="216" name="Keyboard">
+    <widgets xsi:type="model:Panel" id="55" width="320" height="216" measuredWidth="320" measuredHeight="216" background="#f3f3f3" border="none"/>
+    <widgets xsi:type="model:Button" id="56" x="3" y="12" width="26" height="39" text="Q" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="57" x="35" y="12" width="26" height="39" text="W" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="58" x="67" y="12" width="26" height="39" text="E" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="59" x="99" y="12" width="26" height="39" text="R" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="60" x="131" y="12" width="26" height="39" text="T" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="61" x="163" y="12" width="26" height="39" text="Y" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="62" x="195" y="12" width="26" height="39" text="U" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="63" x="227" y="12" width="26" height="39" text="I" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="64" x="259" y="12" width="26" height="39" text="O" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="65" x="291" y="12" width="26" height="39" text="P" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="66" x="19" y="66" width="26" height="39" text="A" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="67" x="51" y="66" width="26" height="39" text="S" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="68" x="83" y="66" width="26" height="39" text="D" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="69" x="115" y="66" width="26" height="39" text="F" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="70" x="147" y="66" width="26" height="39" text="G" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="71" x="179" y="66" width="26" height="39" text="H" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="72" x="211" y="66" width="26" height="39" text="J" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="73" x="243" y="66" width="26" height="39" text="K" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="74" x="275" y="66" width="26" height="39" text="L" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="75" x="51" y="120" width="26" height="39" text="Z" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="76" x="83" y="120" width="26" height="39" text="X" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="77" x="115" y="120" width="26" height="39" text="C" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="78" x="147" y="120" width="26" height="39" text="V" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="79" x="179" y="120" width="26" height="39" text="B" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="80" x="211" y="120" width="26" height="39" text="N" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="81" x="243" y="120" width="26" height="39" text="M" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="82" x="3" y="120" width="36" height="39" measuredWidth="36" measuredHeight="39" background="#cccccc" icon="arrow-up (small)">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="83" x="281" y="120" height="39" measuredWidth="36" measuredHeight="39" background="#cccccc" icon="backspace (small)">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="84" x="3" y="174" width="36" height="39" text="123" measuredWidth="36" measuredHeight="39" background="#cccccc">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="85" x="43" y="174" width="36" height="39" measuredWidth="36" measuredHeight="39" background="#cccccc" icon="internet (small)">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="86" x="83" y="174" width="27" height="39" measuredWidth="27" measuredHeight="39" icon="microphone (small)">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="87" x="115" y="174" width="123" height="39" text="space" measuredWidth="123" measuredHeight="39">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="88" x="243" y="174" width="74" height="39" text="return" measuredWidth="74" measuredHeight="39" background="#cccccc">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="89" x="88" y="576" measuredWidth="320" measuredHeight="216" name="Numpad">
+    <widgets xsi:type="model:Panel" id="90" width="320" height="216" measuredWidth="320" measuredHeight="216" background="#f3f3f3" border="none"/>
+    <widgets xsi:type="model:Button" id="91" x="3" y="12" width="26" height="39" text="1" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="92" x="35" y="12" width="26" height="39" text="2" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="93" x="67" y="12" width="26" height="39" text="3" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="94" x="99" y="12" width="26" height="39" text="4" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="95" x="131" y="12" width="26" height="39" text="5" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="96" x="163" y="12" width="26" height="39" text="6" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="97" x="195" y="12" width="26" height="39" text="7" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="98" x="227" y="12" width="26" height="39" text="8" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="99" x="259" y="12" width="26" height="39" text="9" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="100" x="291" y="12" width="26" height="39" text="0" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="101" x="51" y="120" width="39" height="39" text="." measuredWidth="39" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="102" x="3" y="120" width="36" height="39" text="#+=" measuredWidth="36" measuredHeight="39" background="#cccccc">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="103" x="281" y="120" height="39" measuredWidth="36" measuredHeight="39" background="#cccccc" icon="backspace (small)">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="104" x="3" y="174" width="36" height="39" text="ABC" measuredWidth="36" measuredHeight="39" background="#cccccc">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="105" x="43" y="174" width="36" height="39" measuredWidth="36" measuredHeight="39" background="#cccccc" icon="internet (small)">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="106" x="83" y="174" width="27" height="39" measuredWidth="27" measuredHeight="39" icon="microphone (small)">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="107" x="115" y="174" width="123" height="39" text="space" measuredWidth="123" measuredHeight="39">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="108" x="243" y="174" width="74" height="39" text="return" measuredWidth="74" measuredHeight="39" background="#cccccc">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="109" x="3" y="66" width="26" height="39" text="-" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="110" x="35" y="66" width="26" height="39" text="/" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="111" x="67" y="66" width="26" height="39" text=":" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="112" x="99" y="66" width="26" height="39" text=";" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="113" x="131" y="66" width="26" height="39" text="(" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="114" x="163" y="66" width="26" height="39" text=")" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="115" x="195" y="66" width="26" height="39" text="$" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="116" x="227" y="66" width="26" height="39" text="&amp;" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="117" x="259" y="66" width="26" height="39" text="@" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="118" x="291" y="66" width="26" height="39" text="&quot;" measuredWidth="26" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="119" x="96" y="120" width="39" height="39" text="," measuredWidth="39" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="120" x="142" y="120" width="39" height="39" text="?" measuredWidth="39" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="121" x="187" y="120" width="39" height="39" text="!" measuredWidth="39" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="122" x="233" y="120" width="39" height="39" text="'" measuredWidth="39" measuredHeight="39">
+      <font size="21px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="123" x="448" y="344" measuredWidth="320" measuredHeight="568" name="Unlock Screen">
+    <widgets xsi:type="model:Panel" id="124" width="320" height="568" measuredWidth="320" measuredHeight="568" background="#f3f3f3" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="125" x="7" y="2" measuredWidth="306" measuredHeight="16" name="Status Bar">
+      <widgets xsi:type="model:SVGImage" id="126" y="5" measuredWidth="34" measuredHeight="6" layoutParams="anchor-left|anchor-top" src="_signal.svg"/>
+      <widgets xsi:type="model:Text" id="127" x="37" text="Carrier {wifi}" measuredWidth="57" measuredHeight="16" layoutParams="anchor-left|anchor-top">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:SVGImage" id="128" x="280" y="3" width="26" height="10" measuredWidth="26" measuredHeight="10" background="#000000" foreground="#444444" src="_battery.svg"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="129" x="142" y="10" width="37" height="8" measuredWidth="37" measuredHeight="8" background="#000000" border="false" shapeType="rectangle-round">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="130" x="142" y="551" width="37" height="8" measuredWidth="37" measuredHeight="8" background="#000000" border="false" shapeType="rectangle-round">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="131" y="40" width="320" text="12:00" measuredWidth="320" measuredHeight="90" textAlignment="Center">
+      <font size="72px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="132" y="124" width="320" text="Monday, July 29" measuredWidth="320" measuredHeight="30" textAlignment="Center">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="133" x="63" y="471" text="slide to unlock" measuredWidth="178" measuredHeight="35" icon="assets/ios7-arrow-detail (medium)">
+      <font size="23px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="135" x="792" y="344" measuredWidth="320" measuredHeight="568" name="Modal Screen">
+    <widgets xsi:type="model:Panel" id="134" width="320" height="568" measuredWidth="320" measuredHeight="568" background="#444444" alpha="128" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="155" x="1152" y="364" measuredWidth="320" measuredHeight="548" name="Home Screen">
+    <widgets xsi:type="model:Panel" id="136" width="320" height="548" measuredWidth="320" measuredHeight="548" background="#f3f3f3" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="137" x="16" y="5" measuredWidth="60" measuredHeight="82" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Shape" id="138" width="60" height="60" measuredWidth="60" measuredHeight="60" icon="user (xlarge)" shapeType="rectangle-rounded">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="139" y="59" width="60" text="App" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="140" x="92" y="5" measuredWidth="60" measuredHeight="82" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Shape" id="141" width="60" height="60" measuredWidth="60" measuredHeight="60" shapeType="rectangle-rounded">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="142" y="59" width="60" text="App" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="143" x="168" y="5" measuredWidth="60" measuredHeight="82" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Shape" id="144" width="60" height="60" measuredWidth="60" measuredHeight="60" shapeType="rectangle-rounded">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="145" y="59" width="60" text="App" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="146" x="244" y="5" measuredWidth="60" measuredHeight="82" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Shape" id="147" width="60" height="60" measuredWidth="60" measuredHeight="60" shapeType="rectangle-rounded">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="148" y="59" width="60" text="App" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="149" y="452" measuredWidth="320" measuredHeight="96" layoutParams="anchor-left,anchor-right|anchor-bottom" name="Taskbar">
+      <widgets xsi:type="model:Panel" id="150" width="320" height="96" measuredWidth="320" measuredHeight="96" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#999999" border="none"/>
+      <widgets xsi:type="model:WidgetGroup" id="151" x="16" y="14" measuredWidth="60" measuredHeight="82" layoutParams="anchor-left|anchor-top">
+        <widgets xsi:type="model:Shape" id="152" width="60" height="60" measuredWidth="60" measuredHeight="60" icon="user (xlarge)" shapeType="rectangle-rounded">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="153" y="59" width="60" text="App" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+          <font/>
+        </widgets>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="175" x="1240" y="32" measuredWidth="60" measuredHeight="82" layoutParams="anchor-left|anchor-top" name="App Icon">
+    <widgets xsi:type="model:Shape" id="176" width="60" height="60" measuredWidth="60" measuredHeight="60" icon="user (xlarge)" shapeType="rectangle-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="177" y="59" width="60" text="App" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="178" x="32" y="840" measuredWidth="320" measuredHeight="96" name="Taskbar">
+    <widgets xsi:type="model:Panel" id="179" width="320" height="96" measuredWidth="320" measuredHeight="96" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#999999" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="180" x="16" y="14" measuredWidth="60" measuredHeight="82" layoutParams="anchor-left|anchor-top">
+      <widgets xsi:type="model:Shape" id="181" width="60" height="60" measuredWidth="60" measuredHeight="60" icon="user (xlarge)" shapeType="rectangle-rounded">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="182" y="59" width="60" text="App" measuredWidth="60" measuredHeight="23" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Label" id="1" x="48" y="40" width="400" text="{text-bold} {text-italic} {text-underline} {separator} {link} {image} {separator} {list-bullet} {list-number} {separator} {undo} {redo}" measuredWidth="400" measuredHeight="25" layoutParams="anchor-left,anchor-right|anchor-top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="2" x="48" y="64" width="400" height="129" measuredWidth="400" measuredHeight="129" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
