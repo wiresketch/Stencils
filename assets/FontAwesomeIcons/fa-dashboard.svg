@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f0e4 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag><rdf:li>tachometer</rdf:li></rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+<g transform="translate(128, 1664) scale(1, -1)">
+	<path id="dashboard" d="M0 384q0 182 71 348t191 286t286 191t348 71t348 -71t286 -191t191 -286t71 -348q0 -261 -141 -483q-19 -29 -54 -29h-1402q-35 0 -54 29q-141 221 -141 483zM128 384q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5t-37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5z M320 832q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5t-37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5zM710 241q-20 -77 20 -146t117 -89t146 20t89 117q16 60 -6 117t-72 91l101 382q6 26 -7.5 48.5t-38.5 29.5t-48 -6.5t-30 -39.5l-101 -382q-60 -5 -107 -43.5 t-63 -98.5zM768 1024q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5t-37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5zM1216 832q0 -53 37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5t-37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5zM1408 384q0 -53 37.5 -90.5 t90.5 -37.5t90.5 37.5t37.5 90.5t-37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5z" />
+</g>
+</svg>	

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f1b3 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<g transform="translate(-128, 1664) scale(1, -1)">
+	<path id="cubes" d="M0 96v416q0 38 21.5 70t56.5 48l434 186v400q0 38 21.5 70t56.5 48l448 192q23 10 50 10t50 -10l448 -192q35 -16 56.5 -48t21.5 -70v-400l434 -186q36 -16 57 -48t21 -70v-416q0 -36 -19 -67t-52 -47l-448 -224q-25 -14 -57 -14t-57 14l-448 224q-5 2 -7 4q-2 -2 -7 -4 l-448 -224q-25 -14 -57 -14t-57 14l-448 224q-33 16 -52 47t-19 67zM172 531l404 -173l404 173l-404 173zM640 -96l384 192v314l-384 -164v-342zM647 1219l441 -189l441 189l-441 189zM1152 651l384 165v266l-384 -164v-267zM1196 531l404 -173l404 173l-404 173zM1664 -96 l384 192v314l-384 -164v-342z" />
+</g>
+</svg>	

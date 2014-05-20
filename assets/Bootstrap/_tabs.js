@@ -18,7 +18,9 @@ function onresize(evt) {
 
 	clearNode(itemsLayer);
 
-	var selection = Number($model.selection);
+    var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+	if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+		selectionIndex = -1;
 
 	if(justified) {
 		var itemWidth = Math.round(width / $items.length);
@@ -43,7 +45,7 @@ function onresize(evt) {
 		fo.setAttribute("y", 0);
 		fo.setAttribute("width", iItemWidth);
 		fo.setAttribute("height", height);
-		fo.setAttribute("stroke", (i === selection ? "black" : "black"));
+		fo.setAttribute("stroke", (i === selectionIndex ? "black" : "black"));
 		itemsLayer.appendChild(fo);
 
 		x += iItemWidth;
@@ -53,10 +55,10 @@ function onresize(evt) {
 
 	d += "M1," + (height - 1);
 
-	if ($model.selection !== "" && selection !== -1) {
+	if (selectionIndex !== -1) {
 		x = 0;
 
-		for ( var i = 0, n = Math.min(selection, $items.length); i < n; i++) {
+		for ( var i = 0, n = Math.min(selectionIndex, $items.length); i < n; i++) {
 			x += computeItemWidth(i);
 		}
 
@@ -65,7 +67,7 @@ function onresize(evt) {
 		}
 
 
-		var selectionItemWidth = computeItemWidth(selection);
+		var selectionItemWidth = computeItemWidth(selectionIndex);
 		
 		d += "v" + -(height - 7);
 		d += "c0,-2.8,2.2,-5,5,-5";

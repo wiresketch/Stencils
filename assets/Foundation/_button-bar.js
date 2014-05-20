@@ -40,6 +40,8 @@ function onResize(evt) {
     var itemWidth = Math.round(width / $items.length);
     var lastItemWidth = width - itemWidth * ($items.length - 1);
     var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+	if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+		selectionIndex = -1;
 
     clearNode(container);
 

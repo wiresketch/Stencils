@@ -18,7 +18,9 @@ function onresize(evt) {
 
 	clearNode(itemsLayer);
 
-	var selection = Number($model.selection);
+    var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+	if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+		selectionIndex = -1;
 
 	if(justified) {
 		var itemWidth = Math.round(width / $items.length);
@@ -43,7 +45,7 @@ function onresize(evt) {
 		fo.setAttribute("y", 0);
 		fo.setAttribute("width", iItemWidth);
 		fo.setAttribute("height", height);
-		if(i === selection)
+		if(i === selectionIndex)
 			fo.setAttribute("fill", "red");
 		else
 			fo.setAttribute("stroke", "black");
@@ -52,16 +54,16 @@ function onresize(evt) {
 		x += iItemWidth;
 	}
 
-	if ($model.selection !== "" && selection !== -1) {
+	if (selectionIndex !== -1) {
 		pills.setAttribute("display", "inline");
 		
 		x = 0;
 
-		for ( var i = 0, n = Math.min(selection, $items.length); i < n; i++) {
+		for ( var i = 0, n = Math.min(selectionIndex, $items.length); i < n; i++) {
 			x += computeItemWidth(i);
 		}
 
-		var selectionItemWidth = computeItemWidth(selection);
+		var selectionItemWidth = computeItemWidth(selectionIndex);
 
 		pills.setAttribute("x", x);
 		pills.setAttribute("y", 0);

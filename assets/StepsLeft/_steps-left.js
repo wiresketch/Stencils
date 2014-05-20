@@ -20,8 +20,9 @@ function onResize(evt) {
 	var lastItemWidth = Math.max(0, width - arrowWidth - 1
 			- ($items.length - 1) * itemWidth);
 
-	var selectionIndex = ($model.selection === null || $model.selection === "") ? -1
-			: Number($model.selection);
+    var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+	if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+		selectionIndex = -1;
 
 	clearNode(container);
 

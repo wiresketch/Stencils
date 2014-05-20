@@ -17,7 +17,9 @@ function onresize(evt) {
 
 	clearNode(itemsLayer);
 
-	var selection = Number($model.selection);
+    var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+	if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+		selectionIndex = -1;
 
 	for ( var i = 0, n = $items.length, y = 0; i < n; i++) {
 		var item = $items[i];
@@ -29,7 +31,7 @@ function onresize(evt) {
 		text.setAttribute("y", y);
 		text.setAttribute("width", item.width);
 		text.setAttribute("height", iItemHeight);
-		if (i === selection)
+		if (i === selectionIndex)
 			text.setAttribute("fill", "red");
 		else
 			text.setAttribute("stroke", "black");
@@ -46,19 +48,19 @@ function onresize(evt) {
 		y += iItemHeight;
 	}
 
-	if ($model.selection !== "" && selection !== -1) {
+	if (selectionIndex !== -1) {
 		pills.setAttribute("display", "inline");
 
 		y = 0;
 
-		for ( var i = 0, n = Math.min(selection, $items.length); i < n; i++) {
+		for ( var i = 0, n = Math.min(selectionIndex, $items.length); i < n; i++) {
 			y += $items[i].height + vPadding * 2;
 		}
 
 		pills.setAttribute("x", 0);
 		pills.setAttribute("y", y);
 		pills.setAttribute("width", width);
-		pills.setAttribute("height", $items[selection].height + vPadding * 2);
+		pills.setAttribute("height", $items[selectionIndex].height + vPadding * 2);
 	} else {
 		pills.setAttribute("display", "none");
 	}

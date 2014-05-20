@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Ebene_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="162px" height="162px"
+	 viewBox="0 0 162 162" enable-background="new 0 0 162 162" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<rect x="9" y="9" fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" width="36.851" height="28.347"/>
+		<g>
+			<path d="M134.141,130.234c0.416,1.146,0.637,2.07,0.664,2.773c0.025,0.703-0.17,1.238-0.586,1.602
+				c-0.417,0.365-1.107,0.598-2.07,0.703c-0.964,0.104-2.253,0.156-3.867,0.156c-1.615,0-2.904-0.039-3.867-0.117
+				c-0.964-0.078-1.693-0.209-2.188-0.391c-0.496-0.182-0.859-0.43-1.094-0.742s-0.457-0.703-0.664-1.172l-8.672-24.609H69.766
+				l-8.281,24.297c-0.156,0.469-0.365,0.873-0.625,1.211c-0.261,0.339-0.639,0.625-1.133,0.859
+				c-0.496,0.234-1.199,0.403-2.109,0.508c-0.912,0.104-2.097,0.156-3.555,0.156c-1.511,0-2.748-0.066-3.711-0.195
+				c-0.964-0.131-1.641-0.377-2.031-0.742c-0.391-0.364-0.574-0.898-0.547-1.602c0.025-0.703,0.247-1.627,0.664-2.773L82.344,36.25
+				c0.208-0.572,0.481-1.041,0.82-1.406c0.338-0.364,0.833-0.65,1.484-0.859c0.65-0.208,1.484-0.352,2.5-0.43
+				s2.305-0.117,3.867-0.117c1.666,0,3.047,0.039,4.141,0.117s1.979,0.222,2.656,0.43c0.676,0.209,1.197,0.508,1.563,0.898
+				c0.364,0.391,0.65,0.873,0.859,1.445L134.141,130.234z M90.625,47.344h-0.078L73.125,97.734h35.156L90.625,47.344z"/>
+		</g>
+	</g>
+</switch>
+</svg>

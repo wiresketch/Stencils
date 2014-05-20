@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" minVersion="4.2.0">
+  <widgets xsi:type="model:WidgetGroup" id="7" x="16" y="16" measuredWidth="500" measuredHeight="450" name="Font Selector">
+    <widgets xsi:type="model:WidgetGroup" id="49" measuredWidth="500" measuredHeight="450" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" name="Panel">
+      <widgets xsi:type="model:Window" id="50" width="500" height="450" text="Select font" measuredWidth="500" measuredHeight="450" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+      <widgets xsi:type="model:Panel" id="51" x="2" y="20" width="496" height="55" measuredWidth="496" measuredHeight="55" layoutParams="anchor-left,anchor-right|anchor-top" background="#f3f3f3" foreground="#999999"/>
+      <widgets xsi:type="model:Label" id="52" x="10" y="33" text="Select font" measuredWidth="79" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+        <font size="15px" bold="false"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="120" x="10" y="78" measuredWidth="479" measuredHeight="217" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom">
+      <widgets xsi:type="model:WidgetGroup" id="53" measuredWidth="239" measuredHeight="217" name="Font Select">
+        <widgets xsi:type="model:Label" id="54" text="Font" measuredWidth="34" measuredHeight="24" layoutParams="anchor-left|anchor-top">
+          <font size="13px"/>
+        </widgets>
+        <widgets xsi:type="model:List" id="55" y="30" width="239" height="187" text="Arial&#xD;&#xA;*Arial Black*&#xD;&#xA;Batang&#xD;&#xA;BatangChe&#xD;&#xA;Borowalia New&#xD;&#xA;Calibri&#xD;&#xA;_Calibri Light_&#xD;&#xA;Cambria&#xD;&#xA;Candara&#xD;&#xA;*Comic Sans MS*" measuredWidth="239" measuredHeight="187" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" selection="7" verticalScrollbar="true">
+          <font/>
+          <items x="0" y="2" width="222" height="21" text="Arial"/>
+          <items x="0" y="23" width="222" height="21" text="*Arial Black*"/>
+          <items x="0" y="44" width="222" height="21" text="Batang"/>
+          <items x="0" y="65" width="222" height="21" text="BatangChe"/>
+          <items x="0" y="86" width="222" height="21" text="Borowalia New"/>
+          <items x="0" y="107" width="222" height="21" text="Calibri"/>
+          <items x="0" y="128" width="222" height="21" text="_Calibri Light_"/>
+          <items x="0" y="149" width="222" height="21" text="Cambria"/>
+          <items x="0" y="170" width="222" height="21" text="Candara"/>
+          <items x="0" y="191" width="222" height="21" text="*Comic Sans MS*"/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="56" x="258" measuredWidth="121" measuredHeight="217" name="Style Select">
+        <widgets xsi:type="model:List" id="57" y="30" width="121" height="187" text="Italic&#xD;&#xA;Normal Regular&#xD;&#xA;Bold Regular&#xD;&#xA;Bold Italic" measuredWidth="121" measuredHeight="187" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" selection="3">
+          <font/>
+          <items x="0" y="2" width="121" height="21" text="Italic"/>
+          <items x="0" y="23" width="121" height="21" text="Normal Regular"/>
+          <items x="0" y="44" width="121" height="21" text="Bold Regular"/>
+          <items x="0" y="65" width="121" height="21" text="Bold Italic"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="58" text="Style" measuredWidth="36" measuredHeight="24" layoutParams="anchor-left|anchor-top">
+          <font size="13px"/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="59" x="399" measuredWidth="80" measuredHeight="217" name="Size Select">
+        <widgets xsi:type="model:List" id="60" y="30" width="80" height="187" text="12.0&#xD;&#xA;14.0&#xD;&#xA;16.0&#xD;&#xA;18.0&#xD;&#xA;20.0&#xD;&#xA;22.0&#xD;&#xA;24.0&#xD;&#xA;28.0&#xD;&#xA;32.0" measuredWidth="80" measuredHeight="187" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" selection="4" value="25" verticalScrollbar="true">
+          <font/>
+          <items x="0" y="2" width="63" height="21" text="12.0"/>
+          <items x="0" y="23" width="63" height="21" text="14.0"/>
+          <items x="0" y="44" width="63" height="21" text="16.0"/>
+          <items x="0" y="65" width="63" height="21" text="18.0"/>
+          <items x="0" y="86" width="63" height="21" text="20.0"/>
+          <items x="0" y="107" width="63" height="21" text="22.0"/>
+          <items x="0" y="128" width="63" height="21" text="24.0"/>
+          <items x="0" y="149" width="63" height="21" text="28.0"/>
+          <items x="0" y="170" width="63" height="21" text="32.0"/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="61" x="2" text="Size" measuredWidth="29" measuredHeight="24" layoutParams="anchor-left|anchor-top">
+          <font size="13px"/>
+        </widgets>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="62" x="10" y="304" measuredWidth="473" measuredHeight="73" layoutParams="anchor-left|anchor-bottom" name="Sample">
+      <widgets xsi:type="model:Label" id="63" text="Sample" measuredWidth="50" measuredHeight="24">
+        <font size="13px" bold="false"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="64" y="26" width="473" height="47" text="The quick brown fox jumps over the lazy dog" measuredWidth="473" measuredHeight="47">
+        <font size="20px" bold="true" italic="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="65" x="306" y="400" measuredWidth="176" measuredHeight="25" layoutParams="anchor-right|anchor-bottom" name="Buttons">
+      <widgets xsi:type="model:Button" id="66" width="80" text="OK" measuredWidth="80" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="67" x="96" width="80" text="Cancel" measuredWidth="80" measuredHeight="25">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="552" y="16" measuredWidth="570" measuredHeight="325" name="HTML Editor">
+    <widgets xsi:type="model:WidgetGroup" id="90" measuredWidth="570" measuredHeight="325" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" name="Editing Panel">
+      <widgets xsi:type="model:Panel" id="91" width="570" height="80" measuredWidth="570" measuredHeight="80" layoutParams="anchor-left,anchor-right|anchor-top"/>
+      <widgets xsi:type="model:HLine" id="92" x="1" y="34" width="568" measuredWidth="568" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+      <widgets xsi:type="model:TextArea" id="93" y="75" width="570" height="250" measuredWidth="570" measuredHeight="250" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="94" x="6" y="4" measuredWidth="523" measuredHeight="32" layoutParams="anchor-left|anchor-top" name="Toolbar Top">
+      <widgets xsi:type="model:WidgetGroup" id="95" x="426" y="3" measuredWidth="97" measuredHeight="26">
+        <widgets xsi:type="model:WidgetGroup" id="96" measuredWidth="46" measuredHeight="26">
+          <widgets xsi:type="model:Button" id="97" width="46" text="{assets/color-chooser-font}{desc}" measuredWidth="46" measuredHeight="26" iconRotation="90">
+            <font/>
+          </widgets>
+        </widgets>
+        <widgets xsi:type="model:WidgetGroup" id="98" x="51" measuredWidth="46" measuredHeight="26">
+          <widgets xsi:type="model:Button" id="99" width="46" text="{assets/color-chooser-background}  {desc}" measuredWidth="46" measuredHeight="26" textAlignment="Left">
+            <font/>
+          </widgets>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:Label" id="100" width="423" text="{cut} {copy} {paste} {separator} {text-align-left} {text-align-center} {text-align-right} {text-align-justify} {separator} {assets/indent-less} {assets/indent-more} {separator} {list-bullet} {list-number} {separator}" measuredWidth="423" measuredHeight="32" layoutParams="anchor-left,anchor-right|anchor-top">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="101" x="6" y="41" measuredWidth="552" measuredHeight="32" layoutParams="anchor-left|anchor-top" name="Toolbar Bottom">
+      <widgets xsi:type="model:WidgetGroup" id="102" y="2" measuredWidth="313" measuredHeight="26">
+        <widgets xsi:type="model:Button" id="103" width="101" text="Paragraph {desc}" measuredWidth="101" measuredHeight="26">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Button" id="104" x="116" width="108" text="Tahoma {desc}" measuredWidth="108" measuredHeight="26">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Button" id="105" x="242" width="71" text="small {desc}" measuredWidth="71" measuredHeight="26">
+          <font/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:Label" id="106" x="319" width="233" text="{separator} {text-bold} {text-italic} {text-underline} {assets/lined-through} {separator} {assets/horizontal-line}" measuredWidth="233" measuredHeight="32" layoutParams="anchor-left,anchor-right|anchor-top">
+        <font size="17px"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="16" x="16" y="512" measuredWidth="480" measuredHeight="342" name="Streaming Media Player">
+    <widgets xsi:type="model:WidgetGroup" id="107" measuredWidth="480" measuredHeight="342" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" name="Panel">
+      <widgets xsi:type="model:Image" id="108" y="46" width="480" height="250" measuredWidth="480" measuredHeight="250" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+      <widgets xsi:type="model:Panel" id="109" y="292" width="480" height="50" measuredWidth="480" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-bottom"/>
+      <widgets xsi:type="model:Panel" id="110" width="480" height="50" measuredWidth="480" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="111" x="6" y="12" measuredWidth="291" measuredHeight="24" layoutParams="anchor-left,anchor-right|anchor-top" name="Timeline">
+      <widgets xsi:type="model:Label" id="112" text="Time" measuredWidth="35" measuredHeight="24" layoutParams="anchor-left|anchor-middle">
+        <font size="13px"/>
+      </widgets>
+      <widgets xsi:type="model:HSlider" id="113" x="33" y="4" width="170" measuredWidth="170" measuredHeight="17" layoutParams="anchor-left,anchor-right|anchor-middle" value="75"/>
+      <widgets xsi:type="model:Label" id="114" x="210" text="00:53/01:16" measuredWidth="81" measuredHeight="24" layoutParams="anchor-right|anchor-middle">
+        <font size="13px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="115" x="376" y="12" measuredWidth="90" measuredHeight="24" layoutParams="anchor-right|anchor-top" name="Volumne Controls">
+      <widgets xsi:type="model:Label" id="116" text="Vol" measuredWidth="26" measuredHeight="24">
+        <font size="13px"/>
+      </widgets>
+      <widgets xsi:type="model:HSlider" id="117" x="25" y="4" width="65" measuredWidth="65" measuredHeight="17" value="100"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="118" x="145" y="304" text="{previous} {separator} {stop-media} {separator} {play} {separator} {pause} {separator} {skip}" measuredWidth="188" measuredHeight="26" layoutParams="anchor-center|anchor-bottom" style="round">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="23" x="552" y="512" measuredWidth="480" measuredHeight="296" name="Advanced Media Player">
+    <widgets xsi:type="model:Image" id="79" width="480" height="250" measuredWidth="480" measuredHeight="250" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+    <widgets xsi:type="model:WidgetGroup" id="119" y="246" measuredWidth="480" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-bottom">
+      <widgets xsi:type="model:Panel" id="80" width="480" height="50" measuredWidth="480" measuredHeight="50"/>
+      <widgets xsi:type="model:Button" id="81" x="10" y="12" width="39" text="{pause}" measuredWidth="39" measuredHeight="26" layoutParams="anchor-left|anchor-middle">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="82" x="56" y="13" measuredWidth="241" measuredHeight="24" layoutParams="anchor-left,anchor-right|anchor-middle" name="Timeline">
+        <widgets xsi:type="model:Label" id="83" text="Time" measuredWidth="35" measuredHeight="24" layoutParams="anchor-left|anchor-middle">
+          <font size="13px"/>
+        </widgets>
+        <widgets xsi:type="model:HSlider" id="84" x="34" y="4" width="119" measuredWidth="119" measuredHeight="17" layoutParams="anchor-left,anchor-right|anchor-middle" value="75"/>
+        <widgets xsi:type="model:Label" id="85" x="160" text="00:53/01:16" measuredWidth="81" measuredHeight="24" layoutParams="anchor-right|anchor-middle">
+          <font size="13px"/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:Button" id="86" x="302" y="12" width="69" text="Full Screen" measuredWidth="69" measuredHeight="25" layoutParams="anchor-right|anchor-middle">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="87" x="378" y="13" measuredWidth="90" measuredHeight="24" layoutParams="anchor-right|anchor-middle" name="Volumne Controls">
+        <widgets xsi:type="model:Label" id="88" text="Vol" measuredWidth="26" measuredHeight="24">
+          <font size="13px"/>
+        </widgets>
+        <widgets xsi:type="model:HSlider" id="89" x="25" y="4" width="65" measuredWidth="65" measuredHeight="17" value="100"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

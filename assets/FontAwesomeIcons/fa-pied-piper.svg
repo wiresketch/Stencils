@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f1a7 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag><rdf:li>square</rdf:li></rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+<g transform="translate(256, 1664) scale(1, -1)">
+	<path id="pied-piper" d="M0 160v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5zM293 388l211 41v206q55 -19 116 -19q125 0 213.5 95t88.5 229t-88.5 229t-213.5 95q-74 0 -141 -36h-186v-840z M504 804v277q28 17 70 17q53 0 91 -45t38 -109t-38 -109.5t-91 -45.5q-43 0 -70 15zM636 -39l211 41v206q51 -19 117 -19q125 0 213 95t88 229t-88 229t-213 95q-20 0 -39 -3q-23 -78 -78 -136q-87 -95 -211 -101v-636zM847 377v277q28 17 70 17q53 0 91 -45.5t38 -109.5 t-38 -109t-91 -45q-43 0 -70 15z" />
+</g>
+</svg>	

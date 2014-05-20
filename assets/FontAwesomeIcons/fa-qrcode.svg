@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f029 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<g transform="translate(320, 1664) scale(1, -1)">
+	<path id="qrcode" d="M0 0v640h640v-640h-640zM0 768v640h640v-640h-640zM128 129h384v383h-384v-383zM128 896h384v384h-384v-384zM256 256v128h128v-128h-128zM256 1024v128h128v-128h-128zM768 0v640h384v-128h128v128h128v-384h-384v128h-128v-384h-128zM768 768v640h640v-640h-640z M896 896h384v384h-384v-384zM1024 0v128h128v-128h-128zM1024 1024v128h128v-128h-128zM1280 0v128h128v-128h-128z" />
+</g>
+</svg>	

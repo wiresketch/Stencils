@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f1a4 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<g transform="translate(64, 1664) scale(1, -1)">
+	<path id="stumbleupon" d="M0 336v266h328v-262q0 -43 30 -72.5t72 -29.5t72 29.5t30 72.5v620q0 171 126.5 292t301.5 121q176 0 302 -122t126 -294v-136l-195 -58l-131 61v118q0 42 -30 72t-72 30t-72 -30t-30 -72v-612q0 -175 -126 -299t-303 -124q-178 0 -303.5 125.5t-125.5 303.5zM1062 332 v268l131 -61l195 58v-270q0 -42 30 -71.5t72 -29.5t72 29.5t30 71.5v275h328v-266q0 -178 -125.5 -303.5t-303.5 -125.5q-177 0 -303 124.5t-126 300.5z" />
+</g>
+</svg>	

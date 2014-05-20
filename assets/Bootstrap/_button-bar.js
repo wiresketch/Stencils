@@ -47,6 +47,8 @@ function onResize(evt) {
     	var prefWidth = getPreferredSize().width;
     }
     var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+	if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+		selectionIndex = -1;
 
     clearNode(container);
 

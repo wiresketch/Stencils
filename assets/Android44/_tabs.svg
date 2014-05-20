@@ -47,8 +47,10 @@
 	    var width = parseInt(svg.getAttribute("width"));
 	    var height = parseInt(svg.getAttribute("height"));
     	var itemWidth = Math.round(width / $items.length);
-    	var lastItemWidth = width - itemWidth * ($items.length - 1);
 	    var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+    	var lastItemWidth = width - itemWidth * ($items.length - 1);
+		if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+			selectionIndex = -1;
 
 	    clearNode(container);
 	    

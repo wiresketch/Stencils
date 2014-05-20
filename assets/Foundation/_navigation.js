@@ -12,7 +12,9 @@
  function onResize(evt) {
  	var width = parseInt(svg.getAttribute("width"));
  	var height = parseInt(svg.getAttribute("height"));
- 	var selectionIndex = $model.selection;
+    var selectionIndex = ($model.selection === null || $model.selection === "") ? -1 : Number($model.selection);
+	if(!(selectionIndex >= -1 && selectionIndex < $items.length))
+		selectionIndex = -1;
  	var allSpacing = ($items.length - 1) * spacing;
  	var preferredWidth = getPreferredSize().width - allSpacing;
  	var availableWidth = width - allSpacing;

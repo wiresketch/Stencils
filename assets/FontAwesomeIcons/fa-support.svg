@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f1cd -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag><rdf:li>life</rdf:li><rdf:li>ring</rdf:li><rdf:li>life</rdf:li><rdf:li>bouy</rdf:li><rdf:li>life</rdf:li><rdf:li>saver</rdf:li></rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+<g transform="translate(128, 1664) scale(1, -1)">
+	<path id="support" d="M0 640q0 182 71 348t191 286t286 191t348 71t348 -71t286 -191t191 -286t71 -348t-71 -348t-191 -286t-286 -191t-348 -71t-348 71t-286 191t-191 286t-71 348zM128 640q0 -190 90 -361l194 194q-28 82 -28 167t28 167l-194 194q-90 -171 -90 -361zM512 640 q0 -159 112.5 -271.5t271.5 -112.5t271.5 112.5t112.5 271.5t-112.5 271.5t-271.5 112.5t-271.5 -112.5t-112.5 -271.5zM535 -38q171 -90 361 -90t361 90l-194 194q-82 -28 -167 -28t-167 28zM535 1318l194 -194q82 28 167 28t167 -28l194 194q-171 90 -361 90t-361 -90z M1380 473l194 -194q90 171 90 361t-90 361l-194 -194q28 -82 28 -167t-28 -167z" />
+</g>
+</svg>	

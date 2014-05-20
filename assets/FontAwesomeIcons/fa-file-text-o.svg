@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f0f6 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<g transform="translate(256, 1664) scale(1, -1)">
+	<path id="file-text-o" d="M0 -160v1600q0 40 28 68t68 28h896q40 0 88 -20t76 -48l312 -312q28 -28 48 -76t20 -88v-1152q0 -40 -28 -68t-68 -28h-1344q-40 0 -68 28t-28 68zM128 -128h1280v1024h-416q-40 0 -68 28t-28 68v416h-768v-1536zM384 160v64q0 14 9 23t23 9h704q14 0 23 -9t9 -23v-64 q0 -14 -9 -23t-23 -9h-704q-14 0 -23 9t-9 23zM384 416v64q0 14 9 23t23 9h704q14 0 23 -9t9 -23v-64q0 -14 -9 -23t-23 -9h-704q-14 0 -23 9t-9 23zM384 672v64q0 14 9 23t23 9h704q14 0 23 -9t9 -23v-64q0 -14 -9 -23t-23 -9h-704q-14 0 -23 9t-9 23zM1024 1024h376 q-10 29 -22 41l-313 313q-12 12 -41 22v-376z" />
+</g>
+</svg>	

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" minVersion="4.2.0">
+  <widgets xsi:type="model:Master" id="1" x="34" y="19" measuredWidth="1087" measuredHeight="1420">
+    <screen xsi:type="model:Screen" href="Charts.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="1124" y="19" measuredWidth="578" measuredHeight="1331">
+    <screen xsi:type="model:Screen" href="Controls.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Move" ref="16" newIndex="3"/>
+      <widgets ref="11" x="16" y="509" width="552"/>
+      <widgets ref="16" x="86" y="1005"/>
+      <widgets ref="23" x="-4" y="893"/>
+      <widgets ref="90" width="552"/>
+      <widgets ref="91" width="552"/>
+      <widgets ref="92" width="550"/>
+      <widgets ref="93" width="552"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

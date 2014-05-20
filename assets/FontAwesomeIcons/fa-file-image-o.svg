@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f1c5 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag><rdf:li>photo</rdf:li><rdf:li>picture</rdf:li></rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+<g transform="translate(256, 1664) scale(1, -1)">
+	<path id="file-image-o" d="M0 -160v1600q0 40 28 68t68 28h896q40 0 88 -20t76 -48l312 -312q28 -28 48 -76t20 -88v-1152q0 -40 -28 -68t-68 -28h-1344q-40 0 -68 28t-28 68zM128 -128h1280v1024h-416q-40 0 -68 28t-28 68v416h-768v-1536zM256 0v192l192 192l128 -128l384 384l320 -320v-320 h-1024zM256 704q0 80 56 136t136 56t136 -56t56 -136t-56 -136t-136 -56t-136 56t-56 136zM1024 1024h376q-10 29 -22 41l-313 313q-12 12 -41 22v-376z" />
+</g>
+</svg>	
