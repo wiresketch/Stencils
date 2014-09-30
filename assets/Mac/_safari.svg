@@ -43,7 +43,7 @@
  	var scrollbarHeight = height / 10;
  	scrollbar.setAttribute("height", scrollbarHeight);
  	scrollbar.setAttribute("x", width - 8 - 4);
- 	scrollbar.setAttribute("y", 55 + (height - scrollbarHeight - 55 - 4) * model.value / 100);
+ 	scrollbar.setAttribute("y", 56 + (height - scrollbarHeight - 56 - 4) * model.value / 100);
  	
  	svg.setAttribute("width", sourceWidth);
  	svg.setAttribute("height", sourceHeight);
@@ -55,7 +55,7 @@
  ]]></script>
  <path id="window" style="color:#000000;enable-background:accumulate;" d="M399,53,399,399,1,399,1,53" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#ABC"/>
  <g id="chrome">
-  <rect id="background" style="color:#000000;enable-background:accumulate;" rx="2" ry="0.2352" height="52" width="398" stroke="#000" y="1" x="1" stroke-width="2" fill="#FFF"/>
+  <rect id="background" style="color:#000000;enable-background:accumulate;" rx="2" height="52" width="398" stroke="#000" y="1" x="1" stroke-width="2" fill="#FFF"/>
   <path id="close-button" style="color:#000000;enable-background:accumulate;" d="M20,11.5c0,3.03-2.47,5.5-5.5,5.5s-5.5-2.47-5.5-5.5c0-3.025,2.47-5.5,5.5-5.5s5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#ff8f89"/>
   <path id="minimize-button" style="color:#000000;enable-background:accumulate;" d="M40,11.5c0,3.03-2.46,5.5-5.5,5.5-3.03,0-5.5-2.47-5.5-5.5,0-3.025,2.47-5.5,5.5-5.5,3.04,0,5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#fee28d"/>
   <path id="maximize-button" style="color:#000000;enable-background:accumulate;" d="M60,11.5c0,3.03-2.46,5.5-5.5,5.5-3.03,0-5.5-2.47-5.5-5.5,0-3.025,2.47-5.5,5.5-5.5,3.04,0,5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#c7e79e"/>

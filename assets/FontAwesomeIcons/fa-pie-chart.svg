@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f200 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<g transform="translate(128, 1664) scale(1, -1)">
+	<path id="pie-chart" d="M768 646l546 -546q-106 -108 -247.5 -168t-298.5 -60q-209 0 -385.5 103t-279.5 279.5t-103 385.5t103 385.5t279.5 279.5t385.5 103v-762zM955 640h773q0 -157 -60 -298.5t-168 -247.5zM1664 768h-768v768q209 0 385.5 -103t279.5 -279.5t103 -385.5z" />
+</g>
+</svg>	

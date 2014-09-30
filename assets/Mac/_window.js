@@ -1,6 +1,6 @@
 var svg, doc;
 var closeButton, minimizeButton, maximizeButton;
-var window, title, separator, scrollbar;
+var window, title, titlebar, scrollbar;
 var titleHeight;
 
 function onload(evt) {
@@ -11,10 +11,10 @@ function onload(evt) {
 	maximizeButton = doc.getElementById("maximize-button");
 	window = doc.getElementById("window");
 	title = doc.getElementById("item0");
-	separator = doc.getElementById("separator");
+	titlebar = doc.getElementById("titlebar");
 	scrollbar = doc.getElementById("scrollbar");
 	
-	titleHeight = parseInt(separator.getAttribute("d").split(",")[1]);
+	titleHeight = parseInt(titlebar.getAttribute("height")) + 1;
 }
 
 function onresize(evt) {
@@ -28,10 +28,12 @@ function onresize(evt) {
 	title.setAttribute("x", (width - items[0].width) / 2);
 	title.setAttribute("width", items[0].width + 5);
 
-	window.setAttribute("width", width - 2);
-	window.setAttribute("height", height - 2);
-
-	separator.setAttribute("d", "M2," + (titleHeight) + "," + (width - 2) + "," + (titleHeight));
+	titlebar.setAttribute("width", width - 2);
+	titlebar.setAttribute("height", titleHeight - 1);
+	
+	window.setAttribute("d", "M" + (width - 1) + "," + (titleHeight - 1) + ","
+			+ (width - 1) + "," + (height - 1) + "," + 1 + "," + (height - 1)
+			+ "," + 1 + "," + (titleHeight - 1));
 
 	toggleDisplay(scrollbar, model.verticalScrollbar);
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="400" width="400" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onload(evt)" onresize="onresize(evt)">
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="400" width="400" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onload(evt)" onresize="onresize(evt)" ws-fill="#00F">
  <title id="title2818">WireframeSketcher SVG asset</title>
  <defs id="defs4"></defs>
  <metadata id="metadata7">
@@ -23,8 +23,8 @@
   </rdf:RDF>
  </metadata>
  <script src="_window.js"/>
- <rect id="window" style="enable-background:accumulate;color:#000000;" rx="2" ry="1.8" height="398" width="398" stroke="#000" y="1" x="1" stroke-width="2" fill="#FFF"/>
- <path id="separator" stroke-linejoin="miter" d="M2,23,398,23" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none"/>
+ <path id="window" style="color:#000000;enable-background:accumulate;" d="M399,23,399,399,1,399,1,23" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#00F"/>
+ <rect id="titlebar" style="color:#000000;enable-background:accumulate;" rx="2" height="22" width="398" stroke="#000" y="1" x="1" stroke-width="2" fill="#FFF"/>
  <path id="close-button" style="enable-background:accumulate;color:#000000;" d="M20,11.5c0,3.03-2.47,5.5-5.5,5.5s-5.5-2.47-5.5-5.5c0-3.025,2.47-5.5,5.5-5.5s5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#ff8f89"/>
  <path id="minimize-button" style="enable-background:accumulate;color:#000000;" d="M40,11.5c0,3.03-2.46,5.5-5.5,5.5-3.03,0-5.5-2.47-5.5-5.5,0-3.025,2.47-5.5,5.5-5.5,3.04,0,5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#e0e0e0"/>
  <path id="maximize-button" style="enable-background:accumulate;color:#000000;" d="M60,11.5c0,3.03-2.46,5.5-5.5,5.5-3.03,0-5.5-2.47-5.5-5.5,0-3.025,2.47-5.5,5.5-5.5,3.04,0,5.5,2.475,5.5,5.5z" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#e0e0e0"/>

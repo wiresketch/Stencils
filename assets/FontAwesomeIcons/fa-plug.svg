@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f1e6 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<g transform="translate(128, 1664) scale(1, -1)">
+	<path id="plug" d="M1755 1083q37 -37 37 -90t-37 -91l-401 -400l150 -150l-160 -160q-163 -163 -389.5 -186.5t-411.5 100.5l-362 -362h-181v181l362 362q-124 185 -100.5 411.5t186.5 389.5l160 160l150 -150l400 401q38 37 91 37t90 -37t37 -90.5t-37 -90.5l-400 -401l234 -234l401 400 q38 37 91 37t90 -37z" />
+</g>
+</svg>	
