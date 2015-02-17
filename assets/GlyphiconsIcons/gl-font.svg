@@ -3,6 +3,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1600" xml:space="preserve">
 <g transform="translate(200, 1400) scale(1, -1)">
-	<path id="font" d="M53 0h365v66q-41 0 -72 11t-49 38t1 71l92 234h391l82 -222q16 -45 -5.5 -88.5t-74.5 -43.5v-66h417v66q-34 1 -74 43q-18 19 -33 42t-21 37l-6 13l-385 998h-93l-399 -1006q-24 -48 -52 -75q-12 -12 -33 -25t-36 -20l-15 -7v-66zM416 521l178 457l46 -140l116 -317h-340 z" />
+	<path id="font" d="M681 1199l385 -998q20 -50 60 -92q18 -19 36.5 -29.5t27.5 -11.5l10 -2v-66h-417v66q53 0 75 43.5t5 88.5l-82 222h-391q-58 -145 -92 -234q-11 -34 -6.5 -57t25.5 -37t46 -20t55 -6v-66h-365v66q56 24 84 52q12 12 25 30.5t20 31.5l7 13l399 1006h93zM416 521h340 l-162 457z" />
 </g>
 </svg>	

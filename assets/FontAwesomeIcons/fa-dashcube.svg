@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Converted from Font Awesome. Glyph: f210 -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<g transform="translate(256, 1664) scale(1, -1)">
+	<path id="dashcube" d="M0 856q0 131 91.5 226.5t222.5 95.5h742l352 358v-1470q0 -132 -91.5 -227t-222.5 -95h-780q-131 0 -222.5 95t-91.5 227v790zM1232 102l-176 180v425q0 46 -32 79t-78 33h-484q-46 0 -78 -33t-32 -79v-492q0 -46 32.5 -79.5t77.5 -33.5h770z" />
+</g>
+</svg>	

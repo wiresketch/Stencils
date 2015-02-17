@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:TabbedPane" id="1" x="10" y="10" width="785" height="118" text="File, Ribbon tab 1, Ribbon tab 2, Ribbon tab 3" measuredWidth="785" measuredHeight="118" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" selection="0">
+    <items x="10" y="0" width="39" height="23" text="File"/>
+    <items x="49" y="0" width="81" height="23" text="Ribbon tab 1"/>
+    <items x="130" y="0" width="81" height="23" text="Ribbon tab 2"/>
+    <items x="211" y="0" width="81" height="23" text="Ribbon tab 3"/>
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="20" y="42" text="Copy" measuredWidth="32" measuredHeight="56" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="copy (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="63" y="42" text="Paste" measuredWidth="32" measuredHeight="56" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="paste (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="102" y="41" text="Cut" measuredWidth="39" measuredHeight="21" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="cut (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="102" y="63" text="Paste shortcut" measuredWidth="91" measuredHeight="21" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="paste (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="83" y="108" text="Group 1" measuredWidth="43" measuredHeight="21" layoutParams="anchor-left|anchor-bottom" textAlignment="Center">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="7" x="203" y="34" height="94" measuredWidth="6" measuredHeight="94" layoutParams="anchor-left|anchor-top,anchor-bottom"/>
+  <widgets xsi:type="model:Label" id="8" x="214" y="43" text="Move\nto {desc}" measuredWidth="32" measuredHeight="72" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="open (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="257" y="43" text="Copy\nto {desc}" measuredWidth="32" measuredHeight="72" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="open (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="10" x="296" y="44" height="57" measuredWidth="6" measuredHeight="57" layoutParams="anchor-left|anchor-top,anchor-bottom"/>
+  <widgets xsi:type="model:Label" id="11" x="305" y="43" text="Delete\n{desc}" measuredWidth="36" measuredHeight="72" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="delete (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="346" y="43" text="Rename" measuredWidth="43" measuredHeight="56" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="copy (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="277" y="108" text="Group 2" measuredWidth="43" measuredHeight="21" layoutParams="anchor-left|anchor-bottom" textAlignment="Center">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="14" x="394" y="34" height="94" measuredWidth="6" measuredHeight="94" layoutParams="anchor-left|anchor-top,anchor-bottom"/>
+  <widgets xsi:type="model:Label" id="15" x="406" y="43" text="New\nfolder" measuredWidth="32" measuredHeight="69" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="open (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="446" y="39" text="New item {desc}" measuredWidth="86" measuredHeight="24" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="new (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="446" y="61" text="Easy access {desc}" measuredWidth="96" measuredHeight="24" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="new (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="457" y="108" text="Group 3" measuredWidth="43" measuredHeight="21" layoutParams="anchor-left|anchor-bottom" textAlignment="Center">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="19" x="539" y="34" height="94" measuredWidth="6" measuredHeight="94" layoutParams="anchor-left|anchor-top,anchor-bottom"/>
+  <widgets xsi:type="model:Label" id="20" x="547" y="43" text="Properties\n{desc}" measuredWidth="53" measuredHeight="72" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="new (large)" iconPosition="top">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="606" y="39" text="Open {desc}" measuredWidth="66" measuredHeight="24" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="new (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="606" y="62" text="Edit" measuredWidth="41" measuredHeight="21" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="new (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="606" y="85" text="History" measuredWidth="57" measuredHeight="21" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="history (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="593" y="108" text="Group 4" measuredWidth="43" measuredHeight="21" layoutParams="anchor-left|anchor-bottom" textAlignment="Center">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="25" x="671" y="34" height="94" measuredWidth="6" measuredHeight="94" layoutParams="anchor-left|anchor-top,anchor-bottom"/>
+  <widgets xsi:type="model:Label" id="26" x="682" y="41" text="Select all" measuredWidth="66" measuredHeight="21" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="table (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="682" y="63" text="Select none" measuredWidth="78" measuredHeight="21" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="table (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="682" y="85" text="Invert selection" measuredWidth="96" measuredHeight="21" layoutParams="anchor-left|anchor-top" textAlignment="Center" icon="table (small)">
+    <font size="11px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="716" y="108" text="Group 5" measuredWidth="43" measuredHeight="21" layoutParams="anchor-left|anchor-bottom" textAlignment="Center">
+    <font size="11px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
