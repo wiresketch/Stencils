@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" onload="onLoad(evt)" onresize="onResize(evt)" height="193" width="1024" version="1.1" ws-fill="#00F" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, chrome, canvas, thumb, bar, icons;
+ var title, address;
+ var srcWidth, srcBarWidth, barPadding = 7, chromeHeight = 94, scrollbarPadding = 4, thumbWidth = 3;
+ var chromeTemplate;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	
+ 	chrome = doc.getElementById("chrome");
+ 	canvas = doc.getElementById("canvas");
+ 	thumb = doc.getElementById("thumb");
+ 	bar = doc.getElementById("bar");
+ 	icons = doc.getElementById("overflow");
+ 	
+ 	title = doc.createElement("foreignObject");
+ 	title.setAttribute("id", "item0");
+ 	title.setAttribute("x", 23 + 6);
+ 	title.setAttribute("y", 0);
+ 	title.setAttribute("height", 38);
+ 	title.setAttribute("stroke", "black");
+ 	svg.appendChild(title);
+
+ 	address = doc.createElement("foreignObject");
+ 	address.setAttribute("id", "item1");
+ 	address.setAttribute("x", parseInt(bar.getAttribute("x")) + barPadding);
+ 	address.setAttribute("y", bar.getAttribute("y"));
+ 	address.setAttribute("height", bar.getAttribute("height"));
+ 	address.setAttribute("stroke", "black");
+ 	svg.appendChild(address);
+
+ 	thumb.setAttribute("fill", "black");
+ 	thumb.setAttribute("opacity", "0.6");
+ 	thumb.setAttribute("width", thumbWidth);
+
+ 	srcWidth = parseInt(svg.getAttribute("width"));
+ 	srcBarWidth = parseInt(bar.getAttribute("width"));
+ 	
+ 	chromeTemplate = chrome.getAttribute("d").replace(/1023/g, "{w}");	
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	bar.setAttribute("width", srcBarWidth + (width - srcWidth));	
+	icons.setAttribute("transform", "translate(" + (width - srcWidth) + ")");
+	chrome.setAttribute("d", chromeTemplate.replace(/{w}/g, width - 1));
+
+	var canvasHeight = height - chromeHeight;
+	
+	canvas.setAttribute("width", width);
+	canvas.setAttribute("height", canvasHeight);
+
+	if($model.verticalScrollbar) {
+		thumb.setAttribute("display", "inline");
+		
+		var scrollbarHeight = canvasHeight - scrollbarPadding * 2;
+		var thumbHeight = Math.round(scrollbarHeight / 5);
+		var thumbY = chromeHeight + scrollbarPadding + Math.round((scrollbarHeight - thumbHeight) * $model.value / 100);
+		
+		thumb.setAttribute("x", width - thumbWidth - scrollbarPadding);
+		thumb.setAttribute("y", thumbY);
+		thumb.setAttribute("height", thumbHeight);
+	} else {
+		thumb.setAttribute("display", "none");
+	}
+		
+	title.setAttribute("width", $items[0].width);
+	address.setAttribute("width", $items[1].width);
+ } 
+ ]]></script>
+ <rect id="canvas" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" height="100" width="1024" y="93" x="0" fill="#00F"/>
+ <path id="chrome" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M23,1,7,36,1,36,1,93,1023,93,1023,36,266,36,250,1z" fill-rule="nonzero" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="#f2f2f2"/>
+ <path id="new" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M263,9,300,9,310,29,272,29z" fill-rule="nonzero" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" fill="#e1e1e1"/>
+ <g id="close" stroke-linejoin="miter" transform="translate(6,2)" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="none">
+  <path id="path3779" d="M227,12,235,20"/>
+  <path id="path3781" d="M227,20,235,12"/>
+ </g>
+ <rect id="bar" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" ry="1" height="40" width="827" stroke="#000" y="45" x="151" stroke-width="1" fill="#FFF"/>
+ <rect id="thumb" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" height="19" width="3" y="102" x="1015" fill="#000"/>
+ <path id="overflow" d="M1001,61.08c1,0,2-0.9,2-2,0-1.11-1-2-2-2s-2,0.89-2,2c0,1.1,1,2,2,2zm0,2c-1,0-2,0.89-2,2,0,1.1,1,2,2,2s2-0.9,2-2c0-1.11-1-2-2-2zm0,6c-1,0-2,0.89-2,2,0,1.1,1,2,2,2s2-0.9,2-2c0-1.11-1-2-2-2z" fill="#000"/>
+ <path id="back" d="M36,64h-12.17l5.58-5.59-1.41-1.41-8,8,8,8,1.41-1.42-5.58-5.58h12.17v-2z"/>
+ <path id="forward" d="M76,57,74.6,58.41,80.2,64h-12.2v2h12.2l-5.6,5.58,1.4,1.42,8-8z"/>
+ <path id="refresh" d="M129.7,59.35c-1.5-1.45-3.5-2.35-5.7-2.35-4.4,0-8,3.58-8,8s3.6,8,8,8c3.8,0,6.9-2.55,7.8-6h-2.1c-0.8,2.33-3.1,4-5.7,4-3.3,0-6-2.69-6-6s2.7-6,6-6c1.7,0,3.2,0.69,4.3,1.77l-3.3,3.23h7v-7l-2.3,2.35z"/>
+</svg>

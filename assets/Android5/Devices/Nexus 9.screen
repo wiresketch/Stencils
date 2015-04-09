@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:WidgetGroup" id="2" x="904" y="24" measuredWidth="1308" measuredHeight="883" name="Nexus 9">
+    <widgets xsi:type="model:SVGImage" id="1" measuredWidth="1308" measuredHeight="883" background="#eeeeee" rotation="270" src="_nexus9.svg"/>
+    <widgets xsi:type="model:Panel" id="6" x="142" y="58" width="1024" height="768" measuredWidth="1024" measuredHeight="768" alpha="0" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="26" x="142" y="58" measuredWidth="1024" measuredHeight="25" name="Status Bar">
+      <widgets xsi:type="model:Panel" id="27" width="1024" height="25" measuredWidth="1024" measuredHeight="25" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#000000" alpha="192" border="none"/>
+      <widgets xsi:type="model:Icon" id="28" x="10" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-left|anchor-middle" foreground="#ffffff" icon="image (small)"/>
+      <widgets xsi:type="model:Icon" id="29" x="922" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-wifi-4bar (small)"/>
+      <widgets xsi:type="model:Icon" id="30" x="940" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-cellular-4bar (small)"/>
+      <widgets xsi:type="model:Icon" id="31" x="960" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-battery-std (small)"/>
+      <widgets xsi:type="model:Label" id="32" x="978" text="12:00" measuredWidth="42" measuredHeight="25" layoutParams="anchor-right|anchor-middle" textAlignment="Right" foreground="#ffffff">
+        <font size="13px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="33" x="142" y="778" measuredWidth="1024" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-bottom" name="Navbar">
+      <widgets xsi:type="model:Panel" id="34" width="1024" height="48" measuredWidth="1024" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+      <widgets xsi:type="model:WidgetGroup" id="35" x="326" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Back">
+        <widgets xsi:type="model:Panel" id="36" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+        <widgets xsi:type="model:SVGImage" id="37" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="_nav_back.svg"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="38" x="488" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Home">
+        <widgets xsi:type="model:Panel" id="39" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+        <widgets xsi:type="model:SVGImage" id="40" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="_nav_home.svg"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="41" x="650" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Recents">
+        <widgets xsi:type="model:Panel" id="42" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+        <widgets xsi:type="model:SVGImage" id="43" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="5" src="_nav_recents.svg"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="98" x="1046" y="530" measuredWidth="1024" measuredHeight="272" name="Nexus 9 Keyboard">
+    <widgets xsi:type="model:Panel" id="47" width="1024" height="272" measuredWidth="1024" measuredHeight="272" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="94" x="30" y="9" measuredWidth="959" measuredHeight="52">
+      <widgets xsi:type="model:Shape" id="49" y="2" width="32" height="50" text="q" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="50" x="92" y="2" width="32" height="50" text="w" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="51" x="184" y="2" width="32" height="50" text="e" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="52" x="276" y="2" width="32" height="50" text="r" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="53" x="368" y="2" width="32" height="50" text="t" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="54" x="460" y="2" width="32" height="50" text="y" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="55" x="552" y="2" width="32" height="50" text="u" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="56" x="644" y="2" width="32" height="50" text="i" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="57" x="736" y="2" width="32" height="50" text="o" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="58" x="829" y="2" width="32" height="50" text="p" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="59" x="927" width="32" height="50" measuredWidth="32" measuredHeight="50" alpha="0" border="false" icon="assets/ic-backspace (medium)" shapeType="rectangle">
+        <font size="22px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="95" x="76" y="80" measuredWidth="892" measuredHeight="50">
+      <widgets xsi:type="model:Shape" id="61" width="32" height="50" text="a" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="62" x="92" width="32" height="50" text="s" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="63" x="184" width="32" height="50" text="d" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="64" x="276" width="32" height="50" text="f" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="65" x="368" width="32" height="50" text="g" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="66" x="460" width="32" height="50" text="h" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="67" x="552" width="32" height="50" text="j" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="68" x="644" width="32" height="50" text="k" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="69" x="737" width="32" height="50" text="l" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="70" x="856" y="5" width="36" height="36" measuredWidth="36" measuredHeight="36" background="#4db6ac" border="false" icon="assets/ic-keyboard-return (medium)">
+        <font size="22px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="96" x="36" y="149" measuredWidth="957" measuredHeight="54">
+      <widgets xsi:type="model:WidgetGroup" id="72" y="12" measuredWidth="32" measuredHeight="42" name="Shift">
+        <widgets xsi:type="model:SVGImage" id="155" x="4" measuredWidth="24" measuredHeight="24" src="_key_shift.svg"/>
+        <widgets xsi:type="model:HLine" id="74" y="36" width="32" measuredWidth="32" measuredHeight="6"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="75" x="96" width="32" height="50" text="z" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="76" x="188" width="32" height="50" text="x" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="77" x="280" width="32" height="50" text="c" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="78" x="372" width="32" height="50" text="v" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="79" x="464" width="32" height="50" text="b" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="80" x="556" width="32" height="50" text="n" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="81" x="648" width="32" height="50" text="m" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="82" x="740" width="32" height="50" text="!" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="83" x="833" width="32" height="50" text="?" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="84" x="927" y="12" measuredWidth="30" measuredHeight="42" name="Shift">
+        <widgets xsi:type="model:SVGImage" id="156" x="3" measuredWidth="24" measuredHeight="24" src="_key_shift.svg"/>
+        <widgets xsi:type="model:HLine" id="86" y="36" width="30" measuredWidth="30" measuredHeight="6"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="97" x="21" y="217" measuredWidth="976" measuredHeight="51">
+      <widgets xsi:type="model:Shape" id="158" y="1" width="60" height="48" text="?123" measuredWidth="60" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="89" x="111" y="1" width="32" height="50" text="," measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="90" x="180" y="13" width="634" height="24" measuredWidth="634" measuredHeight="24" background="#cccccc" border="false" shapeType="rectangle-rounded">
+        <font size="22px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="91" x="848" y="1" width="32" height="50" text="." measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="92" x="936" height="48" measuredWidth="40" measuredHeight="48" alpha="0" border="false" icon="assets/ic-insert-emoticon (medium)" shapeType="rectangle">
+        <font size="27px"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="3" x="8" y="24" measuredWidth="883" measuredHeight="1308" name="Nexus 9 Portrait">
+    <widgets xsi:type="model:SVGImage" id="4" measuredWidth="883" measuredHeight="1308" background="#eeeeee" src="_nexus9.svg"/>
+    <widgets xsi:type="model:Panel" id="5" x="57" y="142" width="768" height="1024" measuredWidth="768" measuredHeight="1024" alpha="0" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="7" x="57" y="142" measuredWidth="768" measuredHeight="25" name="Status Bar">
+      <widgets xsi:type="model:Panel" id="8" width="768" height="25" measuredWidth="768" measuredHeight="25" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#000000" alpha="192" border="none"/>
+      <widgets xsi:type="model:Icon" id="9" x="10" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-left|anchor-middle" foreground="#ffffff" icon="image (small)"/>
+      <widgets xsi:type="model:Icon" id="10" x="666" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-wifi-4bar (small)"/>
+      <widgets xsi:type="model:Icon" id="11" x="684" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-signal-cellular-4bar (small)"/>
+      <widgets xsi:type="model:Icon" id="12" x="704" y="4" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-middle" foreground="#ffffff" icon="assets/ic-battery-std (small)"/>
+      <widgets xsi:type="model:Label" id="13" x="722" text="12:00" measuredWidth="42" measuredHeight="25" layoutParams="anchor-right|anchor-middle" textAlignment="Right" foreground="#ffffff">
+        <font size="13px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="14" x="57" y="1118" measuredWidth="768" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-bottom" name="Navbar">
+      <widgets xsi:type="model:Panel" id="15" width="768" height="48" measuredWidth="768" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#444444" border="none"/>
+      <widgets xsi:type="model:WidgetGroup" id="16" x="232" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Back">
+        <widgets xsi:type="model:Panel" id="17" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+        <widgets xsi:type="model:SVGImage" id="18" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="_nav_back.svg"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="19" x="360" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Home">
+        <widgets xsi:type="model:Panel" id="20" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+        <widgets xsi:type="model:SVGImage" id="21" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="0" src="_nav_home.svg"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="22" x="488" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-middle" name="Recents">
+        <widgets xsi:type="model:Panel" id="23" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+        <widgets xsi:type="model:SVGImage" id="24" x="12" y="12" measuredWidth="24" measuredHeight="24" layoutParams="anchor-center|anchor-middle" background="#000000" foreground="#ffffff" alpha="5" src="_nav_recents.svg"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="152" x="65" y="840" measuredWidth="768" measuredHeight="302" name="Nexus 9 Portrait Keyboard">
+    <widgets xsi:type="model:Panel" id="102" width="768" height="302" measuredWidth="768" measuredHeight="302" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#eeeeee" border="none"/>
+    <widgets xsi:type="model:WidgetGroup" id="148" x="17" y="16" measuredWidth="729" measuredHeight="50">
+      <widgets xsi:type="model:Shape" id="104" y="2" width="32" height="48" text="q" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="105" x="69" y="2" width="32" height="48" text="w" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="106" x="138" y="2" width="32" height="48" text="e" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="107" x="207" y="2" width="32" height="48" text="r" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="108" x="276" y="2" width="32" height="48" text="t" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="109" x="346" y="2" width="32" height="48" text="y" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="110" x="415" y="2" width="32" height="48" text="u" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="111" x="484" y="2" width="32" height="48" text="i" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="112" x="553" y="2" width="32" height="48" text="o" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="113" x="623" y="2" width="32" height="48" text="p" measuredWidth="32" measuredHeight="48" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="114" x="697" width="32" height="48" measuredWidth="32" measuredHeight="48" alpha="0" border="false" icon="assets/ic-backspace (medium)" shapeType="rectangle">
+        <font size="22px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="149" x="52" y="93" measuredWidth="678" measuredHeight="50">
+      <widgets xsi:type="model:Shape" id="116" width="32" height="50" text="a" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="117" x="69" width="32" height="50" text="s" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="118" x="138" width="32" height="50" text="d" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="119" x="207" width="32" height="50" text="f" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="120" x="276" width="32" height="50" text="g" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="121" x="345" width="32" height="50" text="h" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="122" x="414" width="32" height="50" text="j" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="123" x="483" width="32" height="50" text="k" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="124" x="553" width="32" height="50" text="l" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="125" x="642" y="5" width="36" height="36" measuredWidth="36" measuredHeight="36" background="#4db6ac" border="false" icon="assets/ic-keyboard-return (medium)">
+        <font size="22px"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="150" x="27" y="168" measuredWidth="719" measuredHeight="58">
+      <widgets xsi:type="model:WidgetGroup" id="127" y="12" measuredWidth="24" measuredHeight="46" name="Shift">
+        <widgets xsi:type="model:SVGImage" id="153" measuredWidth="24" measuredHeight="24" src="_key_shift.svg"/>
+        <widgets xsi:type="model:HLine" id="129" y="40" width="24" measuredWidth="24" measuredHeight="6"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="130" x="68" width="32" height="50" text="z" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="131" x="137" width="32" height="50" text="x" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="132" x="206" width="32" height="50" text="c" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="133" x="275" width="32" height="50" text="v" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="134" x="345" width="32" height="50" text="b" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="135" x="414" width="32" height="50" text="n" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="136" x="483" width="32" height="50" text="m" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="137" x="552" width="32" height="50" text="!" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="138" x="622" width="32" height="50" text="?" measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="139" x="695" y="12" measuredWidth="24" measuredHeight="46" name="Shift">
+        <widgets xsi:type="model:SVGImage" id="154" measuredWidth="24" measuredHeight="24" src="_key_shift.svg"/>
+        <widgets xsi:type="model:HLine" id="141" y="40" width="24" measuredWidth="24" measuredHeight="6"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="151" x="7" y="243" measuredWidth="743" measuredHeight="52">
+      <widgets xsi:type="model:Shape" id="157" y="2" width="60" height="50" text="?123" measuredWidth="60" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="21px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="144" x="87" y="2" width="32" height="50" text="," measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="145" x="144" y="14" width="475" height="24" measuredWidth="475" measuredHeight="24" background="#cccccc" border="false" shapeType="rectangle-rounded">
+        <font size="22px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="146" x="641" y="2" width="32" height="50" text="." measuredWidth="32" measuredHeight="50" alpha="0" border="false" shapeType="rectangle">
+        <font size="32px"/>
+      </widgets>
+      <widgets xsi:type="model:Shape" id="147" x="711" width="32" height="50" measuredWidth="32" measuredHeight="50" alpha="0" border="false" icon="assets/ic-insert-emoticon (medium)" shapeType="rectangle">
+        <font size="29px"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.4.3">
+  <widgets xsi:type="model:WidgetGroup" id="19" x="10" y="10" measuredWidth="360" measuredHeight="33" name="Settings Header">
+    <widgets xsi:type="model:Panel" id="17" width="360" height="33" measuredWidth="360" measuredHeight="33" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" alpha="0" border="none"/>
+    <widgets xsi:type="model:Text" id="18" x="15" y="16" text="Header" measuredWidth="45" measuredHeight="17" layoutParams="anchor-left|anchor-bottom" foreground="#009385">
+      <font size="13px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="10" y="43" measuredWidth="360" measuredHeight="65" name="Settings Volume">
+    <widgets xsi:type="model:SVGImage" id="21" width="360" height="65" measuredWidth="360" measuredHeight="65" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#999999" alpha="0" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="22" x="59" y="4" text="Volume" measuredWidth="65" measuredHeight="30" layoutParams="anchor-left|anchor-top">
+      <font size="17px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="23" x="12" y="20" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-middle" icon="alarm (medium)"/>
+    <widgets xsi:type="model:Master" id="24" x="72" y="38" width="266" measuredWidth="266" measuredHeight="10" layoutParams="anchor-left,anchor-right|anchor-middle">
+      <screen xsi:type="model:WidgetGroup" href="Controls.screen#Slider"/>
+      <overrides>
+        <widgets ref="22" width="266"/>
+      </overrides>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="10" y="108" measuredWidth="360" measuredHeight="50" name="Settings Switch">
+    <widgets xsi:type="model:SVGImage" id="12" width="360" height="50" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#999999" alpha="0" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="13" x="15" y="12" text="Switch" measuredWidth="51" measuredHeight="26" layoutParams="anchor-left|anchor-top">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Switch" id="15" x="309" y="13" measuredWidth="34" measuredHeight="21" layoutParams="anchor-right|anchor-middle" selected="true" background="#009385" skin="_switch.svg">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="10" y="158" measuredWidth="360" measuredHeight="50" name="Settings Section">
+    <widgets xsi:type="model:SVGImage" id="4" width="360" height="50" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#999999" alpha="0" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="5" x="15" y="12" text="Section" measuredWidth="56" measuredHeight="26" layoutParams="anchor-left|anchor-top">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="10" y="208" measuredWidth="360" measuredHeight="69" name="Settings Selection">
+    <widgets xsi:type="model:SVGImage" id="8" width="360" height="69" measuredWidth="360" measuredHeight="69" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#999999" alpha="0" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="9" x="15" y="12" text="Selection" measuredWidth="68" measuredHeight="26" layoutParams="anchor-left|anchor-top">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="10" x="15" y="33" text="Option" measuredWidth="44" measuredHeight="25" layoutParams="anchor-left|anchor-top" foreground="#444444">
+      <font size="13px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="10" y="277" measuredWidth="360" measuredHeight="69" name="Settings Checkbox">
+    <widgets xsi:type="model:SVGImage" id="28" width="360" height="69" measuredWidth="360" measuredHeight="69" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#999999" alpha="0" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="29" x="15" y="12" text="Checkbox" measuredWidth="70" measuredHeight="26" layoutParams="anchor-left|anchor-top">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="30" x="15" y="33" text="Description" measuredWidth="73" measuredHeight="25" layoutParams="anchor-left|anchor-top" foreground="#444444">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="32" x="321" y="24" measuredWidth="18" measuredHeight="18" layoutParams="anchor-right|anchor-middle" selected="true" skin="_checkbox.svg">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="10" y="346" measuredWidth="360" measuredHeight="69" name="Settings Disabled">
+    <widgets xsi:type="model:SVGImage" id="34" width="360" height="69" measuredWidth="360" measuredHeight="69" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" foreground="#999999" alpha="0" src="_panel.svg"/>
+    <widgets xsi:type="model:Label" id="35" x="15" y="12" text="Disabled" measuredWidth="64" measuredHeight="26" layoutParams="anchor-left|anchor-top" foreground="#999999">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="36" x="15" y="33" text="Option" measuredWidth="44" measuredHeight="25" layoutParams="anchor-left|anchor-top" foreground="#999999">
+      <font size="13px"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

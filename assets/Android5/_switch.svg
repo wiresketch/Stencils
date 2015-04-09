@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="21" width="34" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, track, thumb;
+ var fillOn = "#fff";
+ var minWidth, minHeight;
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	track = doc.getElementById("track");
+ 	thumb = doc.getElementById("thumb");
+ 	
+ 	minWidth = parseInt(svg.getAttribute("width"));
+ 	minHeight = parseInt(svg.getAttribute("height"));
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+ 	var radius = (height - 1) / 2;
+ 	var trackHeight = Math.round(2 * height / 3);
+ 	
+ 	thumb.setAttribute("r", radius);
+ 	thumb.setAttribute("cy", radius);
+ 	
+ 	track.setAttribute("width", width - radius);
+ 	track.setAttribute("height", trackHeight);
+ 	track.setAttribute("y", (height - trackHeight) / 2);
+ 	track.setAttribute("ry", trackHeight / 2);
+	
+ 	if($model.selected) {
+ 		track.setAttribute("x", 0);
+ 		thumb.setAttribute("cx", width - radius - 1);
+ 		
+ 		track.setAttribute("fill", fillOn);
+ 		track.setAttribute("opacity", "0.5");
+ 		thumb.setAttribute("fill", fillOn);
+ 		thumb.setAttribute("stroke", fillOn);
+ 	} else {
+ 		track.setAttribute("x", radius);
+ 		thumb.setAttribute("cx", radius + 1);
+ 		
+ 		track.setAttribute("fill", "black");
+ 		track.setAttribute("opacity", "0.26");
+ 		thumb.setAttribute("fill", "#FAFAFA");
+ 		thumb.setAttribute("stroke", "#BDBDBD");
+ 	}
+
+	if($model.state == State.DISABLED) {
+ 		track.setAttribute("fill", "black");
+ 		track.setAttribute("opacity", "0.12");
+ 		thumb.setAttribute("fill", "#BDBDBD");
+ 		thumb.setAttribute("stroke", "#BDBDBD");
+	}
+ }
+ ]]></script>
+ <rect id="track" opacity="0.4" style="color:#000000;enable-background:accumulate;" fill-rule="nonzero" ry="7" height="14" width="27" y="3.5" x="0" fill="#FFF"/>
+ <circle id="thumb" fill="#FFF" cx="23.5" cy="10.5" r="10.5" stroke="black" stroke-width="1" />
+</svg>

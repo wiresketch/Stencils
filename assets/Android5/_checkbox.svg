@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="18" width="18" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, checkbox, checkboxBlank;
+ var text;
+ var minWidth, minHeight;
+ var spacing = 7;
+ var enabledColor = "#009688", disabledColor = "#b0b0b0";
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	checkbox = doc.getElementById("checkbox");
+ 	checkboxBlank = doc.getElementById("checkbox-blank");
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("y", 1);
+ 	text.setAttribute("stroke", "black");
+ 	text.setAttribute("id", "item0");
+ 	svg.appendChild(text);
+ 	
+ 	minWidth = parseInt(svg.getAttribute("width"));
+ 	minHeight = parseInt(svg.getAttribute("height"));
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+	if($item.blank) {
+ 		text.setAttribute("display", "none");
+	} else {
+ 		text.setAttribute("display", "inline");
+		text.setAttribute("x", minWidth + spacing);
+		text.setAttribute("height", height - 1);
+		text.setAttribute("width", width - minWidth - spacing);
+	}
+
+ 	if($model.state == State.DISABLED) {
+ 		text.setAttribute("stroke", disabledColor);
+ 	} else {
+ 		text.setAttribute("stroke", "black");
+ 	}
+	
+ 	if($model.selected) {
+ 		checkbox.setAttribute("display", "inline");
+ 		checkboxBlank.setAttribute("display", "none");
+ 		
+	 	if($model.state == State.DISABLED) {
+	 		checkbox.setAttribute("fill", "black");
+	 		checkbox.setAttribute("opacity", "0.26");
+	 	} else {
+	 		checkbox.setAttribute("fill", enabledColor);
+	 		checkbox.removeAttribute("opacity");
+	 	}
+ 	} else {
+ 		checkbox.setAttribute("display", "none");
+ 		checkboxBlank.setAttribute("display", "inline");
+ 		checkboxBlank.setAttribute("stroke", "black");
+ 		
+	 	if($model.state == State.DISABLED) {
+	 		checkboxBlank.setAttribute("opacity", "0.26");
+	 	} else {
+	 		checkboxBlank.setAttribute("opacity", "0.54");
+	 	}
+ 	}
+ 	
+ 	if(height > minHeight) {
+ 		var transform = "translate(0," + Math.round((height - minHeight) / 2) + ")";
+ 		checkbox.setAttribute("transform", transform);
+ 		checkboxBlank.setAttribute("transform", transform);
+ 	} else {
+ 		checkbox.removeAttribute("transform");
+ 		checkboxBlank.removeAttribute("transform");
+ 	}
+ }
+ 
+ function getPreferredSize() {
+	var height = minHeight;
+	var width = minWidth;
+	
+	if(!$item.blank) {
+		width += spacing + $item.width;
+		height = Math.max($item.height, minHeight);
+	}
+	
+	return {width: width, height: height }; 	
+ }
+ ]]></script>
+ <path id="checkbox" d="M16,0h-14c-1.1004,0-2,0.895-2,2v14c0,1.11,0.8996,2,2,2h14c1.1,0,2-0.89,2-2v-14c0-1.105-0.9-2-2-2zm-9,14-5-5.001,1.41-1.415,3.59,3.586,7.58-7.585,1.42,1.415-9,9z"/>
+ <rect id="checkbox-blank" x="1" y="1" width="16" height="16" stroke-width="2" fill="none" ry="1" />
+</svg>

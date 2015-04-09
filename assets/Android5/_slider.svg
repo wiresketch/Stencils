@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="10" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, left, right, thumb;
+ var enabledColor = "white", enabledColor2 = "#8b8b8b", disabledColor = "#bdbdbd";
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	left = doc.getElementById("left");
+ 	right = doc.getElementById("right");
+ 	thumb = doc.getElementById("thumb");
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+
+	var disabled = $model.state == State.DISABLED;
+	var color = disabled ? disabledColor : enabledColor;
+	var color2 = disabled ? disabledColor : enabledColor2;
+	
+	left.setAttribute("stroke", color);
+	right.setAttribute("stroke", color2);
+	thumb.setAttribute("fill", color);
+	
+	var value = $model.value;
+	
+	left.setAttribute("display", value == 0 ? "none" : "inline");
+	right.setAttribute("display", value == 100 ? "none" : "inline");
+	
+	var dx = Math.round((width - 10) * value / 100);
+	
+	if(dx > 0) {
+		thumb.setAttribute("transform", "translate(" + dx + ")");
+	} else {
+		thumb.removeAttribute("transform");
+	}
+	
+	left.setAttribute("d", "M5,5," + (5 + dx - 2) + ",5");
+	right.setAttribute("d", "M" + (5 + dx + 2) + ",5," + (width - 5) + ",5");
+ }
+ ]]></script>
+ <path id="left" stroke-linejoin="miter" d="M2,5,48,5" stroke="#000" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+ <path id="right" stroke-linejoin="miter" d="M99.5,5,50.5,5" stroke="#b2b2b2" stroke-linecap="square" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1" fill="none"/>
+ <circle id="thumb" fill-rule="nonzero" fill="#000" cx="5" cy="5" r="5"/>
+</svg>

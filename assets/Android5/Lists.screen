@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.4.3">
+  <widgets xsi:type="model:WidgetGroup" id="5" x="16" y="16" measuredWidth="305" measuredHeight="148" name="List 1 Line">
+    <widgets xsi:type="model:Panel" id="4" width="305" height="148" measuredWidth="305" measuredHeight="148" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="2" x="11" width="294" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="294" measuredHeight="148" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="48">
+      <font size="16px"/>
+      <items x="0" y="2" width="294" height="48" text="Single-line item"/>
+      <items x="0" y="50" width="294" height="48" text="Single-line item"/>
+      <items x="0" y="98" width="294" height="48" text="Single-line item"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="16" y="176" measuredWidth="305" measuredHeight="148" name="List 1 Line Icons">
+    <widgets xsi:type="model:Panel" id="8" width="305" height="148" measuredWidth="305" measuredHeight="148" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="9" x="68" width="227" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="227" measuredHeight="148" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="48">
+      <font size="16px"/>
+      <items x="0" y="2" width="227" height="48" text="Single-line item"/>
+      <items x="0" y="50" width="227" height="48" text="Single-line item"/>
+      <items x="0" y="98" width="227" height="48" text="Single-line item"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="16" y="16" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Icon" id="12" x="16" y="64" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Icon" id="13" x="16" y="112" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="16" y="336" measuredWidth="305" measuredHeight="172" name="List 1 Line Avatars">
+    <widgets xsi:type="model:Panel" id="16" width="305" height="172" measuredWidth="305" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="17" x="68" width="237" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="237" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="56">
+      <font size="16px"/>
+      <items x="0" y="2" width="237" height="56" text="Single-line item"/>
+      <items x="0" y="58" width="237" height="56" text="Single-line item"/>
+      <items x="0" y="114" width="237" height="56" text="Single-line item"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="21" x="16" y="10" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="22" x="16" y="66" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="23" x="16" y="122" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="32" x="16" y="520" measuredWidth="360" measuredHeight="172" name="List 1 Line Avatars Icons">
+    <widgets xsi:type="model:Panel" id="33" width="360" height="172" measuredWidth="360" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="34" x="68" width="292" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="292" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="56">
+      <font size="16px"/>
+      <items x="0" y="2" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="58" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="114" width="292" height="56" text="Single-line item"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="35" x="16" y="10" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="38" x="320" y="18" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Shape" id="36" x="16" y="66" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="39" x="320" y="74" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Shape" id="37" x="16" y="122" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="40" x="320" y="130" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" x="415" y="16" measuredWidth="305" measuredHeight="220" name="List 2 Lines">
+    <widgets xsi:type="model:Panel" id="43" width="305" height="220" measuredWidth="305" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="44" x="11" width="294" text="Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;" measuredWidth="294" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="72">
+      <font size="16px"/>
+      <items x="0" y="2" width="294" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="74" width="294" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="146" width="294" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="46" x="415" y="235" width="305" measuredWidth="305" measuredHeight="220" name="List 2 Lines Icons">
+    <widgets xsi:type="model:Panel" id="47" width="305" height="220" measuredWidth="305" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="48" x="68" width="237" text="Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;" measuredWidth="237" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="72">
+      <font size="16px"/>
+      <items x="0" y="2" width="237" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="74" width="237" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="146" width="237" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="49" x="16" y="26" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Icon" id="50" x="16" y="98" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Icon" id="51" x="16" y="170" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="415" y="472" measuredWidth="305" measuredHeight="220" name="List 2 Lines Avatars">
+    <widgets xsi:type="model:Panel" id="54" width="305" height="220" measuredWidth="305" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="55" x="68" width="237" text="Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;" measuredWidth="237" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="72">
+      <font size="16px"/>
+      <items x="0" y="2" width="237" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="74" width="237" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="146" width="237" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="59" x="16" y="18" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="60" x="16" y="90" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="61" x="16" y="162" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="63" x="415" y="712" measuredWidth="360" measuredHeight="220" name="List 2 Lines Avatars Icons">
+    <widgets xsi:type="model:Panel" id="64" width="360" height="220" measuredWidth="360" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="65" x="68" width="292" text="Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;Two-line item\n%(font:14)Secondary text%&#xA;" measuredWidth="292" measuredHeight="220" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="72">
+      <font size="16px"/>
+      <items x="0" y="2" width="292" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="74" width="292" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+      <items x="0" y="146" width="292" height="72" text="Two-line item\n%(font:14)Secondary text%"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="66" x="16" y="18" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="69" x="321" y="26" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Shape" id="67" x="16" y="90" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="70" x="321" y="98" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Shape" id="68" x="16" y="162" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="71" x="321" y="170" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="73" x="808" y="16" measuredWidth="305" measuredHeight="268" name="List 3 Lines">
+    <widgets xsi:type="model:Panel" id="74" width="305" height="268" measuredWidth="305" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="75" x="11" width="294" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;" measuredWidth="294" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="88">
+      <font size="16px"/>
+      <items x="0" y="2" width="294" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="90" width="294" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="178" width="294" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="77" x="808" y="304" measuredWidth="305" measuredHeight="268" name="List 3 Lines Icons">
+    <widgets xsi:type="model:Panel" id="78" width="305" height="268" measuredWidth="305" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="79" x="68" width="236" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;" measuredWidth="236" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="88">
+      <font size="16px"/>
+      <items x="0" y="2" width="236" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="90" width="236" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="178" width="236" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="80" x="17" y="22" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Icon" id="81" x="17" y="110" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Icon" id="82" x="17" y="198" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="image (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="84" x="808" y="571" measuredWidth="305" measuredHeight="268" name="List 3 Lines Avatars">
+    <widgets xsi:type="model:Panel" id="85" width="305" height="268" measuredWidth="305" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="86" x="67" width="236" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;" measuredWidth="236" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="88">
+      <font size="16px"/>
+      <items x="0" y="2" width="236" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="90" width="236" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="178" width="236" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="90" x="16" y="21" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="91" x="16" y="109" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="92" x="16" y="197" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="94" x="808" y="872" measuredWidth="360" measuredHeight="268" name="List 3 Lines Avatars Icons">
+    <widgets xsi:type="model:Panel" id="95" width="360" height="268" measuredWidth="360" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="96" x="67" width="291" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%&#xA;" measuredWidth="291" measuredHeight="268" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="88">
+      <font size="16px"/>
+      <items x="0" y="2" width="291" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="90" width="291" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+      <items x="0" y="178" width="291" height="88" text="Three-line item\n%(font:14)Secondary line text%\n%(font:14)Third line text%"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="97" x="16" y="21" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="100" x="321" y="21" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Shape" id="98" x="16" y="109" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="101" x="321" y="109" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+    <widgets xsi:type="model:Shape" id="99" x="16" y="197" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="102" x="321" y="197" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="image (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="103" x="16" y="712" measuredWidth="305" measuredHeight="148" name="List Checks">
+    <widgets xsi:type="model:Panel" id="104" width="305" height="148" measuredWidth="305" measuredHeight="148" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="105" x="68" width="227" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="227" measuredHeight="148" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="48">
+      <font size="16px"/>
+      <items x="0" y="2" width="227" height="48" text="Single-line item"/>
+      <items x="0" y="50" width="227" height="48" text="Single-line item"/>
+      <items x="0" y="98" width="227" height="48" text="Single-line item"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="106" x="16" y="16" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" foreground="#009385" icon="assets/ic-check-box (medium)"/>
+    <widgets xsi:type="model:Icon" id="107" x="16" y="64" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" icon="assets/ic-check-box-outline-blank (medium)"/>
+    <widgets xsi:type="model:Icon" id="108" x="16" y="112" measuredWidth="24" measuredHeight="24" layoutParams="anchor-left|anchor-top" foreground="#009385" icon="assets/ic-check-box (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="109" x="16" y="880" measuredWidth="360" measuredHeight="172" name="List Checks Secondary">
+    <widgets xsi:type="model:Panel" id="110" width="360" height="172" measuredWidth="360" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="111" x="68" width="292" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="292" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="56">
+      <font size="16px"/>
+      <items x="0" y="2" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="58" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="114" width="292" height="56" text="Single-line item"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="112" x="16" y="10" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="113" x="320" y="18" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" foreground="#009385" icon="assets/ic-check-box (medium)"/>
+    <widgets xsi:type="model:Shape" id="114" x="16" y="66" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="115" x="320" y="74" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ic-check-box-outline-blank (medium)"/>
+    <widgets xsi:type="model:Shape" id="116" x="16" y="122" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="117" x="320" y="130" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" foreground="#009385" icon="assets/ic-check-box (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="124" x="16" y="1088" measuredWidth="360" measuredHeight="172" name="List Reorder">
+    <widgets xsi:type="model:Panel" id="125" width="360" height="172" measuredWidth="360" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="126" x="68" width="292" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="292" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="56">
+      <font size="16px"/>
+      <items x="0" y="2" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="58" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="114" width="292" height="56" text="Single-line item"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="127" x="16" y="10" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="128" x="320" y="18" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ic-reorder (medium)"/>
+    <widgets xsi:type="model:Shape" id="129" x="16" y="66" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="130" x="320" y="74" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ic-reorder (medium)"/>
+    <widgets xsi:type="model:Shape" id="131" x="16" y="122" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="132" x="320" y="130" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ic-reorder (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="133" x="415" y="1096" measuredWidth="360" measuredHeight="172" name="List Expand Collapse">
+    <widgets xsi:type="model:Panel" id="134" width="360" height="172" measuredWidth="360" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:List" id="135" x="68" width="292" text="Single-line item&#xA;Single-line item&#xA;Single-line item" measuredWidth="292" measuredHeight="172" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="false" alpha="0" rowHeight="56">
+      <font size="16px"/>
+      <items x="0" y="2" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="58" width="292" height="56" text="Single-line item"/>
+      <items x="0" y="114" width="292" height="56" text="Single-line item"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="136" x="16" y="10" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="137" x="320" y="18" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ic-expand-more (medium)"/>
+    <widgets xsi:type="model:Shape" id="138" x="16" y="66" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="139" x="320" y="74" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ic-expand-more (medium)"/>
+    <widgets xsi:type="model:Shape" id="140" x="16" y="122" width="40" height="40" measuredWidth="40" measuredHeight="40" layoutParams="anchor-left|anchor-top" background="#999999" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="141" x="320" y="130" measuredWidth="24" measuredHeight="24" layoutParams="anchor-right|anchor-top" icon="assets/ic-expand-more (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="143" x="1056" y="40" measuredWidth="305" measuredHeight="6" name="List Divider">
+    <widgets xsi:type="model:HLine" id="149" width="305" measuredWidth="305" measuredHeight="6" foreground="#999999"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="148" x="1056" y="66" width="305" measuredWidth="305" measuredHeight="48" name="List Header">
+    <widgets xsi:type="model:Panel" id="145" width="305" height="48" measuredWidth="305" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" border="none"/>
+    <widgets xsi:type="model:Label" id="147" x="15" y="11" text="List Header" measuredWidth="75" measuredHeight="25" layoutParams="anchor-left|anchor-middle" foreground="#666666">
+      <font size="13px" bold="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

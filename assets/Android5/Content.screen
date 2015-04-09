@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.4.3">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="376" y="8" measuredWidth="130" measuredHeight="32" name="Contact Chip">
+    <widgets xsi:type="model:Shape" id="2" x="1" width="129" height="32" text="Contact Name" measuredWidth="129" measuredHeight="32" layoutParams="anchor-left,anchor-right|anchor-top" background="#cccccc" border="false" textAlignment="Right" shapeType="rectangle-round">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="3" width="32" height="32" measuredWidth="32" measuredHeight="32" layoutParams="anchor-left|anchor-top" icon="user (medium)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="8" y="8" measuredWidth="346" measuredHeight="322" name="Card Big">
+    <widgets xsi:type="model:Panel" id="5" width="346" height="322" measuredWidth="346" measuredHeight="322" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+    <widgets xsi:type="model:Label" id="11" x="17" y="130" text="Card title" measuredWidth="104" measuredHeight="37" layoutParams="anchor-left|anchor-top">
+      <font size="24px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="12" x="2" y="173" width="344" measuredWidth="344" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-top"/>
+    <widgets xsi:type="model:Label" id="10" x="18" y="188" text="Card Subtitle" measuredWidth="92" measuredHeight="26" layoutParams="anchor-left|anchor-top">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="6" x="2" y="266" width="344" measuredWidth="344" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-bottom"/>
+    <widgets xsi:type="model:ButtonBar" id="8" x="9" y="280" text="SHARE, EXPLORE" measuredWidth="149" measuredHeight="30" layoutParams="anchor-left|anchor-bottom" background="#009385" skin="_buttons.svg">
+      <font size="14px" bold="false"/>
+      <items x="0" y="0" width="67" height="30" text="SHARE"/>
+      <items x="67" y="0" width="82" height="30" text="EXPLORE"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="13" x="18" y="214" width="310" text="Lorem ipsum dolor sit amet&#xA;consectetur adipisicing elit" measuredWidth="310" measuredHeight="42" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.5">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="32" x="8" y="345" measuredWidth="346" measuredHeight="208" name="Card Medium">
+    <widgets xsi:type="model:Panel" id="25" width="346" height="208" measuredWidth="346" measuredHeight="208" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+    <widgets xsi:type="model:Label" id="26" x="16" y="17" text="Card Title" measuredWidth="110" measuredHeight="37" layoutParams="anchor-left|anchor-top">
+      <font size="24px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="29" x="2" y="154" width="344" measuredWidth="344" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-bottom"/>
+    <widgets xsi:type="model:ButtonBar" id="30" x="17" y="168" text="NO, YES" measuredWidth="88" measuredHeight="30" layoutParams="anchor-left|anchor-bottom" background="#009385" skin="_buttons.svg">
+      <font size="14px" bold="false"/>
+      <items x="0" y="0" width="41" height="30" text="NO"/>
+      <items x="41" y="0" width="47" height="30" text="YES"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="31" x="15" y="65" width="314" height="80" text="Lorem ipsum dolor sit amet&#xA;consectetur adipisicing elit" measuredWidth="314" measuredHeight="80" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.5">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="8" y="568" measuredWidth="346" measuredHeight="136" name="Card Small">
+    <widgets xsi:type="model:Panel" id="34" width="346" height="136" measuredWidth="346" measuredHeight="136" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+    <widgets xsi:type="model:VLine" id="39" x="86" y="2" height="134" measuredWidth="6" measuredHeight="134" layoutParams="anchor-left|anchor-top,anchor-bottom"/>
+    <widgets xsi:type="model:HLine" id="36" x="89" y="82" width="256" measuredWidth="256" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-bottom"/>
+    <widgets xsi:type="model:Label" id="35" x="108" y="9" text="Card Title" measuredWidth="110" measuredHeight="37" layoutParams="anchor-left|anchor-top">
+      <font size="24px"/>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="37" x="98" y="96" text="BUTTON 1, BUTTON 2" measuredWidth="180" measuredHeight="30" layoutParams="anchor-left|anchor-bottom" background="#009385" skin="_buttons.svg">
+      <font size="14px" bold="false"/>
+      <items x="0" y="0" width="90" height="30" text="BUTTON 1"/>
+      <items x="90" y="0" width="90" height="30" text="BUTTON 2"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="38" x="108" y="46" width="219" height="29" text="Card content" measuredWidth="219" measuredHeight="29" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.5">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="48" x="8" y="720" measuredWidth="360" measuredHeight="104" name="Card List">
+    <widgets xsi:type="model:Panel" id="49" width="360" height="104" measuredWidth="360" measuredHeight="104" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+    <widgets xsi:type="model:Text" id="54" x="15" y="13" width="221" height="62" text="Bacon ipsum dolor sit amet porchetta turkey leberkas Corned beef prosciutto ground..." measuredWidth="221" measuredHeight="62" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" lineHeight="1.4">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Placeholder" id="55" x="248" y="16" width="96" height="70" measuredWidth="96" measuredHeight="70" layoutParams="anchor-right|anchor-middle"/>
+    <widgets xsi:type="model:Label" id="56" x="16" y="72" text="10 min" measuredWidth="44" measuredHeight="23" layoutParams="anchor-left|anchor-bottom" foreground="#666666">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="63" x="8" y="840" measuredWidth="168" measuredHeight="200" name="Card Thumbnail">
+    <widgets xsi:type="model:Panel" id="64" width="168" height="200" measuredWidth="168" measuredHeight="200" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom"/>
+    <widgets xsi:type="model:Label" id="67" x="17" y="163" text="Thumbnail" measuredWidth="83" measuredHeight="27" layoutParams="anchor-left|anchor-bottom">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="68" x="2" y="149" width="166" measuredWidth="166" measuredHeight="6" layoutParams="anchor-left,anchor-right|anchor-bottom"/>
+    <widgets xsi:type="model:Icon" id="70" x="138" y="168" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-bottom" icon="info (small)"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

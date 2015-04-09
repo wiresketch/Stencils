@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.4.3">
+  <widgets xsi:type="model:Master" id="2" x="10" y="10" measuredWidth="360" measuredHeight="56" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgets ref="4">
+        <attributes key="icon" value="assets/ic-arrow-back (medium)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="62" x="10" y="66" measuredWidth="360" measuredHeight="33" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Settings.screen#Settings%20Header"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="63" x="10" y="99" measuredWidth="360" measuredHeight="69" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Settings.screen#Settings%20Selection"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="64" x="10" y="168" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Settings.screen#Settings%20Switch"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="65" x="10" y="218" measuredWidth="360" measuredHeight="50" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Settings.screen#Settings%20Section"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="66" x="10" y="268" measuredWidth="360" measuredHeight="69" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Settings.screen#Settings%20Disabled"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="67" x="10" y="337" measuredWidth="360" measuredHeight="69" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Settings.screen#Settings%20Checkbox"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="68" x="10" y="406" measuredWidth="360" measuredHeight="65" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Settings.screen#Settings%20Volume"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

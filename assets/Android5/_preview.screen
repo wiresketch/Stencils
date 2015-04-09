@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" theme="clean" minVersion="4.4.3">
+  <widgets xsi:type="model:Master" id="1" x="10" y="10" measuredWidth="975" measuredHeight="1452">
+    <screen xsi:type="model:WidgetGroup" href="Devices/Nexus%2010.screen#Nexus%2010%20Portrait"/>
+    <overrides>
+      <widgets ref="23">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="98" y="120" width="800" measuredWidth="800" measuredHeight="150">
+    <screen xsi:type="model:WidgetGroup" href="Controls.screen#Chrome%20Tablet"/>
+    <overrides>
+      <widgets ref="93" width="800"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="102" y="154" measuredWidth="883" measuredHeight="1308">
+    <screen xsi:type="model:WidgetGroup" href="Devices/Nexus%209.screen#Nexus%209%20Portrait"/>
+    <overrides>
+      <widgets ref="5">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="159" y="320" width="757" measuredWidth="757" measuredHeight="150">
+    <screen xsi:type="model:WidgetGroup" href="Controls.screen#Chrome%20Tablet"/>
+    <overrides>
+      <widgets ref="93" width="757"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="269" y="197" measuredWidth="716" measuredHeight="1265">
+    <screen xsi:type="model:WidgetGroup" href="Devices/Nexus%207.screen#Nexus%207%20Portrait"/>
+    <overrides>
+      <widgets ref="6">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="327" y="371" width="600" measuredWidth="600" measuredHeight="461">
+    <screen xsi:type="model:Screen" href="Templates/Settings.screen#/"/>
+    <overrides>
+      <widgets ref="2" x="-39" y="-41" width="600"/>
+      <widgets ref="2/2" width="600">
+        <attributes key="background" value="#da4336"/>
+      </widgets>
+      <widgets ref="2/3" x="564">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="2/6" x="524">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="62" x="-39" y="15" width="600"/>
+      <widgets ref="62/17" width="600"/>
+      <widgets ref="63" x="-39" y="48" width="600"/>
+      <widgets ref="63/8" width="600"/>
+      <widgets ref="64" x="-39" y="117" width="600"/>
+      <widgets ref="64/12" width="600"/>
+      <widgets ref="64/15" x="549"/>
+      <widgets ref="65" x="-39" y="167" width="600"/>
+      <widgets ref="65/4" width="600"/>
+      <widgets ref="66" x="-39" y="217" width="600"/>
+      <widgets ref="66/34" width="600"/>
+      <widgets ref="67" x="-39" y="286" width="600"/>
+      <widgets ref="67/28" width="600"/>
+      <widgets ref="67/32" x="561"/>
+      <widgets ref="68" x="-39" y="355" width="600"/>
+      <widgets ref="68/21" width="600"/>
+      <widgets ref="68/24" width="506"/>
+      <widgets ref="68/24/22" width="506"/>
+      <widgets ref="63/7" x="-39" y="157"/>
+      <widgets ref="66/33" x="-39" y="295"/>
+      <widgets ref="64/11" x="-39" y="57"/>
+      <widgets ref="68/20" x="-39" y="-8"/>
+      <widgets ref="68/24/23" x="-39" y="205"/>
+      <widgets ref="67/27" x="-39" y="226"/>
+      <widgets ref="62/19" x="-39" y="-41"/>
+      <widgets ref="65/6" x="-39" y="107"/>
+      <widgets ref="2/8" x="-39" y="-41"/>
+      <widgets ref="2/4">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="2/5">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="756" y="419" measuredWidth="170" measuredHeight="210">
+    <screen xsi:type="model:WidgetGroup" href="Prompts.screen#Menu"/>
+    <overrides>
+      <widgets ref="2" text="Menu Item 1&#xA;Menu Item 2&#xA;Menu Item 3&#xA;Menu Item 4">
+        <items ref="@items.0" text="Menu Item 1"/>
+        <items ref="@items.1" text="Menu Item 2"/>
+        <items ref="@items.2" text="Menu Item 3"/>
+        <items ref="@items.3" text="Menu Item 4"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="26" x="80" y="901" measuredWidth="213" measuredHeight="293">
+    <screen xsi:type="model:WidgetGroup" href="Devices/Wear.screen#Watch"/>
+    <overrides>
+      <widgets ref="3">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="335" y="910" measuredWidth="282" measuredHeight="274">
+    <screen xsi:type="model:WidgetGroup" href="Devices/Wear.screen#Watch%20Round"/>
+    <overrides>
+      <widgets ref="4">
+        <attributes key="hFlip" value="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="529" y="590" measuredWidth="456" measuredHeight="872">
+    <screen xsi:type="model:WidgetGroup" href="Devices/Nexus%206.screen#Nexus%206"/>
+    <overrides>
+      <widgets ref="7">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="550" y="691" width="410" measuredWidth="410" measuredHeight="100">
+    <screen xsi:type="model:WidgetGroup" href="Controls.screen#Chrome"/>
+    <overrides>
+      <widgets ref="89" width="410"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="579" y="668" measuredWidth="406" measuredHeight="794">
+    <screen xsi:type="model:WidgetGroup" href="Devices/Nexus%205.screen#Nexus%205"/>
+    <overrides>
+      <widgets ref="5">
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="9" x="602" y="760" measuredWidth="360" measuredHeight="566">
+    <screen xsi:type="model:Screen" href="Templates/Home.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="642" y="863" measuredWidth="280" measuredHeight="252">
+    <screen xsi:type="model:WidgetGroup" href="Prompts.screen#Alert"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="14" x="1008" y="6" measuredWidth="433" measuredHeight="668">
+    <screen xsi:type="model:Screen" href="Controls.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="94"/>
+      <widgetChanges xsi:type="o:Delete" ref="91"/>
+      <widgets ref="115" x="224" y="328"/>
+      <widgets ref="117" x="224" y="383"/>
+      <widgets ref="119" x="224" y="438"/>
+      <widgets ref="60" x="224" y="516"/>
+      <widgets ref="102" x="224" y="580"/>
+      <widgets ref="107" x="224" y="652"/>
+      <widgets ref="9" x="67" y="71"/>
+      <widgets ref="3" x="130" y="71"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="1008" y="696" measuredWidth="931" measuredHeight="648">
+    <screen xsi:type="model:Screen" href="Prompts.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="284"/>
+      <widgetChanges xsi:type="o:Delete" ref="131"/>
+      <widgetChanges xsi:type="o:Delete" ref="5"/>
+      <widgets ref="260" x="516" y="16"/>
+      <widgets ref="265" x="813" y="456" width="326"/>
+      <widgets ref="270" x="813" y="520" width="326"/>
+      <widgets ref="266" x="813" y="584" width="326"/>
+      <widgets ref="274" x="612" y="574"/>
+      <widgets ref="291" x="813" y="227"/>
+      <widgets ref="296" x="813" y="363"/>
+      <widgets ref="317" x="813"/>
+      <widgets ref="319" x="813" width="326"/>
+      <widgets ref="359" x="1109"/>
+      <widgets ref="320" width="326"/>
+      <widgets ref="325" width="260"/>
+      <widgets ref="262" width="326"/>
+      <widgets ref="269" x="21" width="60"/>
+      <widgets ref="271" width="326"/>
+      <widgets ref="304" x="239" width="70"/>
+      <widgets ref="267" width="326"/>
+      <widgets ref="268" width="278"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="16" x="1488" y="7" measuredWidth="360" measuredHeight="172">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%20Checks%20Secondary"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="1488" y="405" measuredWidth="305" measuredHeight="268">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%203%20Lines%20Avatars"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="19" x="1488" y="179" measuredWidth="360" measuredHeight="220">
+    <screen xsi:type="model:WidgetGroup" href="Lists.screen#List%202%20Lines%20Avatars%20Icons"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="20" x="1008" y="1259" measuredWidth="345" measuredHeight="49">
+    <screen xsi:type="model:WidgetGroup" href="Navigation.screen#Search%20Google"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="1008" y="1333" measuredWidth="360" measuredHeight="56">
+    <screen xsi:type="model:WidgetGroup" href="Navigation.screen#Search%20Toolbar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="1008" y="1414" measuredWidth="360" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="Navigation.screen#Bottom%20Toolbar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="23" x="1400" y="1406" measuredWidth="360" measuredHeight="56">
+    <screen xsi:type="model:WidgetGroup" href="Navigation.screen#Text%20Toolbar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="24" x="1400" y="1333" measuredWidth="48" measuredHeight="16">
+    <screen xsi:type="model:WidgetGroup" href="Navigation.screen#Pager%20Indicator"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="25" x="1400" y="1364" measuredWidth="130" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="Content.screen#Contact%20Chip"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

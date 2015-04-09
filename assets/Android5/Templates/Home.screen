@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Panel" id="7" x="10" y="10" width="360" height="566" measuredWidth="360" measuredHeight="566" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" background="#cccccc" border="none"/>
+  <widgets xsi:type="model:Master" id="8" x="17" y="17" measuredWidth="345" measuredHeight="49" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Navigation.screen#Search%20Google"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="33" y="397" text="Contacts" measuredWidth="52" measuredHeight="74" layoutParams="anchor-left|anchor-bottom" textAlignment="Center" icon="book (xlarge)" iconPosition="top">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="295" y="397" text="Play Store" measuredWidth="58" measuredHeight="74" layoutParams="anchor-right|anchor-bottom" textAlignment="Center" icon="shopping-cart (xlarge)" iconPosition="top">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="12" x="32" y="510" measuredWidth="48" measuredHeight="48" layoutParams="anchor-left|anchor-bottom" icon="phone (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="13" x="99" y="510" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-bottom" icon="comments (xlarge)"/>
+  <widgets xsi:type="model:WidgetGroup" id="23" x="166" y="510" measuredWidth="48" measuredHeight="48">
+    <widgets xsi:type="model:Shape" id="17" width="48" height="48" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-bottom" border="false">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="22" x="12" y="5" measuredWidth="24" measuredHeight="37">
+      <widgets xsi:type="model:Icon" id="19" measuredWidth="24" measuredHeight="24" icon="dots (medium)"/>
+      <widgets xsi:type="model:Icon" id="20" y="13" measuredWidth="24" measuredHeight="24" icon="dots (medium)"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="14" x="233" y="510" measuredWidth="48" measuredHeight="48" layoutParams="anchor-center|anchor-bottom" icon="internet (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="15" x="301" y="510" measuredWidth="48" measuredHeight="48" layoutParams="anchor-right|anchor-bottom" icon="snapshot (xlarge)"/>
+  <widgets xsi:type="model:Master" id="18" x="166" y="477" measuredWidth="48" measuredHeight="16" layoutParams="anchor-center|anchor-bottom">
+    <screen xsi:type="model:WidgetGroup" href="../Navigation.screen#Pager%20Indicator"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

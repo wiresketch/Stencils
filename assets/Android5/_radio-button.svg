@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="21" width="21" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onload="onLoad(evt)" onresize="onResize(evt)">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <script><![CDATA[
+ var doc, svg, radiobutton, radio, button;
+ var text;
+ var minWidth, minHeight;
+ var spacing = 5;
+ var enabledColor, disabledColor = "#b0b0b0";
+ 
+ function onLoad(evt) {
+ 	svg = evt.target;
+ 	doc = svg.ownerDocument;
+ 	radiobutton = doc.getElementById("radiobutton");
+ 	radio = doc.getElementById("radio");
+ 	button = doc.getElementById("button");
+ 	
+ 	text = doc.createElement("foreignObject");
+ 	text.setAttribute("y", 0);
+ 	text.setAttribute("stroke", "black");
+ 	text.setAttribute("id", "item0");
+ 	svg.appendChild(text);
+ 	
+ 	enabledColor = button.getAttribute("fill");
+ 	
+ 	minWidth = parseInt(svg.getAttribute("width"));
+ 	minHeight = parseInt(svg.getAttribute("height"));
+ }
+ 
+ function onResize(evt) {
+ 	var width = parseInt(svg.getAttribute("width"));
+ 	var height = parseInt(svg.getAttribute("height"));
+ 	
+	if($item.blank) {
+ 		text.setAttribute("display", "none");
+	} else {
+ 		text.setAttribute("display", "inline");
+		text.setAttribute("x", minWidth + spacing);
+		text.setAttribute("height", height);
+		text.setAttribute("width", width - minWidth - spacing);
+	}
+	
+ 	if($model.selected) {
+ 		button.setAttribute("display", "inline");
+ 	} else {
+ 		button.setAttribute("display", "none");
+ 	}
+ 	
+ 	if($model.state == State.DISABLED) {
+ 		radio.setAttribute("stroke", "black");
+ 		button.setAttribute("fill", "black");
+ 		radio.setAttribute("opacity", "0.26");
+ 		button.setAttribute("opacity", "0.26");
+ 		text.setAttribute("stroke", disabledColor);
+ 	} else {
+ 		radio.setAttribute("stroke", enabledColor);
+ 		button.setAttribute("fill", enabledColor);
+ 		button.removeAttribute("opacity");
+ 		text.setAttribute("stroke", "black");
+ 		
+	 	if($model.selected) {
+ 			radio.removeAttribute("opacity");
+	 	} else {
+	 		radio.setAttribute("opacity", "0.54");
+	 	}
+ 	}
+ 	
+ 	if(height > minHeight) {
+ 		radiobutton.setAttribute("transform", "translate(0," + Math.round((height - minHeight) / 2) + ")");
+ 	} else {
+ 		radiobutton.removeAttribute("transform");
+ 	}
+ }
+ 
+ function getPreferredSize() {
+	var height = minHeight;
+	var width = minWidth;
+	
+	if(!$item.blank) {
+		width += spacing + $item.width;
+		height = Math.max($item.height, minHeight);
+	}
+	
+	return {width: width, height: height }; 	
+ }
+ ]]></script>
+ <g id="radiobutton">
+ <circle id="radio" fill="none" stroke="#009688" stroke-width="2" cx="10.5" cy="10.5" r="9.5" />
+ <circle id="button" fill="#009688" cx="10.5" cy="10.5" r="5.5" />
+ </g>
+</svg>

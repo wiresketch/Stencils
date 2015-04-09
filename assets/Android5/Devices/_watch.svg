@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="293" width="213" version="1.1" ws-layout="non-scaling-stroke" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="path3817" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M190,276,190,276c-6.5,3.9-10,9.7-10,16h-10v-4c0-2.8-2.2-5-5-5h-116c-2.8,0-5,2.2-5,5v4h-10v-1c0-6.5-4.2-13-10-15" fill-rule="nonzero" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="#FFF"/>
+ <path id="rect3806" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M190,17,190,17c-6.5-3.94-10-9.68-10-16h-10v4c0,2.77-2.2,5-5,5h-116c-2.8,0-5-2.23-5-5v-4h-10v1c0,6.55-4.2,12.95-10,15" fill-rule="nonzero" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="#FFF"/>
+ <path id="frame" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" d="M21,17c-11.08,0-20,8.92-20,20v219c0,11.1,8.92,20,20,20h171c11.1,0,20-8.9,20-20v-219c0-11.08-8.9-20-20-20h-171zm-4,42,178,0,0,178-178,0,0-178z" stroke-dashoffset="0" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="2" fill="#FFF"/>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="44" width="246" version="1.1" ws-layout="scale-9" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" ws-fill="#00F">
+ <title id="title2818">WireframeSketcher SVG asset</title>
+ <defs id="defs4"></defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>WireframeSketcher SVG asset</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Peter Severin</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+     </cc:Agent>
+    </dc:rights>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="path3773" style="enable-background:accumulate;color:#000000;" d="M246,34c0,5.52-4.5,10-10,10s-10-4.46-10-10v-10h10c5.5,0,10,4.48,10,10z" fill-rule="nonzero" fill="#00F"/>
+ <path id="path3776" style="enable-background:accumulate;color:#000000;" d="M0,34c0,5.52,4.5,10,10,10s10-4.46,10-10v-10h-10c-5.5,0-10,4.48-10,10z" fill-rule="nonzero" fill="#00F"/>
+ <rect id="rect3778" style="enable-background:accumulate;color:#000000;" fill-rule="nonzero" height="24" width="206" y="0" x="20" fill="#00F" opacity="0.6"/>
+ <rect id="ws-guides" stroke-linejoin="round" style="enable-background:accumulate;color:#000000;" stroke-dasharray="none" stroke-dashoffset="0" height="16" width="56" stroke="#000" stroke-linecap="round" stroke-miterlimit="4" y="4" x="95" stroke-width="2" fill="none"/>
+</svg>

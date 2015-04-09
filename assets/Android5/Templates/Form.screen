@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides" theme="clean" minVersion="4.4.3">
+  <widgets xsi:type="model:Master" id="2" x="10" y="10" measuredWidth="360" measuredHeight="56" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="6"/>
+      <widgets ref="4">
+        <attributes key="icon" value="assets/ic-check (medium)"/>
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="2">
+        <attributes key="foreground" value="#ffffff"/>
+        <attributes key="background" value="#0288d1"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="18" y="70" measuredWidth="342" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Controls.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="44" width="342" text="Name"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="18" y="118" measuredWidth="342" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Controls.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="44" width="342" text="Email"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="18" y="166" measuredWidth="223" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Controls.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="44" width="223" text="Phone"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="274" y="181" text="MOBILE{desc}" measuredWidth="70" measuredHeight="25" layoutParams="anchor-right|anchor-top" textAlignment="Right">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="18" y="214" measuredWidth="223" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Controls.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="44" width="223" text="Address"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="283" y="229" text="HOME{desc}" measuredWidth="61" measuredHeight="25" layoutParams="anchor-right|anchor-top" textAlignment="Right">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="18" y="262" measuredWidth="223" measuredHeight="48" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Controls.screen#Drop%20Down"/>
+    <overrides>
+      <widgets ref="57" width="223" text="Date"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="260" y="277" text="BIRTHDAY{desc}" measuredWidth="84" measuredHeight="25" layoutParams="anchor-right|anchor-top" textAlignment="Right">
+    <font size="13px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="282"
+   height="274"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="_watch_r.svg"
+   ws-fill="#0000FF">
+  <title
+     id="title2818">WireframeSketcher SVG asset</title>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.2 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.1 : 526.2 : 1"
+       inkscape:persp3d-origin="372 : 350.8 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="111.1"
+     inkscape:cy="146.1"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="1"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-3px"
+       originy="-66px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>WireframeSketcher SVG asset</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Peter Severin</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (c) WireframeSketcher.com</dc:title>
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="M 0,0 0,274 282,274 282,0 z M 137.2,15 C 153.9,15.03 170.6,18.49 185.9,25.22 229.8,43.63 259.5,89.75 259.1,137.2 259.5,182.9 231.5,226.9 190.5,246.7 147.9,268.2 93.13,260.9 57.31,229.5 21.23,199.2 6.184,146.7 20.12,101.7 34.31,52.48 82.56,15.5 133.9,15.03 135,15 136.1,15 137.2,15 z"
+     id="background"
+     inkscape:label="#rect3865"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccc" />
+  <path
+     style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="M 259.8,121 C 258.2,121 257,122.2 257,123.8 L 257,150.2 C 257,151.8 258.2,153 259.8,153 L 264.2,153 C 265.8,153 267,151.8 267,150.2 L 267,150 269.8,150 C 271,150 272,149 272,147.8 L 272,126.2 C 272,125 271,124 269.8,124 L 267,124 267,123.8 C 267,122.2 265.8,121 264.2,121 L 259.8,121 z"
+     id="thumb"
+     inkscape:label="#rect3775"
+     inkscape:connector-curvature="0" />
+  <path
+     style="color:#000000;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="M 137,11 C 67.41,11 11,67.4 11,137 11,206.6 67.41,263 137,263 206.6,263 263,206.6 263,137 263,67.4 206.6,11 137,11 z M 137,19 C 202.2,19 255,71.8 255,137 255,202.2 202.2,255 137,255 71.83,255 19,202.2 19,137 19,71.8 71.83,19 137,19 z"
+     id="frame"
+     inkscape:connector-curvature="0"
+     inkscape:label="#path3858" />
+</svg>

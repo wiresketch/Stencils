@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean" minVersion="4.4.3">
+  <widgets xsi:type="model:Master" id="2" x="10" y="10" measuredWidth="360" measuredHeight="56" layoutParams="anchor-left,anchor-right|anchor-top">
+    <screen xsi:type="model:WidgetGroup" href="../Navigation.screen#App%20Bar"/>
+    <overrides>
+      <widgets ref="2">
+        <attributes key="background" value="#da4336"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="6">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="10" y="66" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top">
+    <widgets xsi:type="model:SVGImage" id="3" width="360" height="81" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="../_panel.svg"/>
+    <widgets xsi:type="model:Label" id="4" x="12" y="8" text="John Doe" measuredWidth="84" measuredHeight="26" layoutParams="anchor-left|anchor-top" icon="tag (small)">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="5" x="293" y="12" text="Jan 16" measuredWidth="55" measuredHeight="21" layoutParams="anchor-right|anchor-top" icon="attachment (small)">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="6" x="15" y="28" text="Lorem ipsum" measuredWidth="84" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="7" x="14" y="47" text="Lorem ipsum dolor sit amet, Lorem ipsum dolor ..." measuredWidth="303" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" x="328" y="48" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#f1c232" icon="favorites (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="47" x="10" y="147" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top">
+    <widgets xsi:type="model:SVGImage" id="48" width="360" height="81" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="../_panel.svg"/>
+    <widgets xsi:type="model:Label" id="49" x="12" y="8" text="John Doe" measuredWidth="84" measuredHeight="26" layoutParams="anchor-left|anchor-top" icon="tag (small)">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="50" x="293" y="12" text="Jan 16" measuredWidth="55" measuredHeight="21" layoutParams="anchor-right|anchor-top" icon="attachment (small)">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="51" x="15" y="28" text="Lorem ipsum" measuredWidth="84" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="52" x="14" y="47" text="Lorem ipsum dolor sit amet, Lorem ipsum dolor ..." measuredWidth="303" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="53" x="328" y="48" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#f1c232" icon="favorites (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="54" x="10" y="228" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top">
+    <widgets xsi:type="model:SVGImage" id="55" width="360" height="81" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="../_panel.svg"/>
+    <widgets xsi:type="model:Label" id="56" x="12" y="8" text="John Doe" measuredWidth="84" measuredHeight="26" layoutParams="anchor-left|anchor-top" icon="tag (small)">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="57" x="293" y="12" text="Jan 16" measuredWidth="55" measuredHeight="21" layoutParams="anchor-right|anchor-top" icon="attachment (small)">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="58" x="15" y="28" text="Lorem ipsum" measuredWidth="84" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="59" x="14" y="47" text="Lorem ipsum dolor sit amet, Lorem ipsum dolor ..." measuredWidth="303" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="60" x="328" y="48" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#f1c232" icon="favorites (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="61" x="10" y="309" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top">
+    <widgets xsi:type="model:SVGImage" id="62" width="360" height="81" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="../_panel.svg"/>
+    <widgets xsi:type="model:Label" id="63" x="12" y="8" text="John Doe" measuredWidth="84" measuredHeight="26" layoutParams="anchor-left|anchor-top" icon="tag (small)">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="64" x="293" y="12" text="Jan 16" measuredWidth="55" measuredHeight="21" layoutParams="anchor-right|anchor-top" icon="attachment (small)">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="65" x="15" y="28" text="Lorem ipsum" measuredWidth="84" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="66" x="14" y="47" text="Lorem ipsum dolor sit amet, Lorem ipsum dolor ..." measuredWidth="303" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="67" x="328" y="48" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#f1c232" icon="favorites (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="68" x="10" y="390" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top">
+    <widgets xsi:type="model:SVGImage" id="69" width="360" height="81" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="../_panel.svg"/>
+    <widgets xsi:type="model:Label" id="70" x="12" y="8" text="John Doe" measuredWidth="84" measuredHeight="26" layoutParams="anchor-left|anchor-top" icon="tag (small)">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="71" x="293" y="12" text="Jan 16" measuredWidth="55" measuredHeight="21" layoutParams="anchor-right|anchor-top" icon="attachment (small)">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="72" x="15" y="28" text="Lorem ipsum" measuredWidth="84" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="73" x="14" y="47" text="Lorem ipsum dolor sit amet, Lorem ipsum dolor ..." measuredWidth="303" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="74" x="328" y="48" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#f1c232" icon="favorites (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="75" x="10" y="471" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top">
+    <widgets xsi:type="model:SVGImage" id="76" width="360" height="81" measuredWidth="360" measuredHeight="81" layoutParams="anchor-left,anchor-right|anchor-top,anchor-bottom" src="../_panel.svg"/>
+    <widgets xsi:type="model:Label" id="77" x="12" y="8" text="John Doe" measuredWidth="84" measuredHeight="26" layoutParams="anchor-left|anchor-top" icon="tag (small)">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="78" x="293" y="12" text="Jan 16" measuredWidth="55" measuredHeight="21" layoutParams="anchor-right|anchor-top" icon="attachment (small)">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="79" x="15" y="28" text="Lorem ipsum" measuredWidth="84" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="80" x="14" y="47" text="Lorem ipsum dolor sit amet, Lorem ipsum dolor ..." measuredWidth="303" measuredHeight="25" layoutParams="anchor-left|anchor-top">
+      <font size="13px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="81" x="328" y="48" measuredWidth="16" measuredHeight="16" layoutParams="anchor-right|anchor-top" foreground="#f1c232" icon="favorites (small)"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="46" x="302" y="474" measuredWidth="54" measuredHeight="54" layoutParams="anchor-right|anchor-bottom">
+    <screen xsi:type="model:WidgetGroup" href="../Controls.screen#Button%20Floating"/>
+    <overrides>
+      <widgets ref="12" width="54" height="54">
+        <attributes key="icon" value="edit (medium)"/>
+        <attributes key="background" value="#da4336"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Roboto" size="9px"/>
+</model:Screen>
