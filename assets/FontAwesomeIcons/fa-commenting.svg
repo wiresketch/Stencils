@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f27a -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
-<g transform="translate(128, 1664) scale(1, -1)">
-	<path id="commenting" d="M640 640q0 53 -37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5t37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5zM1024 640q0 53 -37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5t37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5zM1408 640q0 53 -37.5 90.5t-90.5 37.5 t-90.5 -37.5t-37.5 -90.5t37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5zM1792 640q0 -174 -120 -321.5t-326 -233t-450 -85.5q-110 0 -211 18q-173 -173 -435 -229q-52 -10 -86 -13q-12 -1 -22 6t-13 18q-4 15 20 37q5 5 23.5 21.5t25.5 23.5t23.5 25.5t24 31.5t20.5 37 t20 48t14.5 57.5t12.5 72.5q-146 90 -229.5 216.5t-83.5 269.5q0 174 120 321.5t326 233t450 85.5t450 -85.5t326 -233t120 -321.5z" />
-</g>
-</svg>	
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(128, 1664) scale(1, -1)'>
+    <path d='M640 640q0 53 -37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5t37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5zM1024 640q0 53 -37.5 90.5t-90.5 37.5t-90.5 -37.5t-37.5 -90.5t37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5zM1408 640q0 53 -37.5 90.5t-90.5 37.5 t-90.5 -37.5t-37.5 -90.5t37.5 -90.5t90.5 -37.5t90.5 37.5t37.5 90.5zM1792 640q0 -174 -120 -321.5t-326 -233t-450 -85.5q-110 0 -211 18q-173 -173 -435 -229q-52 -10 -86 -13q-12 -1 -22 6t-13 18q-4 15 20 37q5 5 23.5 21.5t25.5 23.5t23.5 25.5t24 31.5t20.5 37 t20 48t14.5 57.5t12.5 72.5q-146 90 -229.5 216.5t-83.5 269.5q0 174 120 321.5t326 233t450 85.5t450 -85.5t326 -233t120 -321.5z'/>
+  </g>
+</svg>

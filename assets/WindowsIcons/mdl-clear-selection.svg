@@ -1,0 +1,10 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>clear</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>selection</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1713 1152q69 0 130 -26.5t106.5 -72t72 -107t26.5 -130.5q0 -66 -25 -127.5t-73 -109.5l-449 -448l-90 90l448 449q29 29 45 67t16 79q0 43 -16.5 80.5t-45 66t-66 45t-80.5 16.5q-41 0 -79 -16t-67 -45l-195 -195h165v-128h-384v384h128v-165q47 47 93 99t97.5 95
+t110.5 71t132 28zM1792 1280h-128v128h128v-128zM1792 1536h-128v128h128v-128zM1792 1792h-128v128h128v-128zM1536 1792h-128v128h128v-128zM1280 1792h-128v128h128v-128zM896 1920h128v-128h-128v128zM640 1920h128v-128h-128v128zM384 1920h128v-128h-128v128z
+M128 1920h128v-128h-128v128zM128 1664h128v-128h-128v128zM128 1408h128v-128h-128v128zM128 1152h128v-128h-128v128zM128 896h128v-128h-128v128zM128 640h128v-128h-128v128zM128 384h128v-128h-128v128zM384 384h128v-128h-128v128zM640 384h128v-128h-128v128z
+M896 384h128v-128h-128v128zM1152 384h128v-128h-128v128z' fill='black'/>
+  </g>
+
+</svg>

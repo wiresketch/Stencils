@@ -1,0 +1,9 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>microphone</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M704 512q-40 0 -75 15t-61 41t-41 61t-15 75v1152q0 40 15 75t41 61t61 41t75 15h512q40 0 75 -15t61 -41t41 -61t15 -75v-1152q0 -40 -15 -75t-41 -61t-61 -41t-75 -15h-512zM640 704q0 -26 19 -45t45 -19h512q26 0 45 19t19 45v1152q0 26 -19 45t-45 19h-512
+q-26 0 -45 -19t-19 -45v-1152zM1664 1024v-362q0 -84 -32 -158t-87 -129t-129 -87t-158 -32h-234v-128h256v-128h-640v128h256v128h-234q-84 0 -158 32t-129 87t-87 129t-32 158v362h128q0 -55 -3.5 -124t-1.5 -140.5t13.5 -139t42.5 -120t85.5 -84.5t141.5 -32h596
+q87 0 141.5 32t85.5 84.5t42.5 120t13.5 139t-1.5 140t-3.5 124.5h128z' fill='black'/>
+  </g>
+
+</svg>

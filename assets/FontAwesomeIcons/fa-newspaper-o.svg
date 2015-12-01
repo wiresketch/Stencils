@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f1ea -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
-<g transform="translate(0, 1664) scale(1, -1)">
-	<path id="newspaper-o" d="M1024 1024h-384v-384h384v384zM1152 384v-128h-640v128h640zM1152 1152v-640h-640v640h640zM1792 384v-128h-512v128h512zM1792 640v-128h-512v128h512zM1792 896v-128h-512v128h512zM1792 1152v-128h-512v128h512zM256 192v960h-128v-960q0 -26 19 -45t45 -19t45 19 t19 45zM1920 192v1088h-1536v-1088q0 -33 -11 -64h1483q26 0 45 19t19 45zM2048 1408v-1216q0 -80 -56 -136t-136 -56h-1664q-80 0 -136 56t-56 136v1088h256v128h1792z" />
-</g>
-</svg>	
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>outlined</rdf:li>
+            <rdf:li>press</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(0, 1664) scale(1, -1)'>
+    <path d='M1024 1024h-384v-384h384v384zM1152 384v-128h-640v128h640zM1152 1152v-640h-640v640h640zM1792 384v-128h-512v128h512zM1792 640v-128h-512v128h512zM1792 896v-128h-512v128h512zM1792 1152v-128h-512v128h512zM256 192v960h-128v-960q0 -26 19 -45t45 -19t45 19 t19 45zM1920 192v1088h-1536v-1088q0 -33 -11 -64h1483q26 0 45 19t19 45zM2048 1408v-1216q0 -80 -56 -136t-136 -56h-1664q-80 0 -136 56t-56 136v1088h256v128h1792z'/>
+  </g>
+</svg>

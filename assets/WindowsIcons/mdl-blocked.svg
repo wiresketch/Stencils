@@ -1,0 +1,9 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>blocked</rdf:li><rdf:li>contact</rdf:li><rdf:li>miscellaneous</rdf:li><rdf:li>Miscellaneous</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1024 2048q141 0 271.5 -36.5t244.5 -103.5t207.5 -160.5t160.5 -207.5t103.5 -244.5t36.5 -271.5t-36.5 -271.5t-103.5 -244.5t-160.5 -207.5t-207.5 -160.5t-244.5 -103.5t-271.5 -36.5t-271.5 36.5t-244.5 103.5t-207.5 160.5t-160.5 207.5t-103.5 244.5t-36.5 271.5
+t36.5 271.5t103.5 244.5t160.5 207.5t207.5 160.5t244.5 103.5t271.5 36.5zM1024 128q164 0 313.5 56t273.5 163l-1264 1264q-107 -124 -163 -273.5t-56 -313.5q0 -124 32 -238.5t90.5 -214t140 -181t181 -140t214 -90.5t238.5 -32zM1701 437q107 124 163 273.5t56 313.5
+q0 124 -32 238.5t-90.5 214t-140 181t-181 140t-214 90.5t-238.5 32q-164 0 -313.5 -56t-273.5 -163z' fill='black'/>
+  </g>
+
+</svg>

@@ -1,0 +1,10 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>calendar</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>reply</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M896 1152h-128v128h128v-128zM1280 1152h-128v128h128v-128zM896 896h-128v128h128v-128zM512 896h-128v128h128v-128zM1152 1024h128v-128h-128v128zM1664 1152h-128v128h128v-128zM1536 1024h128v-128h-128v128zM1152 768h128v-128h-128v128zM896 640h-128v128h128
+v-128zM512 640h-128v128h128v-128zM768 512h128v-128h-128v128zM384 512h128v-128h-128v128zM2048 1920v-1380q-28 26 -60.5 44.5t-67.5 31.5v792h-1792v-1152h1120l128 -128h-1376v1792h384v128h128v-128h1024v128h128v-128h384zM1920 1536v256h-256v-128h-128v128h-1024
+v-128h-128v128h-256v-256h1792zM1499 512q50 0 110.5 2.5t121.5 -0.5t118 -14.5t101.5 -40t71 -77.5t26.5 -126q0 -53 -20.5 -99.5t-55 -81t-81.5 -55t-99 -20.5v128q27 0 50 10t40.5 27.5t27.5 40.5t10 50t-10 50t-27.5 40.5t-40.5 27.5t-50 10h-293l162 -163l-90 -90
+l-317 317l317 317l90 -90z' fill='black'/>
+  </g>
+
+</svg>

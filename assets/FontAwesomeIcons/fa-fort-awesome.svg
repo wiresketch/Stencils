@@ -1,0 +1,16 @@
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Brand</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(128, 1664) scale(1, -1)'>
+    <path d='M640 528v224q0 16 -16 16h-96q-16 0 -16 -16v-224q0 -16 16 -16h96q16 0 16 16zM1152 528v224q0 16 -16 16h-96q-16 0 -16 -16v-224q0 -16 16 -16h96q16 0 16 16zM1664 496v-752h-640v320q0 80 -56 136t-136 56t-136 -56t-56 -136v-320h-640v752q0 16 16 16h96 q16 0 16 -16v-112h128v624q0 16 16 16h96q16 0 16 -16v-112h128v112q0 16 16 16h96q16 0 16 -16v-112h128v112q0 16 16 16h16v393q-32 19 -32 55q0 26 19 45t45 19t45 -19t19 -45q0 -36 -32 -55v-9h272q16 0 16 -16v-224q0 -16 -16 -16h-272v-128h16q16 0 16 -16v-112h128 v112q0 16 16 16h96q16 0 16 -16v-112h128v112q0 16 16 16h96q16 0 16 -16v-624h128v112q0 16 16 16h96q16 0 16 -16z'/>
+  </g>
+</svg>

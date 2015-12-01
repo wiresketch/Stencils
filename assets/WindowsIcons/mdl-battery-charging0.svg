@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>battery</rdf:li><rdf:li>charging</rdf:li><rdf:li>icons</rdf:li><rdf:li>Battery</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1856 960v-128h-64v-320h-1408v64h1344v640h-1216v64h1280v-320h64zM448 1120q0 -28 -9.5 -54t-26.5 -47t-40.5 -35.5t-51.5 -20.5v-451h-64v451q-28 6 -51.5 20.5t-40.5 35.5t-26.5 47t-9.5 54v160h64v128h64v-128h64v128h64v-128h64v-160zM192 1120q0 -40 28 -68
+t68 -28t68 28t28 68v96h-192v-96z' fill='black'/>
+  </g>
+
+</svg>

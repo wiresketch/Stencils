@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>save</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1792 1920q27 0 50 -10t40.5 -27.5t27.5 -40.5t10 -50v-1664h-1563l-229 230v1434q0 27 10 50t27.5 40.5t40.5 27.5t50 10h1536zM512 1152h1024v640h-1024v-640zM1280 640h-640v-384h128v256h128v-256h384v384zM1792 1792h-128v-768h-1280v768h-128v-1381l154 -155h102
+v512h896v-512h384v1536z' fill='black'/>
+  </g>
+
+</svg>

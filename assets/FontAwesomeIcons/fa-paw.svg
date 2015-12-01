@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f1b0 -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
-<g transform="translate(192, 1664) scale(1, -1)">
-	<path id="paw" d="M780 1064q0 -60 -19 -113.5t-63 -92.5t-105 -39q-76 0 -138 57.5t-92 135.5t-30 151q0 60 19 113.5t63 92.5t105 39q77 0 138.5 -57.5t91.5 -135t30 -151.5zM438 581q0 -80 -42 -139t-119 -59q-76 0 -141.5 55.5t-100.5 133.5t-35 152q0 80 42 139.5t119 59.5 q76 0 141.5 -55.5t100.5 -134t35 -152.5zM832 608q118 0 255 -97.5t229 -237t92 -254.5q0 -46 -17 -76.5t-48.5 -45t-64.5 -20t-76 -5.5q-68 0 -187.5 45t-182.5 45q-66 0 -192.5 -44.5t-200.5 -44.5q-183 0 -183 146q0 86 56 191.5t139.5 192.5t187.5 146t193 59zM1071 819 q-61 0 -105 39t-63 92.5t-19 113.5q0 74 30 151.5t91.5 135t138.5 57.5q61 0 105 -39t63 -92.5t19 -113.5q0 -73 -30 -151t-92 -135.5t-138 -57.5zM1503 923q77 0 119 -59.5t42 -139.5q0 -74 -35 -152t-100.5 -133.5t-141.5 -55.5q-77 0 -119 59t-42 139q0 74 35 152.5 t100.5 134t141.5 55.5z" />
-</g>
-</svg>	
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>pet</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(192, 1664) scale(1, -1)'>
+    <path d='M780 1064q0 -60 -19 -113.5t-63 -92.5t-105 -39q-76 0 -138 57.5t-92 135.5t-30 151q0 60 19 113.5t63 92.5t105 39q77 0 138.5 -57.5t91.5 -135t30 -151.5zM438 581q0 -80 -42 -139t-119 -59q-76 0 -141.5 55.5t-100.5 133.5t-35 152q0 80 42 139.5t119 59.5 q76 0 141.5 -55.5t100.5 -134t35 -152.5zM832 608q118 0 255 -97.5t229 -237t92 -254.5q0 -46 -17 -76.5t-48.5 -45t-64.5 -20t-76 -5.5q-68 0 -187.5 45t-182.5 45q-66 0 -192.5 -44.5t-200.5 -44.5q-183 0 -183 146q0 86 56 191.5t139.5 192.5t187.5 146t193 59zM1071 819 q-61 0 -105 39t-63 92.5t-19 113.5q0 74 30 151.5t91.5 135t138.5 57.5q61 0 105 -39t63 -92.5t19 -113.5q0 -73 -30 -151t-92 -135.5t-138 -57.5zM1503 923q77 0 119 -59.5t42 -139.5q0 -74 -35 -152t-100.5 -133.5t-141.5 -55.5q-77 0 -119 59t-42 139q0 74 35 152.5 t100.5 134t141.5 55.5z'/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>info</rdf:li><rdf:li>music</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M2048 1664v-128h-2048v128h2048zM0 1280h2048v-128h-2048v128zM1280 384h-1280v128h1280v-128zM1408 802l640 160v-706q0 -31 -14.5 -54.5t-38 -40t-52 -25t-55.5 -8.5t-55.5 8.5t-52 25t-38 40t-14.5 54.5t14.5 54.5t38 40t52 25t55.5 8.5q15 0 32 -3v417l-384 -96v-574
+q0 -32 -16 -56t-40.5 -40t-54.5 -24t-57 -8t-57 8t-54.5 24t-40.5 40t-16 56t16 56t40.5 40t54.5 24t57 8q10 0 20 -1t20 -3v550zM1280 768h-1280v128h1280v-128z' fill='black'/>
+  </g>
+
+</svg>

@@ -1,17 +1,21 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f1e3 -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
   <metadata>
     <rdf:RDF>
       <cc:Work>
         <dc:subject>
-          <rdf:Bag><rdf:li>soccer</rdf:li><rdf:li>ball</rdf:li></rdf:Bag>
+          <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>ball</rdf:li>
+            <rdf:li>outlined</rdf:li>
+            <rdf:li>soccer</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+          </rdf:Bag>
         </dc:subject>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-<g transform="translate(128, 1664) scale(1, -1)">
-	<path id="futbol-o" d="M609 720l287 208l287 -208l-109 -336h-355zM896 1536q182 0 348 -71t286 -191t191 -286t71 -348t-71 -348t-191 -286t-286 -191t-348 -71t-348 71t-286 191t-191 286t-71 348t71 348t191 286t286 191t348 71zM1515 186q149 203 149 454v3l-102 -89l-240 224l63 323 l134 -12q-150 206 -389 282l53 -124l-287 -159l-287 159l53 124q-239 -76 -389 -282l135 12l62 -323l-240 -224l-102 89v-3q0 -251 149 -454l30 132l326 -40l139 -298l-116 -69q117 -39 240 -39t240 39l-116 69l139 298l326 40z" />
-</g>
-</svg>	
+  <g transform='translate(128, 1664) scale(1, -1)'>
+    <path d='M609 720l287 208l287 -208l-109 -336h-355zM896 1536q182 0 348 -71t286 -191t191 -286t71 -348t-71 -348t-191 -286t-286 -191t-348 -71t-348 71t-286 191t-191 286t-71 348t71 348t191 286t286 191t348 71zM1515 186q149 203 149 454v3l-102 -89l-240 224l63 323 l134 -12q-150 206 -389 282l53 -124l-287 -159l-287 159l53 124q-239 -76 -389 -282l135 12l62 -323l-240 -224l-102 89v-3q0 -251 149 -454l30 132l326 -40l139 -298l-116 -69q117 -39 240 -39t240 39l-116 69l139 298l326 40z'/>
+  </g>
+</svg>

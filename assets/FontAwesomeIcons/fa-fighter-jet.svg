@@ -1,8 +1,25 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f0fb -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
-<g transform="translate(64, 1664) scale(1, -1)">
-	<path id="fighter-jet" d="M1920 576q-1 -32 -288 -96l-352 -32l-224 -64h-64l-293 -352h69q26 0 45 -4.5t19 -11.5t-19 -11.5t-45 -4.5h-96h-160h-64v32h64v416h-160l-192 -224h-96l-32 32v192h32v32h128v8l-192 24v128l192 24v8h-128v32h-32v192l32 32h96l192 -224h160v416h-64v32h64h160h96 q26 0 45 -4.5t19 -11.5t-19 -11.5t-45 -4.5h-69l293 -352h64l224 -64l352 -32q261 -58 287 -93z" />
-</g>
-</svg>	
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>airplane</rdf:li>
+            <rdf:li>application</rdf:li>
+            <rdf:li>fast</rdf:li>
+            <rdf:li>fly</rdf:li>
+            <rdf:li>plane</rdf:li>
+            <rdf:li>quick</rdf:li>
+            <rdf:li>travel</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+            <rdf:li>Transportation</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(64, 1664) scale(1, -1)'>
+    <path d='M1920 576q-1 -32 -288 -96l-352 -32l-224 -64h-64l-293 -352h69q26 0 45 -4.5t19 -11.5t-19 -11.5t-45 -4.5h-96h-160h-64v32h64v416h-160l-192 -224h-96l-32 32v192h32v32h128v8l-192 24v128l192 24v8h-128v32h-32v192l32 32h96l192 -224h160v416h-64v32h64h160h96 q26 0 45 -4.5t19 -11.5t-19 -11.5t-45 -4.5h-69l293 -352h64l224 -64l352 -32q261 -58 287 -93z'/>
+  </g>
+</svg>

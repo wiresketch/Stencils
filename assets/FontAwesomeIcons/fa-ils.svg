@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f20b -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
   <metadata>
     <rdf:RDF>
       <cc:Work>
         <dc:subject>
-          <rdf:Bag><rdf:li>shekel</rdf:li><rdf:li>sheqel</rdf:li></rdf:Bag>
+          <rdf:Bag>
+            <rdf:li>(ils)</rdf:li>
+            <rdf:li>shekel</rdf:li>
+            <rdf:li>sheqel</rdf:li>
+            <rdf:li>Currency</rdf:li>
+          </rdf:Bag>
         </dc:subject>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-<g transform="translate(256, 1664) scale(1, -1)">
-	<path id="ils" d="M992 912v-496q0 -14 -9 -23t-23 -9h-160q-14 0 -23 9t-9 23v496q0 112 -80 192t-192 80h-272v-1152q0 -14 -9 -23t-23 -9h-160q-14 0 -23 9t-9 23v1344q0 14 9 23t23 9h464q135 0 249 -66.5t180.5 -180.5t66.5 -249zM1376 1376v-880q0 -135 -66.5 -249t-180.5 -180.5 t-249 -66.5h-464q-14 0 -23 9t-9 23v960q0 14 9 23t23 9h160q14 0 23 -9t9 -23v-768h272q112 0 192 80t80 192v880q0 14 9 23t23 9h160q14 0 23 -9t9 -23z" />
-</g>
-</svg>	
+  <g transform='translate(256, 1664) scale(1, -1)'>
+    <path d='M992 912v-496q0 -14 -9 -23t-23 -9h-160q-14 0 -23 9t-9 23v496q0 112 -80 192t-192 80h-272v-1152q0 -14 -9 -23t-23 -9h-160q-14 0 -23 9t-9 23v1344q0 14 9 23t23 9h464q135 0 249 -66.5t180.5 -180.5t66.5 -249zM1376 1376v-880q0 -135 -66.5 -249t-180.5 -180.5 t-249 -66.5h-464q-14 0 -23 9t-9 23v960q0 14 9 23t23 9h160q14 0 23 -9t9 -23v-768h272q112 0 192 80t80 192v880q0 14 9 23t23 9h160q14 0 23 -9t9 -23z'/>
+  </g>
+</svg>

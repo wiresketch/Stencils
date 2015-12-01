@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>mappin</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1920 0h-1920l384 1152h512v262q-56 12 -103 41t-81 70.5t-53 93.5t-19 109q0 66 25 124t68.5 101.5t102 69t124.5 25.5t124 -25.5t101.5 -69t69 -101.5t25.5 -124q0 -57 -19 -109t-53 -93.5t-81 -70.5t-103 -41v-262h512zM768 1728q0 -40 15 -75t41 -61t61 -41t75 -15
+t75 15t61 41t41 61t15 75t-15 75t-41 61t-61 41t-75 15t-75 -15t-61 -41t-41 -61t-15 -75zM178 128h1564l-298 896h-420v-480q0 -9 -7.5 -15.5t-18 -10t-21 -5t-17.5 -1.5t-17.5 1.5t-21 5t-18 10t-7.5 15.5v480h-420z' fill='black'/>
+  </g>
+
+</svg>

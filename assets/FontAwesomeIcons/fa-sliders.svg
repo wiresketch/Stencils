@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f1de -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
-<g transform="translate(256, 1664) scale(1, -1)">
-	<path id="sliders" d="M352 128v-128h-352v128h352zM704 256q26 0 45 -19t19 -45v-256q0 -26 -19 -45t-45 -19h-256q-26 0 -45 19t-19 45v256q0 26 19 45t45 19h256zM864 640v-128h-864v128h864zM224 1152v-128h-224v128h224zM1536 128v-128h-736v128h736zM576 1280q26 0 45 -19t19 -45v-256 q0 -26 -19 -45t-45 -19h-256q-26 0 -45 19t-19 45v256q0 26 19 45t45 19h256zM1216 768q26 0 45 -19t19 -45v-256q0 -26 -19 -45t-45 -19h-256q-26 0 -45 19t-19 45v256q0 26 19 45t45 19h256zM1536 640v-128h-224v128h224zM1536 1152v-128h-864v128h864z" />
-</g>
-</svg>	
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(256, 1664) scale(1, -1)'>
+    <path d='M352 128v-128h-352v128h352zM704 256q26 0 45 -19t19 -45v-256q0 -26 -19 -45t-45 -19h-256q-26 0 -45 19t-19 45v256q0 26 19 45t45 19h256zM864 640v-128h-864v128h864zM224 1152v-128h-224v128h224zM1536 128v-128h-736v128h736zM576 1280q26 0 45 -19t19 -45v-256 q0 -26 -19 -45t-45 -19h-256q-26 0 -45 19t-19 45v256q0 26 19 45t45 19h256zM1216 768q26 0 45 -19t19 -45v-256q0 -26 -19 -45t-45 -19h-256q-26 0 -45 19t-19 45v256q0 26 19 45t45 19h256zM1536 640v-128h-224v128h224zM1536 1152v-128h-864v128h864z'/>
+  </g>
+</svg>

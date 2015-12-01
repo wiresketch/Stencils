@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<g>
-	<polygon points="44.105,55.641 47.703,53.562 43.037,49.637 	"/>
-	<path d="M88.558,49.96c0-0.885-0.435-1.663-1.097-2.151l0.014-0.024l-9.324-5.383l5.367-9.296l-0.018-0.011
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' enable-background='new 0 0 100 100' height='100px' id='Layer_1' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xml:space='preserve' version='1.1' viewBox='0 0 100 100' width='100px' x='0px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
+<metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>Ecommerce</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g>
+	<polygon points='44.105,55.641 47.703,53.562 43.037,49.637 	'/>
+	<path d='M88.558,49.96c0-0.885-0.435-1.663-1.097-2.151l0.014-0.024l-9.324-5.383l5.367-9.296l-0.018-0.011
 		c0.328-0.752,0.315-1.643-0.127-2.408c-0.443-0.766-1.208-1.223-2.025-1.314v-0.026H70.58V18.61h-0.022
 		c-0.092-0.816-0.549-1.58-1.314-2.022c-0.767-0.443-1.658-0.456-2.412-0.125l-0.013-0.023l-9.481,5.474l-5.25-9.094l-0.019,0.011
 		c-0.488-0.66-1.265-1.094-2.149-1.094c-0.885,0-1.664,0.435-2.151,1.097l-0.024-0.014l-5.337,9.244l-9.19-5.306l-0.011,0.019
@@ -24,6 +22,6 @@
 		 M51.48,56.871l-1.854-1.535l-4.947,2.856l0.401,2.374l-2.785,1.607L40.08,48.07l3.079-1.777l11.106,8.971L51.48,56.871z
 		 M55.233,54.705l-6.661-11.538l2.474-1.429l5.413,9.375l4.878-2.816l1.249,2.163L55.233,54.705z M64.245,49.502l-6.661-11.537
 		l8.164-4.715l1.248,2.162l-5.707,3.296l1.398,2.422l5.586-3.226l1.248,2.162l-5.586,3.225l1.518,2.63l5.708-3.296l1.249,2.162
-		L64.245,49.502z"/>
+		L64.245,49.502z'/>
 </g>
 </svg>

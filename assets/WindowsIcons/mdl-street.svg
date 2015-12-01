@@ -1,0 +1,9 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>street</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M861 1027l-90 90l637 638l637 -638l-90 -90l-35 34v-549h-384v384h-256v-384h-384v549zM1024 640h128v384h512v-384h128v549l-384 384l-384 -384v-549zM2048 384v-128h-2048v128h2048zM256 902q-56 11 -102.5 40.5t-81 71.5t-53.5 93.5t-19 108.5q0 73 14 132t37 114.5
+t53.5 111t63.5 121.5q10 20 26.5 38t36.5 31t43 20.5t46 7.5q48 0 81 -22.5t57.5 -56.5t42.5 -74t36 -74l44.5 -89t32.5 -77t19.5 -81t6.5 -102q0 -57 -19 -108.5t-53.5 -93.5t-81.5 -71.5t-102 -40.5v-390h-128v390zM320 1664q-9 0 -23.5 -18t-32 -46t-35 -62t-33 -65
+t-27 -56t-15.5 -35q-15 -38 -20.5 -82t-5.5 -84t15 -75t41 -61t61 -41t75 -15t75 15t61 41t41 61t15 75t-5.5 84t-20.5 82q-4 10 -15.5 35t-27 56t-33.5 65t-35 62t-31.5 46t-23.5 18z' fill='black'/>
+  </g>
+
+</svg>

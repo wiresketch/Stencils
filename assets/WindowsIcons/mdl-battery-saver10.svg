@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>battery</rdf:li><rdf:li>icons</rdf:li><rdf:li>saver</rdf:li><rdf:li>Battery</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1856 960v-128h-64v-320h-1408v64h1344v640h-1239q-8 19 -19 32.5t-24 29.5l-1 2h1347v-320h64zM447 1120q0 -28 -9.5 -54t-26.5 -47t-40 -36t-51 -20v-451h-64v451q-28 5 -51.5 20t-40.5 36t-26.5 47t-9.5 54q0 32 12 61t35 52l113 113l113 -113q23 -23 34.5 -52
+t11.5 -61zM192 1120q0 -30 17.5 -55.5t46.5 -34.5v122h64v-122q29 9 46.5 34.5t17.5 55.5q0 40 -28 68l-68 68l-68 -68q-28 -28 -28 -68zM384 918q58 28 93 82.5t35 119.5v32h1152v-512h-1280v278z' fill='black'/>
+  </g>
+
+</svg>

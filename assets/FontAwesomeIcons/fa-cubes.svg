@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f1b3 -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
-<g transform="translate(0, 1536) scale(0.888888888888889, -0.888888888888889)">
-	<path id="cubes" d="M640 -96l384 192v314l-384 -164v-342zM576 358l404 173l-404 173l-404 -173zM1664 -96l384 192v314l-384 -164v-342zM1600 358l404 173l-404 173l-404 -173zM1152 651l384 165v266l-384 -164v-267zM1088 1030l441 189l-441 189l-441 -189zM2176 512v-416q0 -36 -19 -67 t-52 -47l-448 -224q-25 -14 -57 -14t-57 14l-448 224q-5 2 -7 4q-2 -2 -7 -4l-448 -224q-25 -14 -57 -14t-57 14l-448 224q-33 16 -52 47t-19 67v416q0 38 21.5 70t56.5 48l434 186v400q0 38 21.5 70t56.5 48l448 192q23 10 50 10t50 -10l448 -192q35 -16 56.5 -48t21.5 -70 v-400l434 -186q36 -16 57 -48t21 -70z" />
-</g>
-</svg>	
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(0, 1536) scale(0.8888888888888888, -0.8888888888888888)'>
+    <path d='M640 -96l384 192v314l-384 -164v-342zM576 358l404 173l-404 173l-404 -173zM1664 -96l384 192v314l-384 -164v-342zM1600 358l404 173l-404 173l-404 -173zM1152 651l384 165v266l-384 -164v-267zM1088 1030l441 189l-441 189l-441 -189zM2176 512v-416q0 -36 -19 -67 t-52 -47l-448 -224q-25 -14 -57 -14t-57 14l-448 224q-5 2 -7 4q-2 -2 -7 -4l-448 -224q-25 -14 -57 -14t-57 14l-448 224q-33 16 -52 47t-19 67v416q0 38 21.5 70t56.5 48l434 186v400q0 38 21.5 70t56.5 48l448 192q23 10 50 10t50 -10l448 -192q35 -16 56.5 -48t21.5 -70 v-400l434 -186q36 -16 57 -48t21 -70z'/>
+  </g>
+</svg>

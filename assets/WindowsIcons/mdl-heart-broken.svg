@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>broken</rdf:li><rdf:li>heart</rdf:li><rdf:li>hearts</rdf:li><rdf:li>Hearts</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1505 1920q75 0 144.5 -19.5t129.5 -54.5t110 -85t85 -110t54.5 -129.5t19.5 -144.5q0 -108 -41.5 -208t-117.5 -176l-865 -865l-865 865q-76 76 -117.5 176t-41.5 208q0 75 19.5 144.5t54.5 129.5t85 110t110 85t129.5 54.5t144.5 19.5q109 0 211.5 -43t178.5 -122
+l-282 -283l448 -448l-294 -293l91 -91l384 384l-448 448q49 49 97 101.5t97 102t102 94t111 78t124 53t142 19.5z' fill='black'/>
+  </g>
+
+</svg>

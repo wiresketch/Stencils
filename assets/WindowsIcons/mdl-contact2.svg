@@ -1,0 +1,9 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>contact</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1920 1920v-1792h-384q0 109 -39 202.5t-108 162.5t-162.5 108t-202.5 39q-107 0 -200.5 -40t-162.5 -109t-109 -162.5t-40 -200.5h-384v1792h1792zM1792 1792h-1536v-1536h140q15 75 47.5 144.5t79.5 128.5t107 106t131 78q-58 34 -104 81.5t-78.5 105t-49.5 121.5
+t-17 131q0 106 40 199.5t109.5 163t163 109.5t199.5 40t199.5 -40t163 -109.5t109.5 -163t40 -199.5q0 -67 -17 -130.5t-49 -120.5t-78 -105t-103 -82q71 -32 131 -78.5t106.5 -105.5t78.5 -128.5t47 -145.5h140v1536zM1024 768q79 0 149 30.5t122 82.5t82.5 122t30.5 149
+t-30.5 149t-82.5 122t-122 82.5t-149 30.5t-149 -30.5t-122 -82.5t-82.5 -122t-30.5 -149t30.5 -149t82.5 -122t122 -82.5t149 -30.5z' fill='black'/>
+  </g>
+
+</svg>

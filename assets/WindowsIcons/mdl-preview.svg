@@ -1,0 +1,9 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>preview</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1115 2048l549 -549v-91h-640v640h91zM1152 1536h293l-293 293v-293zM1536 1152v128h128v-128h-128zM1536 896v128h128v-128h-128zM1536 640v128h128v-128h-128zM1536 384v128h128v-128h-128zM1536 128v128h128v-128h-128zM1280 128v128h128v-128h-128zM1024 128v128h128
+v-128h-128zM768 128v128h128v-128h-128zM512 128v128h128v-128h-128zM256 128v128h128v-128h-128zM256 1152v128h128v-128h-128zM256 1408v128h128v-128h-128zM256 1664v128h128v-128h-128zM256 1920v128h128v-128h-128zM512 1920v128h128v-128h-128zM768 1920v128h128v-128
+h-128zM256 896v128h128v-128h-128zM256 640v128h128v-128h-128zM256 384v128h128v-128h-128z' fill='black'/>
+  </g>
+
+</svg>

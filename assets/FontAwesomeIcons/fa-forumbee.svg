@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Converted from Font Awesome. Glyph: f211 -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048" height="2048" xml:space="preserve">
-<g transform="translate(256, 1664) scale(1, -1)">
-	<path id="forumbee" d="M934 1386q-317 -121 -556 -362.5t-358 -560.5q-20 89 -20 176q0 208 102.5 384.5t278.5 279t384 102.5q82 0 169 -19zM1203 1267q93 -65 164 -155q-389 -113 -674.5 -400.5t-396.5 -676.5q-93 72 -155 162q112 386 395 671t667 399zM470 -67q115 356 379.5 622t619.5 384 q40 -92 54 -195q-292 -120 -516 -345t-343 -518q-103 14 -194 52zM1536 -125q-193 50 -367 115q-135 -84 -290 -107q109 205 274 370.5t369 275.5q-21 -152 -101 -284q65 -175 115 -370z" />
-</g>
-</svg>	
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Brand</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(256, 1664) scale(1, -1)'>
+    <path d='M934 1386q-317 -121 -556 -362.5t-358 -560.5q-20 89 -20 176q0 208 102.5 384.5t278.5 279t384 102.5q82 0 169 -19zM1203 1267q93 -65 164 -155q-389 -113 -674.5 -400.5t-396.5 -676.5q-93 72 -155 162q112 386 395 671t667 399zM470 -67q115 356 379.5 622t619.5 384 q40 -92 54 -195q-292 -120 -516 -345t-343 -518q-103 14 -194 52zM1536 -125q-193 50 -367 115q-135 -84 -290 -107q109 205 274 370.5t369 275.5q-21 -152 -101 -284q65 -175 115 -370z'/>
+  </g>
+</svg>

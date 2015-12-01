@@ -1,0 +1,8 @@
+<?xml version='1.0' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='2048' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 2048 2048' width='2048'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>appbar</rdf:li><rdf:li>disconnect</rdf:li><rdf:li>drive</rdf:li><rdf:li>glyphs</rdf:li><rdf:li>AppBar</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><g transform='matrix(1 0 0 -1 0 2048)'>
+   <path d='M1050 448l227 -227l-90 -90l-227 227l-227 -227l-90 90l227 227l-227 227l90 90l227 -227l227 227l90 -90zM1792 1792q27 0 50 -10t40.5 -27.5t27.5 -40.5t10 -50v-640h-896v-224l-64 -64l-64 64v224h-896v640q0 27 10 50t27.5 40.5t40.5 27.5t50 10h1664zM1792 1664
+h-1664v-512h1664v512zM1600 1408q-26 0 -45 19t-19 45t19 45t45 19t45 -19t19 -45t-19 -45t-45 -19zM1312 512h608v-128h-608l-64 64zM672 448l-64 -64h-608v128h608z' fill='black'/>
+  </g>
+
+</svg>

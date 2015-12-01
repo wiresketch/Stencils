@@ -1,0 +1,18 @@
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>codie</rdf:li>
+            <rdf:li>pie</rdf:li>
+            <rdf:li>Brand</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(128, 1664) scale(1, -1)'>
+    <path d='M1549 857q55 0 85.5 -28.5t30.5 -83.5t-34 -82t-91 -27h-136v-177h-25v398h170zM1710 267l-4 -11l-5 -10q-113 -230 -330.5 -366t-474.5 -136q-182 0 -348 71t-286 191t-191 286t-71 348t71 348t191 286t286 191t348 71q244 0 454.5 -124t329.5 -338l2 -4l8 -16 q-30 -15 -136.5 -68.5t-163.5 -84.5q-6 -3 -479 -268q384 -183 799 -366zM896 -234q250 0 462.5 132.5t322.5 357.5l-287 129q-72 -140 -206 -222t-292 -82q-151 0 -280 75t-204 204t-75 280t75 280t204 204t280 75t280 -73.5t204 -204.5l280 143q-116 208 -321 329 t-443 121q-119 0 -232.5 -31.5t-209 -87.5t-176.5 -137t-137 -176.5t-87.5 -209t-31.5 -232.5t31.5 -232.5t87.5 -209t137 -176.5t176.5 -137t209 -87.5t232.5 -31.5z'/>
+  </g>
+</svg>
