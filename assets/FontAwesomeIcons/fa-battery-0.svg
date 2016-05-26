@@ -6,6 +6,7 @@
           <rdf:Bag>
             <rdf:li>application</rdf:li>
             <rdf:li>empty</rdf:li>
+            <rdf:li>power</rdf:li>
             <rdf:li>web</rdf:li>
             <rdf:li>Web Application</rdf:li>
           </rdf:Bag>

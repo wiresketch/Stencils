@@ -4,10 +4,17 @@
       <cc:Work>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>buy</rdf:li>
             <rdf:li>card</rdf:li>
+            <rdf:li>checkout</rdf:li>
             <rdf:li>credit</rdf:li>
-            <rdf:li>Brand</rdf:li>
+            <rdf:li>debit</rdf:li>
+            <rdf:li>money</rdf:li>
+            <rdf:li>purchase</rdf:li>
+            <rdf:li>web</rdf:li>
             <rdf:li>Payment</rdf:li>
+            <rdf:li>Web Application</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>

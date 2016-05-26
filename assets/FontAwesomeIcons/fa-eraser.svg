@@ -5,7 +5,9 @@
         <dc:subject>
           <rdf:Bag>
             <rdf:li>application</rdf:li>
+            <rdf:li>delete</rdf:li>
             <rdf:li>editor</rdf:li>
+            <rdf:li>remove</rdf:li>
             <rdf:li>text</rdf:li>
             <rdf:li>web</rdf:li>
             <rdf:li>Text Editor</rdf:li>

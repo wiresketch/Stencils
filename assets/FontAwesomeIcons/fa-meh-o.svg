@@ -6,6 +6,7 @@
           <rdf:Bag>
             <rdf:li>application</rdf:li>
             <rdf:li>emoticon</rdf:li>
+            <rdf:li>face</rdf:li>
             <rdf:li>neutral</rdf:li>
             <rdf:li>outlined</rdf:li>
             <rdf:li>rating</rdf:li>

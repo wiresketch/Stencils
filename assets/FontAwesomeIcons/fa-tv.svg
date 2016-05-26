@@ -5,6 +5,9 @@
         <dc:subject>
           <rdf:Bag>
             <rdf:li>application</rdf:li>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>display</rdf:li>
+            <rdf:li>monitor</rdf:li>
             <rdf:li>television</rdf:li>
             <rdf:li>web</rdf:li>
             <rdf:li>Web Application</rdf:li>

@@ -6,6 +6,7 @@
           <rdf:Bag>
             <rdf:li>admin</rdf:li>
             <rdf:li>application</rdf:li>
+            <rdf:li>lock</rdf:li>
             <rdf:li>password</rdf:li>
             <rdf:li>protect</rdf:li>
             <rdf:li>web</rdf:li>

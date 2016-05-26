@@ -6,6 +6,7 @@
           <rdf:Bag>
             <rdf:li>alliance</rdf:li>
             <rdf:li>rebel</rdf:li>
+            <rdf:li>resistance</rdf:li>
             <rdf:li>Brand</rdf:li>
           </rdf:Bag>
         </dc:subject>

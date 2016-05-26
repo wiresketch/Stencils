@@ -5,7 +5,6 @@
         <dc:subject>
           <rdf:Bag>
             <rdf:li>accessibile</rdf:li>
-            <rdf:li>accessibility</rdf:li>
             <rdf:li>application</rdf:li>
             <rdf:li>handicap</rdf:li>
             <rdf:li>person</rdf:li>
@@ -13,6 +12,7 @@
             <rdf:li>Web Application</rdf:li>
             <rdf:li>Medical</rdf:li>
             <rdf:li>Transportation</rdf:li>
+            <rdf:li>Accessibility</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>

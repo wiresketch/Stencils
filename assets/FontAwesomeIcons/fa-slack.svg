@@ -4,6 +4,9 @@
       <cc:Work>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>anchor</rdf:li>
+            <rdf:li>hash</rdf:li>
+            <rdf:li>hashtag</rdf:li>
             <rdf:li>logo</rdf:li>
             <rdf:li>Brand</rdf:li>
           </rdf:Bag>

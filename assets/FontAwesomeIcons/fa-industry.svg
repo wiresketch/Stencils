@@ -5,6 +5,7 @@
         <dc:subject>
           <rdf:Bag>
             <rdf:li>application</rdf:li>
+            <rdf:li>factory</rdf:li>
             <rdf:li>web</rdf:li>
             <rdf:li>Web Application</rdf:li>
           </rdf:Bag>

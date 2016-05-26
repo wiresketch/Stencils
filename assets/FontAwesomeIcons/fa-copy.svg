@@ -4,6 +4,8 @@
       <cc:Work>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>clone</rdf:li>
+            <rdf:li>copy</rdf:li>
             <rdf:li>duplicate</rdf:li>
             <rdf:li>editor</rdf:li>
             <rdf:li>files</rdf:li>

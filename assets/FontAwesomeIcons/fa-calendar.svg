@@ -6,6 +6,7 @@
           <rdf:Bag>
             <rdf:li>application</rdf:li>
             <rdf:li>date</rdf:li>
+            <rdf:li>event</rdf:li>
             <rdf:li>time</rdf:li>
             <rdf:li>web</rdf:li>
             <rdf:li>when</rdf:li>

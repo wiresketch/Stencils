@@ -4,6 +4,7 @@
       <cc:Work>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>food</rdf:li>
             <rdf:li>osx</rdf:li>
             <rdf:li>Brand</rdf:li>
           </rdf:Bag>

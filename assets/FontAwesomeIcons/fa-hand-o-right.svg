@@ -4,6 +4,7 @@
       <cc:Work>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>finger</rdf:li>
             <rdf:li>forward</rdf:li>
             <rdf:li>next</rdf:li>
             <rdf:li>outlined</rdf:li>

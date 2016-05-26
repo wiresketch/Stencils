@@ -5,6 +5,7 @@
         <dc:subject>
           <rdf:Bag>
             <rdf:li>application</rdf:li>
+            <rdf:li>audio</rdf:li>
             <rdf:li>listen</rdf:li>
             <rdf:li>music</rdf:li>
             <rdf:li>sound</rdf:li>

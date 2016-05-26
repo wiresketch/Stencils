@@ -4,6 +4,7 @@
       <cc:Work>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>robot</rdf:li>
             <rdf:li>Brand</rdf:li>
           </rdf:Bag>
         </dc:subject>

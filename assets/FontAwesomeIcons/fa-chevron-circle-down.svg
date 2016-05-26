@@ -4,6 +4,7 @@
       <cc:Work>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>arrow</rdf:li>
             <rdf:li>dropdown</rdf:li>
             <rdf:li>menu</rdf:li>
             <rdf:li>more</rdf:li>

@@ -6,6 +6,7 @@
           <rdf:Bag>
             <rdf:li>help</rdf:li>
             <rdf:li>support</rdf:li>
+            <rdf:li>vehicle</rdf:li>
             <rdf:li>Medical</rdf:li>
             <rdf:li>Transportation</rdf:li>
           </rdf:Bag>
