@@ -1,0 +1,18 @@
+<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>application</rdf:li>
+            <rdf:li>web</rdf:li>
+            <rdf:li>Web Application</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform='translate(128, 1664) scale(1, -1)'>
+    <path d='M256 128h1280v768h-1280v-768zM1792 1248v-1216q0 -66 -47 -113t-113 -47h-1472q-66 0 -113 47t-47 113v1216q0 66 47 113t113 47h1472q66 0 113 -47t47 -113z'/>
+  </g>
+</svg>
