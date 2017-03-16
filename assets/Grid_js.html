@@ -1,0 +1,46 @@
+<script type="text/javascript">
+// <![CDATA[
+function loadGrid(columns, columnWidth, gutterWidth, marginWidth) {
+	$('#grid-columns').val(columns);
+	$('#grid-column-width').val(columnWidth);
+	$('#grid-gutter-width').val(gutterWidth);
+	$('#grid-margin-width').val(marginWidth);
+	
+	handleValuesChanged();
+}
+
+function handleValuesChanged() {
+	var columns = parseInt($('#grid-columns').val());
+	var columnWidth = parseInt($('#grid-column-width').val());
+	var gutterWidth = parseInt($('#grid-gutter-width').val());
+	var marginWidth = parseInt($('#grid-margin-width').val());
+	
+	var pageWidth = marginWidth * 2 + columnWidth * columns + gutterWidth * (columns - 1);
+	
+	$('#grid-page-width').text(pageWidth);
+	
+	var href;
+	
+	if(!isNaN(pageWidth)) {
+		href = '/mockups/assets/grid/Grid' + pageWidth + 'x' + columns + 'x' + columnWidth + 'x' + marginWidth + '.screen';
+	} else {
+		href = '/mockups/assets/grid/Grid.screen';
+	}
+	
+	$('#grid-link').attr('href', href);
+}
+
+$(document).ready(function() {
+	function changeHandler() {
+		handleValuesChanged();
+	}
+	
+	$('#grid-columns').keyup(changeHandler);
+	$('#grid-column-width').keyup(changeHandler);
+	$('#grid-gutter-width').keyup(changeHandler);
+	$('#grid-margin-width').keyup(changeHandler);
+	
+	loadGrid(12, 60, 20, 10);
+});
+// ]]>
+</script>
