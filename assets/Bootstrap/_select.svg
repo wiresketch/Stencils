@@ -100,6 +100,14 @@
 		frame.setAttribute("height", height - comboHeight - 2);
 		frame.setAttribute("fill", "white");
 		frame.setAttribute("stroke", "black");
+
+		var link = doc.createElement("foreignObject");
+		dropdown.appendChild(link);
+		link.setAttribute("id", "link0");
+		link.setAttribute("x", 0);
+		link.setAttribute("width", width);
+		link.setAttribute("y", 0);
+		link.setAttribute("height", comboHeight);
 		
 		for(var i = 1, y = comboHeight + vPadding; i < $items.length; i ++) {
 			var item = doc.createElement("foreignObject");
@@ -112,6 +120,26 @@
 			item.setAttribute("height", itemHeight);
 			item.setAttribute("fill", "white"); 
 			
+			var link = doc.createElement("foreignObject");
+			dropdown.appendChild(link);
+			link.setAttribute("id", "link" + i);
+			link.setAttribute("x", 0);
+			link.setAttribute("width", width);
+			if(i == 1) {
+				link.setAttribute("y", y - vPadding + 1);
+				if($items.length > 2) {
+					link.setAttribute("height", itemHeight + vPadding + vPadding / 2);
+				} else {
+					link.setAttribute("height", itemHeight + vPadding * 2 + 1);
+				}
+			} else if(i < $items.length - 1) {
+				link.setAttribute("y", y - vPadding / 2 + 1);
+				link.setAttribute("height", itemHeight + vPadding);
+			} else {
+				link.setAttribute("y", y - vPadding / 2 + 1);
+				link.setAttribute("height", itemHeight + vPadding * 2);
+			}
+
 			y += itemHeight + vPadding;
 		}
 	} else {

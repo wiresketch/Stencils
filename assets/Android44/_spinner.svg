@@ -108,6 +108,14 @@
  		frame.setAttribute("height", height - fieldHeight - 4);
  		dropdown.appendChild(frame);
  		
+ 		var link = doc.createElement("foreignObject");
+ 		link.setAttribute("id", "link0");
+ 		link.setAttribute("x", 0);
+ 		link.setAttribute("width", width);
+ 		link.setAttribute("y", 0);
+ 		link.setAttribute("height", fieldHeight);
+ 		dropdown.appendChild(link);
+
 	 	for(var i = 1, n = $items.length, top = fieldHeight + 3; i < n; i ++) {
 	 		var item = $items[i];
 	 		var itemHeight = item.height + (vPadding + 4) * 2;
@@ -120,6 +128,14 @@
 	 		itemText.setAttribute("y", top);
 	 		itemText.setAttribute("height", itemHeight);
 	 		dropdown.appendChild(itemText);
+
+	 		var link = doc.createElement("foreignObject");
+	 		link.setAttribute("id", "link" + i);
+	 		link.setAttribute("x", 0);
+	 		link.setAttribute("width", width);
+	 		link.setAttribute("y", top);
+	 		link.setAttribute("height", itemHeight);
+	 		dropdown.appendChild(link);
 	 		
 	 		top += itemHeight;
 	 		
