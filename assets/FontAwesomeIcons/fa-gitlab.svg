@@ -1,16 +1,1 @@
-<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
-  <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>Brand</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform='translate(128, 1664) scale(1, -1)'>
-    <path d='M104 830l792 -1015l-868 630q-18 13 -25 34.5t0 42.5l101 308v0zM566 830h660l-330 -1015v0zM368 1442l198 -612h-462l198 612q8 23 33 23t33 -23zM1688 830l101 -308q7 -21 0 -42.5t-25 -34.5l-868 -630l792 1015v0zM1688 830h-462l198 612q8 23 33 23t33 -23z'/>
-  </g>
-</svg>
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='512' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg'><metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>Axosoft</rdf:li><rdf:li>Brands</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><path d='M29.782 199.732L256 493.714 8.074 309.699c-6.856-5.142-9.712-13.996-7.141-21.993l28.849-87.974zm75.405-174.806c-3.142-8.854-15.709-8.854-18.851 0L29.782 199.732h131.961L105.187 24.926zm56.556 174.806L256 493.714l94.257-293.982H161.743zm349.324 87.974l-28.849-87.974L256 493.714l247.926-184.015c6.855-5.142 9.711-13.996 7.141-21.993zm-85.404-262.78c-3.142-8.854-15.709-8.854-18.851 0l-56.555 174.806h131.961L425.663 24.926z'/></svg>

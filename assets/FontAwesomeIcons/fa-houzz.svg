@@ -1,16 +1,1 @@
-<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
-  <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>Brand</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform='translate(512, 1664) scale(1, -1)'>
-    <path d='M512 345l512 295v-591l-512 -296v592zM0 640v-591l512 296zM512 1527v-591l-512 -296v591zM512 936l512 295v-591z'/>
-  </g>
-</svg>
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='512' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='-49 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg'><metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>Brands</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><path d='M258.9 330.7H154.3V480H0V32h109.5v104.5l305.1 85.6V480H258.9V330.7z'/></svg>

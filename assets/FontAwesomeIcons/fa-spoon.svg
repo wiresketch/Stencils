@@ -1,18 +1,1 @@
-<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
-  <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>application</rdf:li>
-            <rdf:li>web</rdf:li>
-            <rdf:li>Web Application</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform='translate(640, 1664) scale(1, -1)'>
-    <path d='M704 1008q0 -145 -57 -243.5t-152 -135.5l45 -821q2 -26 -16 -45t-44 -19h-192q-26 0 -44 19t-16 45l45 821q-95 37 -152 135.5t-57 243.5q0 128 42.5 249.5t117.5 200t160 78.5t160 -78.5t117.5 -200t42.5 -249.5z'/>
-  </g>
-</svg>
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='512' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg'><metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>utensil</rdf:li><rdf:li>Maps</rdf:li><rdf:li>Objects</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><path d='M480.1 31.9c-55-55.1-164.9-34.5-227.8 28.5-49.3 49.3-55.1 110-28.8 160.4L9 413.2c-11.6 10.5-12.1 28.5-1 39.5L59.3 504c11 11 29.1 10.5 39.5-1.1l192.4-214.4c50.4 26.3 111.1 20.5 160.4-28.8 63-62.9 83.6-172.8 28.5-227.8z'/></svg>

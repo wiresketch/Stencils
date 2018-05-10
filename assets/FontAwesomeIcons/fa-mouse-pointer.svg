@@ -1,18 +1,1 @@
-<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
-  <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>application</rdf:li>
-            <rdf:li>web</rdf:li>
-            <rdf:li>Web Application</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform='translate(384, 1664) scale(1, -1)'>
-    <path d='M1133 493q31 -30 14 -69q-17 -40 -59 -40h-382l201 -476q10 -25 0 -49t-34 -35l-177 -75q-25 -10 -49 0t-35 34l-191 452l-312 -312q-19 -19 -45 -19q-12 0 -24 5q-40 17 -40 59v1504q0 42 40 59q12 5 24 5q27 0 45 -19z'/>
-  </g>
-</svg>
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='512' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='-96 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg'><metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>select</rdf:li><rdf:li>Arrows</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><path d='M302.189 329.126H196.105l55.831 135.993c3.889 9.428-.555 19.999-9.444 23.999l-49.165 21.427c-9.165 4-19.443-.571-23.332-9.714l-53.053-129.136-86.664 89.138C18.729 472.71 0 463.554 0 447.977V18.299C0 1.899 19.921-6.096 30.277 5.443l284.412 292.542c11.472 11.179 3.007 31.141-12.5 31.141z'/></svg>

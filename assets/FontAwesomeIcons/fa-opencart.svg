@@ -1,18 +1,1 @@
-<svg version='1.1' width='2048' height='2048' xmlns:='http://www.w3.org/2000/svg' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
-  <metadata>
-    <rdf:RDF>
-      <cc:Work>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>Brand</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g transform='translate(0, 1536) scale(0.8888888888888888, -0.8888888888888888)'>
-    <path d='M1524 -25q0 -68 -48 -116t-116 -48t-116.5 48t-48.5 116t48.5 116.5t116.5 48.5t116 -48.5t48 -116.5zM775 -25q0 -68 -48.5 -116t-116.5 -48t-116 48t-48 116t48 116.5t116 48.5t116.5 -48.5t48.5 -116.5zM0 1469q57 -60 110.5 -104.5t121 -82t136 -63t166 -45.5
-t200 -31.5t250 -18.5t304 -9.5t372.5 -2.5q139 0 244.5 -5t181 -16.5t124 -27.5t71 -39.5t24 -51.5t-19.5 -64t-56.5 -76.5t-89.5 -91t-116 -104.5t-139 -119q-185 -157 -286 -247q29 51 76.5 109t94 105.5t94.5 98.5t83 91.5t54 80.5t13 70t-45.5 55.5t-116.5 41t-204 23.5
-t-304 5q-168 -2 -314 6t-256 23t-204.5 41t-159.5 51.5t-122.5 62.5t-91.5 66.5t-68 71.5t-50.5 69.5t-40 68t-36.5 59.5z'/>
-  </g>
-</svg>
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' height='640' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 -64 640 640' width='640' xmlns='http://www.w3.org/2000/svg'><metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>Brands</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><path d='M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z'/></svg>
