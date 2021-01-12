@@ -1,0 +1,4 @@
+<svg xmlns:cc='http://creativecommons.org/ns#' class='bi bi-thermometer-half' xmlns:dc='http://purl.org/dc/elements/1.1/' fill='currentColor' height='16' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>Real world</rdf:li><rdf:li>temperature</rdf:li><rdf:li>weather</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><path d='M8 1.75a.25.25 0 0 1 .25.25v9.02a1.5 1.5 0 1 1-.5 0V2A.25.25 0 0 1 8 1.75z'/>
+  <path d='M6 2a2 2 0 1 1 4 0v7.627a3.5 3.5 0 1 1-4 0V2zm2-1a1 1 0 0 0-1 1v7.901a.5.5 0 0 1-.25.433A2.499 2.499 0 0 0 8 15a2.5 2.5 0 0 0 1.25-4.666.5.5 0 0 1-.25-.433V2a1 1 0 0 0-1-1z'/>
+</svg>

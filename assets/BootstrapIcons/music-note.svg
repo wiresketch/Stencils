@@ -1,0 +1,5 @@
+<svg xmlns:cc='http://creativecommons.org/ns#' class='bi bi-music-note' xmlns:dc='http://purl.org/dc/elements/1.1/' fill='currentColor' height='16' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'>
+  <metadata><rdf:RDF><cc:Work><dc:subject><rdf:Bag><rdf:li>Media</rdf:li><rdf:li>music</rdf:li><rdf:li>notes</rdf:li><rdf:li>audio</rdf:li><rdf:li>sound</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><path d='M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z'/>
+  <path d='M9 3v10H8V3h1z' fill-rule='evenodd'/>
+  <path d='M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z'/>
+</svg>
